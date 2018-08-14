@@ -1,0 +1,46 @@
+
+
+<worksheet xml:id="A09_Some-DA-examples">
+  <title>Math 150  Activity 09: Some dimensional analysis examples</title>
+  <exercise>
+    <statement>
+      <title>The pendulum</title>
+      <p>
+        A pendulum has a certain period,
+        the time it takes to complete a back-and-forth cycle.
+        Use the method of dimensional analysis sometimes called Buckingham Pi to find a relationship involving the period.
+        Hint: The variables to consider are the period, <m>P</m>,
+        the length of the pendulum, <m>l</m>, the mass of the pendulum,
+        <m>m</m>, and the acceleration due to gravity, <m>g</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <title>A day at the races</title>
+      <p>
+        A car drives around and around a circular path.
+        The occupants perceive a force pushing the car outward.
+        Now physicists will tell you this centrifugal force is only an apparent force,
+        and the real force is the centripetal force of the tires pushing the car inward to keep it on the circular path.
+        Either way,
+        we can find a relationship to describe the magnitude of either of these forces.
+      </p>
+
+      <p>
+        The variables involved seem to be the force itself,
+        <m>F</m>, the radius of the circular path, <m>r</m>,
+        the car's speed, <m>v</m>, and the mass of the car, <m>m</m>.
+      </p>
+
+      <p>
+        Find a formula for <m>F</m> in terms of the other variables using the Buckingham Pi method. [Remember,
+        force = mass <times /> acceleration.]
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

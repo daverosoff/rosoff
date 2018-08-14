@@ -1,0 +1,138 @@
+
+
+<worksheet xml:id="A14_More-vector-projection">
+  <title>Math 150  Activity 14: More on vector projection</title>
+  <exercise>
+    <statement>
+      <p>
+        Suppose that we have the following table of data points.
+        We want to find the line <m>y = kt</m> that best fits the data.
+        <me>
+          \begin{array}{c|c|c|c|c|c}
+          t_i \amp  1 \amp  2 \amp  3 \amp  4 \amp  5 \\ \hline
+          y_i \amp  5 \amp  5 \amp  9 \amp  11 \amp  12
+          \end{array}
+        </me>
+      </p>
+
+      <task>
+        <p>
+          Plot the points from the data table on the grid.
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[xscale=0.5,yscale=0.5]
+            \draw[style={gray, thick}] (0, 0) grid (15,15);\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Write down a system of equations (5 equations) with unknown <m>k</m> that needs to be solved in this problem.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Write down the vector equation
+          <m>\vec{w} = k\vec{u}</m> that needs to be solved in this problem.
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          Use the method of vector projection (Activity 13) to find the optimal value
+          <m>\widehat{k}</m> and the vector <m>\widehat{k}\vec{u}</m>. (<em>Note.</em>
+          We call <m>\widehat{k}\vec{u}</m> the <em>projection</em>
+          of <m>\vec{w}</m> along <m>\vec{u}</m> for short.)
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Give the equation of the best-fitting line,
+          and plot the line on the grid above.
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          Compute the residual vector <m>\vec{r}</m> and its length.
+          Interpret this length in the context of the projection.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        Suppose that we have the following table of data points.
+        We want to find the line <m>y = mt + b</m> that best fits the data. (The
+        points are the same as on the front side.)
+        <me>
+          \begin{array}{c|c|c|c|c|c}
+          t_i \amp  1 \amp  2 \amp  3 \amp  4 \amp  5 \\ \hline
+          y_i \amp  5 \amp  5 \amp  9 \amp  11 \amp  12
+          \end{array}
+        </me>
+      </p>
+
+      <task>
+        <p>
+          Plot the points from the data table on the grid.
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[xscale=0.5,yscale=0.5]
+            \draw[style={gray, thick}] (0, 0) grid (15,15);\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+      <task>
+        <p>
+          Write down the vector equation
+          <m>\vec{s} = m\vec{u} + b\vec{v}</m> that needs to be solved in this problem.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Calculate <m>\widehat{m}</m> and <m>\widehat{b}</m>,
+          by solving the system of equations
+          <md>
+            <mrow>\widehat{m} (\vec{u} \cdot \vec{u}) + \widehat{b} (\vec{u} \cdot \vec{v}) \amp = \vec{u} \cdot \vec{s}</mrow>
+            <mrow>\widehat{m} (\vec{v} \cdot \vec{u}) + \widehat{b} (\vec{v} \cdot \vec{v}) \amp = \vec{v} \cdot \vec{s}</mrow>
+          </md>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Give the equation of the best-fitting line and plot this line on the grid above.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Compute the estimate for <m>\vec{s}</m>:
+          <m>\widehat{s} = \widehat{m} \vec{u} + \widehat{b} \vec{v}</m>.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Compute the residual vector
+          <m>\vec{r} = \vec{s} - \widehat{s}</m> and its length <m>\norm{\vec{r}}</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

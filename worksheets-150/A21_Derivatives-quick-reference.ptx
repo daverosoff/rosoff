@@ -1,0 +1,182 @@
+
+
+<worksheet xml:id="A21_Derivatives-quick-reference">
+  <title>Math 150  Activity 21: Derivatives quick reference</title>
+  <p>
+    On this page you will note down some important formulas to find derivatives algebraically (instead of by sketching lines).
+    These rules should be firmly committed to memory.
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Derivative of a constant function:
+        if<nbsp /><m>f(x) = k</m> and<nbsp /><m>k</m> is a constant,
+        then<nbsp /><m>f'(x) = 0</m>.
+        Find the derivatives of the following constants:
+      </p>
+
+      <task>
+        <p>
+          <m>f(x) = -3</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x) = \pi</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x) = 0</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Derivative of a linear function:
+        if<nbsp /><m>h(s) = qs + r</m> and <m>q</m> and<nbsp /><m>r</m> are constant,
+        then<nbsp /><m>h'(s) = q</m>.
+        Find the derivatives of the following linear functions:
+      </p>
+
+      <task>
+        <p>
+          <m>h(s) = 3s + 2</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>h(s) = -6 + 17s</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>h(s) = 0.568 s - 18.6</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Derivatives of monomials (aka the <em>Power Rule</em>):
+        <m>\frac{d}{dx} x^n = nx^{n-1}</m>.
+      </p>
+
+      <task>
+        <p>
+          <m>\frac{d}{dx} x^3 =</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\frac{d}{dx} \sqrt[4]{x} =</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\frac{d}{dx} \dfrac{1}{x^{11}} =</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Derivatives of exponential and logarithmic functions:
+        <me>
+          \frac{d}{dx} \ln (x) = \frac{1}{x}, 
+          \frac{d}{dx} e^x     = e^x, 
+          \frac{d}{dx} a^x     = (\ln a) a^x, 
+          \frac{d}{dx} e^{kx}  = ke^{kx}
+        </me>.
+      </p>
+
+      <task>
+        <p>
+          <m>\frac{d}{dx} 3^x =</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\frac{d}{dx} e^{-4x} =</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\frac{d}{dx} \ln{(x)} =</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          Our textbook has separate rules for adding or subtracting
+          functions from each other and for multiplying by constants.
+          We'll
+          make these a single rule, the <em>linear combination rule</em>.
+          It
+          says that
+          <me>
+            \frac{d}{dx} \left( c_1 f_1(x) + c_2 f_2(x) \right) = c_1 f'_1(x)
+            + c_2 f'_2(x)
+          </me>.
+        </p>
+
+        <p>
+          (Recall that an expression like<nbsp /><m>c_1 f_1(x) + c_2 f_2(x)</m> is called a
+          <em>linear combination</em>
+          of<nbsp /><m>f_1</m> and<nbsp /><m>f_2</m>.)
+        </p>
+
+        <task workspace="10%">
+          <p>
+            <m>\frac{d}{dx} \left( 3x^4 + 2x^2 \right) =</m>
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            <m>\frac{d}{dt} \left( 2e^{6t} - 4.2 \ln{(t)} \right) =</m>
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            <m>\frac{d}{dx} \left( k(3^x) + bx - c \right) =</m>
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+  </sidebyside>
+
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Find the equation of the line tangent to the graph of <m>f</m> at <m>(1,-1)</m>,
+        where <m>f(x) = 4x - 5x^2</m>.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

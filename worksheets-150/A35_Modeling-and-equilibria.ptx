@@ -1,0 +1,193 @@
+
+
+<worksheet xml:id="A35_Modeling-and-equilibria">
+  <title>Math 150  Activity 35: Modeling and equilibria</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Check that the indicated function is a solution of the differential equation <m>y' = k(y-A)</m>. (<em>Hint.</em>
+        What does it mean to be a solution of an equation?)
+      </p>
+
+      <task>
+        <p>
+          <m>y(t) = A</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>y(t) = A + Ce^{kt}</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise xml:id="q_discover_A_and_k">
+    <statement>
+      <p>
+        Use the general solution formula and R Studio to produce graphs of the solutions of the initial value problems.
+        Copy the graphs onto the axes provided.
+      </p>
+
+      <p>
+        {<m>y' = k(y-4)</m>}
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          axis x line=middle,
+          axis y line=middle,
+          xlabel=\(t\),
+          ylabel=\(y\),
+          ymin = -20, ymax = 5, xmin=-2, xmax=2,
+          grid = none,
+          width = \linewidth,
+          plot box ratio = 1,
+          enlargelimits=false
+          ]
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <ol>
+        <li>
+          <p>
+            <m>k = 0.8, \, y(0) = -2</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>k = -0.13, \, y(0) = 4</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>k = -2.83, \, y(0) = 0</m>
+          </p>
+        </li>
+      </ol>
+
+      <p>
+        {<m>y' = -0.023(y-A)</m>}
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          axis x line=middle,
+          axis y line=middle,
+          xlabel=\(t\),
+          ylabel=\(y\),
+          ymin = -5, ymax = 5, xmin=0, xmax=110,
+          grid = none,
+          xtick = {100}, ytick = {0},
+          width = \linewidth,
+          plot box ratio = 1,
+          enlargelimits=false
+          ]
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <ol>
+        <li>
+          <p>
+            <m>A = 5, \, y(0) = 1</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>A = -4, \, y(0) = -1</m>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <m>A = 2, \, y(0) = 3</m>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Suppose that <m>y(x)</m> is a solution of some differential equation.
+        What would it mean to say that <m>y(x)</m> is an
+        <em>equilibrium</em> solution?
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        Base your answers on the following on your descriptions in <xref ref="q_discover_A_and_k">problem</xref>.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          What is the significance of the parameter <m>A</m> in the differential equation?
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          What is the significance of the parameter <m>k</m> in the differential equation?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Solve the initial value problems.
+      </p>
+
+      <task>
+        <p>
+          <m>\dfrac{dv}{dt} = \dfrac{1}{5}(v - 49), v(0) = 0</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\dfrac{dp}{dt} = 0.5p - 450, p(0) = 850</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\dfrac{dy}{dt} = 5 - 2y, y(0) = 6</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\dfrac{dq}{dt} = 4q + 2, y(0) = -5</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="40%">
+    <statement>
+      <p>
+        Nurl wants to borrow <m>\SI{100000}[\dollar]{}</m> to buy a house.
+        Suppose that the annual interest rate is <m>9\%</m> and that the term of the mortgage is <m>\SI{20}{yr}</m>.
+        Assume that interest is compounded continuously and that Nurl's maximum payment (<m>\SI{800}[\dollar]{/mo}</m>) is also made continuously.
+      </p>
+
+      <p>
+        Is this a viable mortgage for Nurl?
+        That is, will he have repaid the mortgage,
+        with interest, after 20 years?
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

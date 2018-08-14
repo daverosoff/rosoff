@@ -1,0 +1,159 @@
+
+
+<worksheet xml:id="A37_The-predator-prey-equations">
+  <title>MAT-150  Activity 37: The predator-prey equations</title>
+  <sidebyside>
+    <md>
+      <mrow>\frac{dx}{dt} \amp = 2x - 2xy</mrow>
+      <mrow>\frac{dy}{dt} \amp = 2xy - 2y</mrow>
+    </md>.
+    <image>
+      <latex-image>
+        <![CDATA[\begin{tikzpicture}[
+        declare function={f(\x,\y) = 2*(x-x*y);
+        g(\x,\y) = 2*(x*y-y);} 
+        ]
+        \begin{axis}[
+        xlabel=healthy (in tens of thousands),
+        ylabel=zombie (in thousands),
+        slopefield,
+        title={A predator--prey system},
+        ]
+        \addplot3 (x,y,0);
+        \end{axis}\end{tikzpicture}]]>
+      </latex-image>
+    </image>
+    <exercise>
+      <statement>
+        <p>
+          The integral curves of this slope field are <em>closed</em>.
+          This means they loop back on themselves.
+          Draw the integral curves of the slope field that pass through the following points:
+        </p>
+
+        <task>
+          <m>(2,2)</m>
+        </task>
+
+        <task>
+          <m>(1,2)</m>
+        </task>
+
+        <task>
+          <m>(3,1)</m>
+        </task>
+
+        <task>
+          <m>(2,0)</m>
+        </task>
+
+        <task>
+          <m>(0,1)</m>
+        </task>
+
+        <task>
+          <m>(1,1)</m>
+        </task>
+
+      </statement>
+    </exercise>
+  </sidebyside>
+
+  <exercise>
+    <statement>
+      <p>
+        Use your curves to answer the following questions:
+      </p>
+
+      <task workspace="10%">
+        Suppose that at a certain time <m>t = 0</m>, zombie hunters measure
+        <m>x = 3</m> and <m>y = 1</m>. Make a conjecture about what will they will
+        observe a short time later.
+      </task>
+
+      <task workspace="10%">
+        Suppose that at some other time <m>t = t_0</m>, zombie hunters
+        measure <m>x = 1</m> and <m>y = 2</m>. Make a conjecture about what will they
+        will observe a short time later.
+      </task>
+
+      <task workspace="10%">
+        Suppose that at yet another time <m>t = t_1</m>, zombie hunters
+        measure <m>x = 1</m> and <m>y = 1</m>. Make a conjecture about what will they
+        will observe a short time later.
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        Assume there are \num{20000} healthy
+        humans and \num{400} zombies when <m>t=0</m>.
+        <md>
+          <mrow>\frac{dx}{dt} \amp = 2x - 2xy</mrow>
+          <mrow>\frac{dy}{dt} \amp = 2xy - 2y</mrow>
+        </md>.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[
+          declare function={f(\x,\y) = 2*(x-x*y);
+          g(\x,\y) = 2*(x*y-y);} 
+          ]
+          \begin{axis}[
+          xlabel=healthy (in tens of thousands),
+          ylabel=zombie (in thousands),
+          slopefield,
+          ]
+          \addplot3 (x,y,0);
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+
+      <task>
+        <p>
+          Compute <m>\dfrac{dx}{dt}</m> and <m>\dfrac{dy}{dt}</m> when <m>t=0</m>.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Use part (a) to estimate the populations when <m>t=1</m>.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Use part (a) to estimate the populations when <m>t=0.25</m>.
+          Add appropriate details to the picture.
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          Use your answer from (c) and the same technique to estimate how many humans and zombies will be alive at <m>t = 0.50</m>.
+          Add this to the picture.
+        </p>
+      </task>
+
+      <task workspace="40%">
+        <p>
+          Continue this process to get estimates for <m>t=0.75</m> and <m>t = 1</m>,
+          adding to the picture as you go.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Does it look like either population will eventually die out?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

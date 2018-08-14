@@ -1,0 +1,125 @@
+
+
+<worksheet xml:id="A23_Partial-derivatives">
+  <title>Math 150  Activity 23: Partial derivatives</title>
+  <p>
+    The same derivative rules we have been using apply to functions with more than one variable.
+    The trick is to pay attention to which variable is to be treated as <q>the variable</q>.
+    Just as there are two notations for a derivative with a single variable,
+    there are two ways of writing a first derivative for functions with several variables.
+  </p>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          Find both partial derivatives of the indicated functions.
+        </p>
+
+        <task workspace="10%">
+          <p>
+            <m>f(x,y) = 2xy - 7x</m>
+          </p>
+
+          <p>
+            <m>f_x =</m> <fillin characters="10"/>
+          </p>
+
+          <p>
+            <m>f_y =</m> <fillin characters="10"/>
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            <m>g(a,b) = b \cos{(5a+1)}</m>
+          </p>
+
+          <p>
+            <m>\dfrac{\partial g}{\partial a} =</m> <fillin characters="10"/>
+          </p>
+
+          <p>
+            <m>\dfrac{\partial g}{\partial b} =</m> <fillin characters="10"/>
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          For the second partial derivatives,
+          the <m>\partial</m> operators are read right-to-left.
+          Make notes of which partial derivative to take first and which to take second.
+        </p>
+
+        <task>
+          <p>
+            <m>\dfrac{\partial^2 f}{(\partial x)^2}</m> First:
+            <fillin characters="10"/> Second:
+            <fillin characters="10"/>}
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>\dfrac{\partial^2 f}{\partial x \partial y}</m> First:
+            <fillin characters="10"/> Second:
+            <fillin characters="10"/>}
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>\dfrac{\partial^2 f}{\partial y \partial x}</m> First:
+            <fillin characters="10"/> Second:
+            <fillin characters="10"/>}
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>\dfrac{\partial^2 f}{(\partial y)^2}</m> First:
+            <fillin characters="10"/> Second:
+            <fillin characters="10"/>}
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Find the partial derivatives of <m>f(t,w) = 3t^2 - tw^3 + 10</m>.
+        </p>
+
+        <task workspace="10%">
+          <p>
+            <m>\dfrac{\partial^2 f}{(\partial t)^2}</m>
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            <m>\dfrac{\partial^2 f}{\partial t \partial w}</m>
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            <m>\dfrac{\partial^2 f}{\partial w \partial t}</m>
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            <m>\dfrac{\partial^2 f}{(\partial w)^2}</m>
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+  </sidebyside>
+</worksheet>
+

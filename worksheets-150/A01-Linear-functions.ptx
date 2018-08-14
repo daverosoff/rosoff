@@ -1,0 +1,201 @@
+
+
+<worksheet xml:id="A01-Linear-functions">
+  <title>Math 150  Activity 01: Linear functions</title>
+  <exercise>
+    <statement>
+      <p>
+        A city's population was <m>30,700</m> in the year <m>2000</m> and is growing by <m>850</m> people per year.
+      </p>
+
+      <sidebyside>
+        <task>
+          <p>
+            Give a formula for the city's population, <m>P</m>,
+            as a function of the number of years,
+            <m>t</m>, since <m>2000</m>.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            What is the population predicted to be in <m>2010</m>?
+          </p>
+        </task>
+
+        <task>
+          <p>
+            When is the population expected to reach <m>45,000</m>?
+          </p>
+        </task>
+      </sidebyside>
+
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          World milk production rose at an approximately constant rate between <m>1997</m> and <m>2003</m>.
+          See the graph at right.
+        </p>
+
+        <task>
+          <p>
+            Estimate the vertical intercept and interpret it in terms of milk production.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            Estimate the slope and interpret it in terms of milk production.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            Give an approximate formula for milk production,
+            <m>M</m>, as a function of <m>t</m>.
+          </p>
+        </task>
+
+        <p>
+          <image width="73%" source="figure/graph.pdf" />
+        </p>
+      </statement>
+    </exercise>
+  </sidebyside>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        The percentage, <m>P</m>,
+        of people earning below the poverty level in the US is given in the table below.
+      </p>
+      <tabular>
+        <row>
+          <cell>Year (since 2000)</cell>
+          <cell>0</cell>
+          <cell>1</cell>
+          <cell>2</cell>
+          <cell>3</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>P</m> (percentage)</cell>
+          <cell>11.3</cell>
+          <cell>11.7</cell>
+          <cell>12.1</cell>
+          <cell>12.5</cell>
+        </row>
+      </tabular>
+
+      <task>
+        <p>
+          Find a formula for the percentage in poverty as a linear function of time in the years since <m>2000</m>.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Use the formula to predict the percentage in poverty in <m>2006</m>.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          What is the difference between the prediction and the actual percentage,
+          <m>12.3</m><percent />?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          Allometry is the study of the relative size of different parts of a body as a consequence of growth.
+          An example of an allometric relation is the hypothesis that the weight of a fish is
+        </p>
+
+        <p>
+          proportional to the cube of its length.
+          Do the data in the table support this hypothesis,
+          namely that (approximately) <m>y = kx^3</m>?
+          If so, estimate the constant of proportionality, <m>k</m>.
+        </p>
+        <tabular>
+          <row>
+            <cell>\toprule
+            <m>x</m></cell>
+            <cell><m>y</m></cell>
+            <cell><m>x</m></cell>
+            <cell><m>y</m></cell>
+            <cell><m>x</m></cell>
+            <cell><m>y</m></cell>
+          </row>
+          <row>
+            <cell>\midrule
+            33.5</cell>
+            <cell>332</cell>
+            <cell>37.5</cell>
+            <cell>455</cell>
+            <cell>41.5</cell>
+            <cell>623</cell>
+          </row>
+          <row>
+            <cell>34.5</cell>
+            <cell>363</cell>
+            <cell>38.5</cell>
+            <cell>500</cell>
+            <cell>42.5</cell>
+            <cell>674</cell>
+          </row>
+          <row>
+            <cell>35.5</cell>
+            <cell>391</cell>
+            <cell>39.5</cell>
+            <cell>538</cell>
+            <cell>43.5</cell>
+            <cell>724</cell>
+          </row>
+          <row>
+            <cell>36.5</cell>
+            <cell>419</cell>
+            <cell>40.5</cell>
+            <cell>574</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>\bottomrule</cell>
+          </row>
+        </tabular>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          The intensity <m>I</m> of light from a light bulb varies
+        </p>
+
+        <p>
+          inversely as the square of the distance <m>d</m> from the bulb.
+          Write a formula for this function.
+        </p>
+      </statement>
+    </exercise>
+  </sidebyside>
+</worksheet>
+

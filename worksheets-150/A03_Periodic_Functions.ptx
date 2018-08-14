@@ -1,0 +1,126 @@
+
+
+<worksheet xml:id="A03_Periodic_Functions">
+  <title>Math 150  Activity 03: Periodic functions</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Describe the characteristics of a periodic function:
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Sketch the graph of <m>y = \sin{(x)}</m>.
+      </p>
+
+      <task>
+        <p>
+          For three different values of <m>C</m>,
+          sketch the graph of <m>y = \sin{(x)} + C</m>.
+          Clearly label each graph.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Describe the effect of <m>C</m> on the graphs.
+        </p>
+
+        <p>
+          <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42] \draw[style={gray,
+          thick}] (0, 0) grid (14, 12); \draw[style={gray,
+          thick}] (16, 0) grid (30, 12); \draw[style={gray,
+          thick}] (32, 0) grid (46, 12); \end{tikzpicture}]]> </latex-image> </image>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Sketch the graph of <m>y = \cos{(x)}</m>.
+      </p>
+
+      <task>
+        <p>
+          For three different values of <m>A</m>,
+          sketch the graph of <m>y = A \cos{(x)}</m>.
+          Clearly label each graph.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Describe the effect of <m>A</m> on the graphs.
+        </p>
+
+        <p>
+          <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42] \draw[style={gray,
+          thick}] (0, 0) grid (14, 12); \draw[style={gray,
+          thick}] (16, 0) grid (30, 12); \draw[style={gray,
+          thick}] (32, 0) grid (46, 12); \end{tikzpicture}]]> </latex-image> </image>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        Sketch the graph of <m>y = \sin{(x)}</m>.
+      </p>
+
+      <task>
+        <p>
+          For three different values of <m>B</m>,
+          sketch the graph of <m>y = \sin{(Bx)}</m>.
+          Clearly label each graph.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Describe the effect of <m>B</m> on the graphs.
+        </p>
+
+        <p>
+          <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42] \draw[style={gray,
+          thick}] (0, 0) grid (14, 12); \draw[style={gray,
+          thick}] (16, 0) grid (30, 12); \draw[style={gray,
+          thick}] (32, 0) grid (46, 12); \end{tikzpicture}]]> </latex-image> </image>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Describe the graph of <m>y = -2 \cos{\left(\frac{x}{2}\right)} + 3</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        The depth of water in a tank oscillates once every 6 hours.
+        Suppose the smallest depth is 5.5 feet and the largest depth is 8.5 feet,
+        and that the depth is 5.5 feet at <m>t = 0</m>.
+        Find a possible function giving the depth in terms of time in hours.
+        Sketch the graph of your function.
+      </p>
+
+      <p>
+        <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42] \draw[style={gray,
+        thick}] (0, 0) grid (24, 12); \end{tikzpicture}]]> </latex-image> </image>
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

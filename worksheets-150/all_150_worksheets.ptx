@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <docinfo>
+    <macros>
+    </macros>
+    <latex-image-preamble>
+    \usepackage{tikz}
+    \usepackage{tkz-graph}
+    \usepackage{tkz-euclide}
+    \usetikzlibrary{patterns}
+    \usetikzlibrary{positioning}
+    \usetikzlibrary{matrix,arrows}
+    \usetikzlibrary{calc}
+    \usetikzlibrary{shapes}
+    \usetikzlibrary{through,intersections,decorations,shadows,fadings}
+
+    \usepackage{pgfplots}
+
+    </latex-image-preamble>
+  </docinfo>
+
+  <article>
+  <title>Title Goes Here</title>
+  <frontmatter>
+    <titlepage>
+    </titlepage>
+  </frontmatter>
+
+  <xi:include href="./A01-Linear-functions.ptx" />
+  <xi:include href="./A02_Exponential_Growth_Decay.ptx" />
+  <xi:include href="./A03_Periodic_Functions.ptx" />
+  <xi:include href="./A04_More-periodic-Models-in-RStudio.ptx" />
+  <xi:include href="./A05_Functions-and-graphs-in-RStudio.ptx" />
+  <xi:include href="./A06_Functions-of-two-variables.ptx" />
+  <xi:include href="./A07_More-contours-and-unit-conversions.ptx" />
+  <xi:include href="./A08_Units-and-Dimensions.ptx" />
+  <xi:include href="./A09_Some-DA-examples.ptx" />
+  <xi:include href="./A10_Dimensions-and-estimation.ptx" />
+  <xi:include href="./A11_Fermi-Problems.ptx" />
+  <xi:include href="./A12_Vectors-and-systems-of-Linear-Equations.ptx" />
+  <xi:include href="./A13_Dot-products-and-projection.ptx" />
+  <xi:include href="./A14_More-vector-projection.ptx" />
+  <xi:include href="./A15_Fitting-nonlinear-curves.ptx" />
+  <xi:include href="./A16_More-fitting-nonlinear-curves.ptx" />
+  <xi:include href="./A17_Average-rates-of-change.ptx" />
+  <xi:include href="./A18_Average-and-instantaneous-velocities.ptx" />
+  <xi:include href="./A19_Interpreting-derivatives-and-the-second-derivative.ptx" />
+<!--
+old?
+  <xi:include href="./A20_Marginal-cost-and-partial-derivatives.ptx" />
+-->
+  <xi:include href="./A20_Marginal-cost-and-partial-derivatives-take-2.ptx" />
+  <xi:include href="./A20_Contours-Partials-Derivative-Rules.ptx" />
+  <xi:include href="./A21_Derivatives-quick-reference.ptx" />
+  <xi:include href="./A22_Interpret-derivatives-and-trig-derivatives.ptx" />
+  <xi:include href="./A23_Partial-derivatives.ptx" />
+  <xi:include href="./A24_R-derivatives-and-accumulation.ptx" />
+  <xi:include href="./A25_Riemann-sums-and-integration.ptx" />
+  <xi:include href="./A26_Intro-to-definite-integrals.ptx" />
+  <xi:include href="./A27_More-definite-integrals.ptx" />
+  <xi:include href="./A28_Logistic-and-surge-functions.ptx" />
+  <xi:include href="./A29_Critical-points.ptx" />
+  <xi:include href="./A30_Two-variable-optimization.ptx" />
+  <xi:include href="./A32_Setting-up-differential-equations.ptx" />
+  <xi:include href="./A33_Solutions-and-slope-fields.ptx" />
+
+<!--
+old>
+  <xi:include href="./A31_Constrained-optimization.ptx" />
+-->
+
+  <xi:include href="./A31_Constrained-optimization_Edit.ptx" />
+  <xi:include href="./A34_Exponential-growth-and-decay.ptx" />
+  <xi:include href="./A35_Modeling-and-equilibria.ptx" />
+  <xi:include href="./A36_More-Modeling-and-equilibria.ptx" />
+  <xi:include href="./A37_The-predator-prey-equations.ptx" />
+  <xi:include href="./A38_Modeling-epidemic-disease.ptx" />
+
+  <backmatter>
+    <xi:include href="./bibliography.ptx" />
+  </backmatter>
+
+  </article>
+</mathbook>
+

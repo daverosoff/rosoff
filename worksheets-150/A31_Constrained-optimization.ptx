@@ -1,0 +1,173 @@
+
+
+<worksheet xml:id="A31_Constrained-optimization">
+  <title>Math 150  Activity 31: Constrained optimization</title>
+  <p>
+    \begin{minipage}[t]{0.5\textwidth}
+  </p>
+  <image>
+    <latex-image>
+      <![CDATA[\begin{tikzpicture}\begin{axis}[
+      view={0}{90},
+      axis lines=middle,
+      xmin=0, xmax=5,
+      ymin=0, ymax=4,
+      enlargelimits=false,
+      xlabel=\(x\), ylabel=\(y\),
+      plot box ratio=1,
+      every node/.style = {circle, fill=black, thick, minimum size=6pt}
+      ]
+      \addplot3[contour gnuplot={levels={0.5,1,2,3,4}},thick,
+      samples=80,
+      contour/draw color={black},
+      contour/contour label style={nodes={text=black}}]
+      {(1/2)*(x-2)^2 + (y-2)^2};
+      \addplot[smooth, style={black, very thick, dashed}]
+      {8-2*x+0.14};
+      \addplot[
+      mark=*,
+      nodes near coords,
+      point meta = explicit symbolic,
+      visualization depends on=\thisrow{alignment} \as \alignment,
+      every node near coord/.style={anchor=\alignment},
+      ] table [
+      meta index=2
+      ] {
+      x     y     label   alignment
+      2.95  2.25  B       10
+      3.6   0.92  A       20
+      };
+      \end{axis}\end{tikzpicture}]]>
+    </latex-image>
+  </image>
+  <p>
+    ERROR ERROR ERROR \begin{minipage}[t][2.7in]{0.42\textwidth}
+  </p>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        What is the value of <m>f(A)</m>?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        What is a reasonable value of <m>f(x,y)</m> at a point
+        <em>on the constraint curve</em>
+        just above and to the left of <m>A</m>?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        What is a reasonable value of <m>f(x,y)</m> at a point
+        <em>on the constraint curve</em>
+        just below and to the right of <m>A</m>?
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    \end{sidebyside}
+  </p>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Examine the point <m>B</m>.
+        What can you say about the contour of <m>f</m> that <m>B</m> lies on relative to the constraint curve?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        What is a reasonable value of <m>f</m> at a point on the constraint curve just below and to the right of <m>B</m>?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        What is a reasonable value of <m>f</m> at a point on the constraint curve just above and to the left of <m>B</m>?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Classify <m>B</m> as a constrained critical point of <m>f</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <p>
+    \fullwidth{
+    Using the ideas of the previous question,
+    it is possible to locate and classify the
+    constrained optima of a function graphically.
+    Here we illustrate how to achieve this
+    in R Studio.
+    Consider the problem of maximizing the objective function
+    <me>
+      f(x,y) = xy  \text{ such that }    x + 2y = -4
+    </me>.
+  </p>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Solve the constraint equation <m>x+2y=-4</m> for <m>y</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Use the <c>plotFun</c> command to plot the graph of the constraint equation over the interval <m>-5\leq x\leq 5</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Once you are looking at the graph of the constraint equation,
+        use <c>plotFun</c> to create a new plot,
+        this time of <m>f</m>. <c>plotFun( f(x,y) <m>\sim</m> x<ampersand />y,
+        add=TRUE, filled=FALSE, levels=pretty(range(-8,8), 8) )</c> The last parameter asks R to include around 8 contours in the indicated range.
+        The parameter
+      </p>
+
+      <p>
+        <c>levels=pretty(range(-8,8), 16)</c>
+      </p>
+
+      <p>
+        will produce twice as many.
+      </p>
+
+      <p>
+        \fullwidth{By looking at the graphs of <m>f(x,y)</m> along with the constraint equation,
+        you can see that the largest value for the objective function is <m>f(x,y) = 2</m>,
+        where the constraint function is tangent to the contour of the objective function.
+        Evidently, this occurs near <m>x = -2</m>,
+        <m>y = -1</m>. (In fact, that is the exact location of the maximum,
+        but usually the coordinates will not be whole numbers.) If you want a more precise answer,
+        you can zoom in on the region of interest.
+        If the relevant contour happens not to be one of those drawn in the contour plot, You'll have to interpolate.
+        You can use <c>levels=c(a)</c> in a <c>plotFun()</c> with <c>add=TRUE</c> to add a single contour at level<nbsp /><m>a</m>. }
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="40%">
+    <statement>
+      <p>
+        Use the techniques outlined above to find the optimal points for the objective function
+        <m>f(x,y) = 3x^2 + 4y^2</m> on the curve <m>x+2y = 3</m>.
+        The space below is left blank for you to make any notes you might find useful in repeating this procedure later.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

@@ -1,0 +1,219 @@
+
+
+<worksheet xml:id="A25_Riemann-sums-and-integration">
+  <title>Math 150  Activity 25: Riemann sums and integration</title>
+  <exercise>
+    <statement>
+      <p>
+        A car starts moving at time t = 0 and goes faster and faster.
+        Its velocity is shown in the following table.
+        Remember that
+        <m>\mathrm{distance} = \mathrm{speed} \times \mathrm{time}</m>.
+        <me>
+          \begin{array}{c||c|c|c|c|c}
+          t \text{ (seconds) }     \amp  0 \amp  3 \amp  6 \amp  9 \amp  12 \\ \hline
+          \text{ velocity (m/s) }  \amp  0 \amp  5 \amp  8 \amp  12 \amp  14 
+          \end{array}
+        </me>
+      </p>
+
+      <task>
+        <p>
+          Give a lower estimate for the distance the car traveled in 12 seconds.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Give an upper estimate for the distance the car traveled in 12 seconds.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Average the upper and lower estimates.
+          Is this a better estimate?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Plot the car's velocity against time on the axes below.
+        Sketch in a reasonable curve connecting the points.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.42, yscale=0.42]
+          \draw [style={gray, thick}] (0,0) grid (18,18);
+          \draw [<-, style={black, very thick}] (18,0) -- (0,0);
+          \draw [<-, style={black, very thick}] (0,18) -- (0,0);\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <p>
+        Note that the product <m>5 \times 3</m> is the area of a rectangle with height 5 and width 3.
+        Draw the rectangles on your graph corresponding to the points from the data.
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        The figures below show the velocity, <m>v</m>,
+        of an object (in <m>\si{m/s}</m>).
+      </p>
+
+      <task>
+        <p>
+          Sketch <m>n=3</m> rectangles, all with width<nbsp />2,
+          to estimate the total distance the object traveled between <m>t = 0</m> and <m>t = 6</m>.
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(t\),
+            ylabel=\(v\),
+            minor x tick num = 3,
+            minor y tick num = 3,
+            samples=200,
+            grid=major,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false,
+            every node/.style =
+            {circle, fill=black, thick, minimum size=1pt}]
+            \addplot[domain=0:6, style={ultra thick}] {20*sqrt(x)};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+      <task>
+        <p>
+          Sketch <m>n=6</m> rectangles, all with width<nbsp />1,
+          to estimate the total distance the object traveled between <m>t = 0</m> and <m>t = 6</m>.
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(t\),
+            ylabel=\(v\),
+            minor x tick num = 3,
+            minor y tick num = 3,
+            samples=200,
+            grid=major,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false,
+            every node/.style =
+            {circle, fill=black, thick, minimum size=1pt}],
+            \addplot[domain=0:6, style={ultra thick}] {20*sqrt(x)};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        In each of the problems given,
+        you've estimated the total
+        change in a function over an <em>interval</em> of input values.
+        Each
+        estimate is a sum of products:
+        more precisely, an expression of the form
+        <me>
+          f(x_1) \Delta x + f(x_2) \Delta x + f(x_3) \Delta x + \cdots + f(
+          x_n) \Delta x
+        </me>
+      </p>
+
+      <p>
+        Here, <m>n</m> is the number of subintervals.
+        An expression like this is called a <em>Riemann sum</em>.
+        The number
+        <m>\Delta x</m> is the subinterval width.
+        Usually, we calculate it as
+        <me>
+          \Delta x = \frac{\text{ length of big interval } }{\text{ number of
+          subintervals } } = \frac{\text{ length of big interval } }{n}
+        </me>
+      </p>
+
+      <p>
+        If the heights of your rectangles (the <m>f(x_i)</m>) come from left endpoints,
+        the sum is called a left-hand sum.
+        If you use right endpoints,
+        it is called a right-hand sum.The left-hand sum with <m>n</m> rectangles is often called <m>L_n</m>,
+        and <m>R_n</m> is similar.
+      </p>
+
+      <task>
+        <p>
+          Sketch <m>n=5</m> rectangles and give <m>L_5</m> for <m>x = 1</m> to <m>x = 6</m>.
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(x\),
+            ylabel=\(f(x)\),
+            ymin=0, ymax=11,
+            minor x tick num = 3,
+            minor y tick num = 3,
+            samples=200,
+            grid=major,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false,
+            every node/.style =
+            {circle, fill=black, thick, minimum size=1pt}],
+            \addplot[domain=0:7, style={ultra thick}] {-(1/3)*(x-4.2)^2 + 10.4};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+      <task>
+        <p>
+          Sketch <m>n=5</m> rectangles and give <m>R_5</m> for <m>x = 1</m> to <m>x = 6</m>.
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(x\),
+            ylabel=\(f(x)\),
+            ymin=0, ymax=11,
+            minor x tick num = 3,
+            minor y tick num = 3,
+            samples=200,
+            grid=major,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false,
+            every node/.style =
+            {circle, fill=black, thick, minimum size=1pt}],
+            \addplot[domain=0:7, style={ultra thick}] {-(1/3)*(x-4.2)^2 + 10.4};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

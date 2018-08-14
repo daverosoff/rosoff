@@ -1,0 +1,316 @@
+
+
+<worksheet xml:id="A19_Interpreting-derivatives-and-the-second-derivative">
+  <title>Math 150  Activity 19: Interpreting derivatives and the second derivative</title>
+  <exercise>
+    <statement>
+      <p>
+        An economist is interested in how the price of a certain item affects its sales.
+        At a price of <m>p</m> dollars,
+        a quantity, <m>q</m>, of the item is sold.
+        If <m>q=f(p)</m>, explain the meaning of each of the following:
+      </p>
+
+      <task workspace="20%">
+        <p>
+          <m>f(150) = 2000</m>
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          <m>f'(150) = -25</m>
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          Rewrite <m>f'(150) = -25</m> with Leibniz notation.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        The graph below shows world solar energy output, in megawatts,
+        as a function of years since 1990.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          height = 5cm,
+          width = \linewidth,
+          ymin = 0,
+          ymax = 300,
+          xlabel= \si{yr},
+          xlabel= \(t\) ,
+          ylabel= \si{MW} ,
+          ylabel= \(f(t)\) ,
+          axis x line = middle,
+          axis y line = middle,
+          minor x tick num = 1,
+          minor y tick num = 1,
+          grid = both,
+          ]
+          \addplot[domain=0:10, style={black, very thick}] {
+          50*exp(0.693*x/4)
+          };
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <p>
+        Estimate <m>f'(6)</m>.
+        Give units and interpret your answer.
+      </p>
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          The table below shows US gold production from mining,
+          <m>G=f(t)</m>, as a function of <m>t</m>.
+        </p>
+        <tabular>
+          <row>
+            <cell><m>t</m> (year)</cell>
+            <cell>2007</cell>
+            <cell>2008</cell>
+            <cell>2009</cell>
+            <cell>2010</cell>
+            <cell>2011</cell>
+          </row>
+          <row bottom="minor">
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><m>G</m> (\si{Mg})</cell>
+            <cell>238</cell>
+            <cell>233</cell>
+            <cell>223</cell>
+            <cell>231</cell>
+            <cell>237</cell>
+          </row>
+        </tabular>
+
+        <task workspace="10%">
+          <p>
+            Does <m>f'(t)</m> appear to be positive or negative?
+            What does this mean in terms of gold production?
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            Estimate <m>f'(2011)</m>.
+            Give units and interpret your answer in terms of gold production.
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            Use the estimated value of
+            <m>f'(2011)</m> to estimate <m>f(2012)</m> and interpret your answer.
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          The weight, <m>W</m>, in lbs,
+          of a child is a function of its age,
+          <m>a</m>, in years, so <m>W = f(a)</m>.
+        </p>
+
+        <task workspace="10%">
+          <p>
+            Do you expect <m>\displaystyle \frac{dW}{da}</m> to be positive or negative?
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            What are the units of <m>\displaystyle \frac{dW}{da}</m>?
+            Explain what <m>\displaystyle \frac{dW}{da}</m> tells you in terms of age and weight.
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            As <m>a</m> increases, do you expect
+            <m>\displaystyle \frac{dW}{da}</m> to increase or decrease?
+            Explain.
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+  </sidebyside>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        Each figure is the graph of a function.
+        Draw tangent lines and estimate values of each function's derivative at the indicated points.
+      </p>
+
+      <task>
+        <p>
+          <m>x = 1</m>, <m>3</m>, <m>5</m>, <m>7</m>
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(x\),
+            ylabel=\(f(x)\),
+            xmin=0, xmax=9,
+            ymin=0, ymax=9,
+            minor x tick num = 1,
+            minor y tick num = 1,
+            samples=200,
+            grid=both,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false
+            ]
+            \addplot[domain=0:9, black, ultra thick]{4*sqrt(x/2)-1};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+      <task>
+        <p>
+          <m>t = -1</m>, <m>1</m>, <m>3</m>, <m>4</m>
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(t\),
+            ylabel=\(g(t)\),
+            xmin=-3, xmax=6,
+            ymin=-5, ymax=1,
+            minor x tick num = 1,
+            minor y tick num = 1,
+            samples=200,
+            grid=both,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false
+            ]
+            \addplot[domain=-4:6, black, ultra thick]{0.7*(x+1)*(x-4)};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>t = -4</m>, <m>-2</m>, <m>0</m>, <m>2</m>
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(t\),
+            ylabel=\(h(t)\),
+            xmin=-6, xmax=4,
+            ymin=-2, ymax=8,
+            minor x tick num = 1,
+            minor y tick num = 1,
+            samples=200,
+            grid=both,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false
+            ]
+            \addplot[domain=-6:6, black, ultra thick]{2*x/3+2};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        For each of the functions graphed above,
+        is the first derivative increasing or decreasing in the pictured interval?
+        In each case,
+        say whether the derivative of the first derivative,
+        <m>f''(x)</m>, is positive or negative.
+        The function <m>f''(x)</m> is called the
+        <em>second derivative</em> of <m>f(x)</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Some values of a function are tabulated below.
+        Does <m>w''(t)</m> appear to be positive or negative?
+        Explain.
+      </p>
+      <tabular>
+        <row>
+          <cell><m>t</m></cell>
+          <cell>0</cell>
+          <cell>2</cell>
+          <cell>4</cell>
+          <cell>6</cell>
+          <cell>8</cell>
+          <cell>10</cell>
+          <cell>12</cell>
+          <cell>14</cell>
+          <cell>16</cell>
+          <cell>18</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>w(t)</m></cell>
+          <cell>14</cell>
+          <cell>13</cell>
+          <cell>11</cell>
+          <cell>9</cell>
+          <cell>8</cell>
+          <cell>7</cell>
+          <cell>6</cell>
+          <cell>4</cell>
+          <cell>3</cell>
+          <cell>2</cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+</worksheet>
+

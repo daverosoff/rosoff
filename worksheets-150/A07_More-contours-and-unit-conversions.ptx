@@ -1,0 +1,176 @@
+
+
+<worksheet xml:id="A07_More-contours-and-unit-conversions">
+  <title>Math 150  Activity 07: More contours and unit conversions</title>
+  <exercise xml:id="q_makecontours">
+    <statement>
+      <p>
+        On the same axes,
+        graph cross-sections of the function, <m>S = 2d+0.5m</m>.
+        Include contours <m>S=10</m>, <m>15</m>, and <m>20</m>.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42]
+          \draw [style={gray, thick}] (0,0) grid (18,18);
+          \draw [<->, style={black, very thick}] (3,18) -- (3,0);
+          \draw [<->, style={black, very thick}] (0,3) -- (18,3);
+          \node at (19,3){\(m\)};
+          \node at (3,19){\(d\)};\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Sketch a contour diagram for <m>z = y - \cos{x}</m>.
+        Include labeled contours for <m>z = 0</m>,
+        <m>z = \pm 2</m>, and <m>z = \pm 4</m>.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.66,yscale=0.42]
+          \draw [style={gray, thick}] (0,0) grid (12,18);
+          \draw [<->, style={black, very thick}] (0,9) -- (12,9);
+          \draw [<->, style={black, very thick}] (6,0) -- (6,18);
+          \node at (13,9){\(x\)};
+          \node at (6,19){\(y\)};
+          \node at (4,-1){\(-\pi\)};
+          \node at (8,-1){\(\pi\)};\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Write the RStudio command to produce a contour plot of one of the functions in <xref ref="q_makecontours">problem</xref>.
+      </p>
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise xml:id="q_contour">
+      <statement>
+        <p>
+          The contour plot represents a function <m>f(x,y)</m>.
+        </p>
+
+        <task workspace="10%">
+          <p>
+            Describe in words how <m>f(x,y)</m> varies if <m>x</m> is fixed,
+            and <m>y</m> increases from <m>0</m> to <m>5</m>.
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            Describe in words how <m>f(x,y)</m> varies if <m>y</m> is fixed,
+            and <m>x</m> increases from <m>0</m> to <m>5</m>.
+          </p>
+        </task>
+
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[view={0}{90}, axis lines=middle,
+            xmin=0, xmax=5,
+            ymin=0, ymax=5,
+            zmin=0, zmax=8,
+            enlargelimits=false,
+            xlabel=\(x\), ylabel=\(y\),
+            plot box ratio=1,
+            every node/.style = {circle, fill=black, thick, minimum size=1pt}]
+            \addplot3[contour gnuplot={levels={-3,-2,-1,0,1,2,3,4}},thick,
+            samples=90,
+            grid=both,
+            contour/draw color={black},
+            contour/contour label style={nodes={text=black}}]
+            {x-(y-2.5)^2-1};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </statement>
+    </exercise>
+  </sidebyside>
+
+  <exercise>
+    <statement>
+      <p>
+        Referring again to the contour plot in <xref ref="q_contour">problem</xref>,
+        estimate:
+      </p>
+
+      <p>
+        <m>f(1,4) =</m> <fillin characters="10"/>
+        <m>f(2,2) =</m> <fillin characters="10"/>
+        <m>f(5,2.5) =</m> <fillin characters="10"/> }
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <p>
+    A <em>unit factor</em> is a ratio of equal measurements with different
+    units.
+    Some unit factors that may be familiar are
+    <me>
+      \dfrac{\SI{1000}{mL}}{\SI{1}{L}},  \dfrac{1\;\mathrm{mi}}{5280\;\mathrm{ft}},
+      \text{ and }  \dfrac{360^{\circ}}{2\pi\;\mathrm{radian}}
+    </me>.
+  </p>
+
+  <p>
+    Multiplication by unit factors is like multiplication by 1:
+    it doesn't change the value of the quantity that gets multiplied,
+    only the expression of that quantity in predefined units.
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Multiply by appropriate unit factors to achieve the indicated unit conversions.
+        Make sure you understand how to draw the
+        <q>fishbone</q> diagrams.
+      </p>
+
+      <task>
+        <p>
+          <m>\SI{625}{cm} =</m><fillin characters="10"/> \si{m}
+        </p>
+
+        <p>
+          <m>\SI{625}{cm}</m>
+        </p>
+
+        <p>
+          \hline
+        </p>
+
+        <p>
+          = <fillin characters="10"/> \si{m}
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          <m>\SI{625}{m} =</m><fillin characters="10"/> \si{cm}
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          <m>{70}\;\mathrm{mi/hr} =</m><fillin characters="10"/> \si{m/s}
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          <m>\SI{44}{kg.m/s^2} =</m><fillin characters="10"/> \si{g.cm/s^2}
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

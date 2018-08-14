@@ -1,0 +1,238 @@
+
+
+<worksheet xml:id="A34_Exponential-growth-and-decay">
+  <title>Math 150  Activity 34: Exponential growth and decay</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Why is a solution of a differential equation tangent to the slope segments in a slope field?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Sketch the indicated solution curves for each slope field.
+        Clearly label each solution.
+        State the value of <m>y(0)</m> for each of your solutions.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[
+          declare function={f(\x) = -2*y/3;} 
+          ]
+          \begin{axis}[
+          slopefield,
+          title={\(y' = (-2/3)y\)},
+          xmin=0, xmax=5.1,
+          ymin=-1, ymax=4.1,
+          xlabel=\(x\), ylabel=\(y(x)\),
+          domain=0:5, y domain=-1:4, 
+          xtick={0,1,...,5}, ytick={-1,0,...,4}, 
+          minor x tick num = 2,
+          minor y tick num = 1,
+          cycle list={    
+          gray,
+          quiver={
+          u={1}, v={f(x)}, 
+          scale arrows=0.3,
+          every arrow/.append style={
+          -latex 
+          },
+          }
+
+
+          red, samples=31, smooth, thick, no markers, domain=0:5.1
+
+
+          }
+          ]
+          \addplot3 (x,y,0);
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+
+      <task>
+        <p>
+          Sketch curves with initial values:
+        </p>
+
+        <subtask>
+          <p>
+            <m>y(0) = 3</m>
+          </p>
+        </subtask>
+
+        <subtask>
+          <p>
+            <m>y(0) = -1</m>
+          </p>
+        </subtask>
+
+        <subtask>
+          <p>
+            <m>y(0) = 1</m>
+          </p>
+        </subtask>
+
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[
+            declare function={f(\x) = 2*y;} 
+            ]
+            \begin{axis}[
+            slopefield,
+            title={\(y' = 2y\)},
+            xmin=0, xmax=1.1,
+            ymin=-1, ymax=0.6,
+            xlabel=\(x\), ylabel=\(y(x)\),
+            domain=0:1, y domain=-1:0.6, 
+            xtick={0,0.5,1}, ytick={-1,-0.6,-0.2,0.2,0.6}, 
+            minor x tick num = 4,
+            minor y tick num = 2,
+            grid=both,
+            cycle list={    
+            gray,
+            quiver={
+            u={1}, v={f(x)}, 
+            scale arrows=0.07,
+            every arrow/.append style={
+            -latex 
+            },
+            }
+
+
+            red, samples=31, smooth, thick, no markers, domain=0:1.1
+
+
+            }
+            ]
+            \addplot3 (x,y,0);
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+      <task>
+        <p>
+          Sketch curves with initial values:
+        </p>
+
+        <subtask>
+          <p>
+            <m>y(0) = 0.1</m>
+          </p>
+        </subtask>
+
+        <subtask>
+          <p>
+            <m>y(0) = 0</m>
+          </p>
+        </subtask>
+
+        <subtask>
+          <p>
+            <m>y(0) = -0.3</m>
+          </p>
+        </subtask>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        The <em>general solution</em>
+        of the equation <m>dy/dt = ky</m> is <m>y(t) = Ce^{kt}</m>.
+        Here <m>C</m> might be any constant.
+        All the functions so obtained are solutions of the equation,
+        and there are no other solutions.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          Describe a particular solution
+          (choose your favorite nonzero <m>C</m>)
+          if <m>k \lt 0</m>.
+          What happens to it in the long term?
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Describe a particular solution
+          (choose your favorite nonzero <m>C</m>)
+          if <m>k > 0</m>.
+          What happens to it in the long term?
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          Describe what you would need to know about a particular solution to determine its value of <m>C</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          Find the particular solution of each differential equation that satisfies the given
+          <em>initial condition</em>.
+        </p>
+
+        <task>
+          <p>
+            <m>\dfrac{dy}{dt} = 3y</m>;
+            <m>y = 30</m> when <m>t = 0</m>
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>\dfrac{dp}{dq} = -0.1p</m>;
+            <m>p = 100</m> when <m>q = 5</m>
+          </p>
+        </task>
+
+        <task>
+          <p>
+            <m>\dfrac{dy}{dx} + \dfrac{y}{3} = 0</m>; <m>y(0) = 10</m>
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          In many chemical reactions,
+          the rate at which the amount of a substance changes with time is proportional to the amount present.
+          For example,
+          this is the case as <m>\delta</m>-glucone-lactone changes into gluconic acid.
+        </p>
+
+        <task>
+          <p>
+            Write a differential equation satisfied by <m>y</m>,
+            the quantity of <m>\delta</m>-glucone-lactone present at time <m>t</m>.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            If <m>\SI{100}{g}</m> of <m>\delta</m>-glucone-lactone is reduced to <m>\SI{54.9}{g}</m> in one hour,
+            how many grams will remain after 10 hours?
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+  </sidebyside>
+</worksheet>
+

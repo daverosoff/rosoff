@@ -1,0 +1,128 @@
+
+
+<worksheet xml:id="A38_Modeling-epidemic-disease">
+  <title>MAT-150  Activity 38: Modeling epidemic disease</title>
+  <exercise xml:id="q_initialconditions">
+    <statement>
+      <p>
+        Suppose that at the outbreak of disease,
+        only one person in the population
+        (of <m>\num{2000}</m>)
+        is sick.
+      </p>
+      <tabular>
+        <row>
+          <cell>What is <m>S_0</m>? <fillin characters="10"/></cell>
+          <cell></cell>
+          <cell>What is <m>I_0</m>? <fillin characters="10"/></cell>
+          <cell></cell>
+          <cell>What is <m>R_0</m>? <fillin characters="10"/></cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+  <exercise workspace="20%">
+    <statement>
+      <p>
+        Use your values from <xref ref="q_initialconditions">question</xref>
+        and the equation
+        <me>
+          \frac{dI}{dt} = 0.0043SI - 0.7I
+        </me>
+        to decide whether the number of infected people initially increases
+        or decreases.
+        What does this tell you about the spread of the disease?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        A disease is said to be highly <em>infectious</em>
+        if it is relatively easy for a susceptible person to become infected.
+        How would you modify the parameters <m>a</m> and <m>b</m> in the <m>SIR</m> model to account for infectiousness?
+        In which direction?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        How would you adjust the model to account for a disease in which infected people stay sick indefinitely?
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        Sometimes it is advantageous to consider <m>I</m> as a function of <m>S</m> and study how <m>I</m> changes with respect to <m>S</m>.
+      </p>
+
+      <task>
+        <p>
+          Find <m>dI/dS</m>.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Find the critical points for <m>I</m> as a function of <m>S</m>.
+        </p>
+      </task>
+
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[
+          declare function={f(\x,\y) = 5*(-0.26*x*y)/sqrt(0.0676*x^2*y^2 + (0.26*x*y-0.5*y)^2);
+          g(\x,\y) = 5*(0.26*x*y - 5*y)/sqrt(0.0676*x^2*y^2 + (0.26*x*y-0.5*y)^2);} 
+          ]
+          \begin{axis}[
+          xlabel=\(S\) (susceptibles),
+          ylabel=\(I\) (infecteds),
+          slopefield,
+          width=1.05\linewidth,
+          height=3.5in,
+          title={Slope field for \(dI/dS\)},
+          ]
+          \addplot3 (x,y,0);
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        The value <m>b/a</m> is called the
+        <em>threshold value</em> for the system.
+        If the initial susceptible population is greater than this threshold value,
+        then the <m>SIR</m> model predicts an epidemic.
+      </p>
+
+      <task>
+        <p>
+          Suppose that the initial susceptible population is a little
+          <em>less</em> than <m>b/a</m>.
+          Use the <m>SI</m>-equations to show that initially,
+          the infected population is decreasing.
+          Use <m>a=0.002</m> and <m>b=0.8</m>.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Suppose that the initial susceptible population is a little
+          <em>more</em> than <m>b/a</m>.
+          Use the <m>SI</m>-equations to show that initially,
+          the infected population is increasing.
+          Use <m>a=0.002</m> and <m>b=0.8</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

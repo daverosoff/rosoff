@@ -1,0 +1,76 @@
+
+
+<worksheet xml:id="A36_More-Modeling-and-equilibria">
+  <title>MAT-150  Activity 36: More Modeling and equilibria</title>
+  <exercise>
+    <statement>
+      <p>
+        A company earns <m>2\%</m> per month on its assets, paid continuously,
+        and its expenses are paid out continuously at a rate of <m>\dollar80,000</m> per month.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          Write a differential equation for the value, <m>V</m>,
+          of the company as a funtion of time, <m>t</m>, in months.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          What is the equilibrium solution?
+          What is the significance of this value to the company?
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          Solve the differential equation.
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          If the company has assets worth <m>\dollar3</m> million at time,
+          <m>t=0</m>, what are its assets worth one year later?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        A patient is given the drug theophylline intervenously at a rate of <m>43.2</m> mg/hour to relieve acute asthma.
+        The rate at which the drug leaves the patient's body is proportional to the quantity there,
+        with proportionality constant <m>0.082</m> where time, <m>t</m>,
+        is in hours.
+        The patient's body contains none of the drug initially.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          Describe in words how you expect the quantity of the theophylline in the patient to vary over time.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Write a differential equation satisfied by the quantity of drug in the body,
+          <m>Q(t)</m>.
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          Solve the differential equation.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

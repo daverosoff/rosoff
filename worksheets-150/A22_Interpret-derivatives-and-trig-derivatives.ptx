@@ -1,0 +1,235 @@
+
+
+<worksheet xml:id="A22_Interpret-derivatives-and-trig-derivatives">
+  <title>Math 150  Activity 22: Interpreting derivatives; trig derivatives</title>
+  <exercise>
+    <statement>
+      <p>
+        For each item below,
+        record the appropriate derivative rule along with any notes that might be helpful to you later.
+      </p>
+
+      <task>
+        <p>
+          <m>\dfrac{d}{dx}\left(\sin{x}\right) =</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\dfrac{d}{dx}\left(\cos{x}\right) =</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Product Rule
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Quotient Rule
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Chain Rule
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Practice finding derivatives using the rules.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          <m>g = e^{2w}\sin(w)</m>.
+          Find <m>\frac{dg}{dw}</m>.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>k = \sin(3p)</m>.
+          Find <m>\frac{dk}{dp}</m>.
+        </p>
+      </task>
+
+      <task workspace="0.50%">
+        <p>
+          <m>h(t) = At \cos(2t)</m>, where <m>A</m> is a constant.
+        </p>
+
+        <p>
+          Find <m>h'(t)</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        If you invest <m>P</m> dollars in a bank account at an <em>annual</em>
+        interest rate of <m>r\%</m>,
+        then after <m>t</m> years you will have <m>B</m> dollars,
+        where
+        <me>
+          B = P \left( 1 + \frac{r}{100} \right)^t
+        </me>.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          Find <m>dB/dt</m>, assuming <m>P</m> and <m>r</m> are constant.
+          In terms of money, what does <m>dB/dt</m> represent?
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Find <m>dB/dr</m>, assuming <m>P</m> and <m>t</m> are constant.
+          In terms of money, what does <m>dB/dr</m> represent?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        If <m>t</m> is the number of months since June, the number of bird
+        species, <m>N</m>,
+        found in an Ohio forest oscillates approximately according
+        to the formula
+        <me>
+          N = f(t) = 19 + 9 \cos{\left( \frac{\pi}{6} t \right)}
+        </me>.
+      </p>
+
+      <task>
+        <p>
+          Graph <m>f(t)</m> for <m>0 \leq t \leq 24</m>.
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(t\),
+            ylabel=\(f(t)\),
+            xmin=0, xmax=24,
+            ymin=7, ymax=30,
+            xtick={0, 3, 6, 9, 12, 15, 18, 21, 24},
+            ytick={10, 13, 16, 19, 22, 25, 28},
+            yticklabel=,
+            grid=both,
+            width=\linewidth,
+            height=\linewidth,
+            enlargelimits=false
+            ]
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          Find <m>f'(t)</m> (using the rules).
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Find and interpret <m>f(1)</m>, <m>f'(1)</m>,
+          <m>f(10)</m>, and <m>f'(10)</m>.
+        </p>
+
+        <p>
+          <m>f(1) =</m> <fillin characters="10"/>
+        </p>
+
+        <p>
+          <m>f'(1) =</m> <fillin characters="10"/>
+        </p>
+
+        <p>
+          <m>f(10) =</m> <fillin characters="10"/>
+        </p>
+
+        <p>
+          <m>f'(10) =</m> <fillin characters="10"/>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise workspace="10%">
+      <statement>
+        <p>
+          The depth of the water, <m>y</m>,
+          in meters, in the Bay of Fundy,
+          Canada, is given as a function of time,
+          <m>t</m>, in hours after midnight,
+          by
+          <me>
+            y = 10 + 7.5 \cos{(0.507t)}
+          </me>.
+        </p>
+
+        <p>
+          How quickly is the tide rising or falling at 6:00 am?
+          Give units.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          The quantity,
+          <m>q</m>, of a certain skateboard sold depends on the
+          selling price, <m>p</m>, in dollars,
+          so we write <m>q = f(p)</m>.
+          Suppose that
+          <me>
+            f(140) = \num{15000}  \text{ and }   \left.\frac{df}{dp}\right|_{p=140} = -100
+          </me>.
+        </p>
+
+        <task workspace="10%">
+          <p>
+            What do the values of <m>f</m> and <m>df/dp</m> tell you about the sales of skateboards?
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            The total revenue, <m>R</m>,
+            earned by the sale of skateboards is <m>R = pq</m>.
+            Find <m>\left.\dfrac{dR}{dp}\right|_{p=140}</m>.
+          </p>
+        </task>
+
+        <task workspace=".50%">
+          <p>
+            What happens to revenue if the price is increased from
+            <m>\SI{140}[\dollar]{}</m> to <m>\SI{141}[\dollar]{}</m>?
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+  </sidebyside>
+</worksheet>
+

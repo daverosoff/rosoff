@@ -1,0 +1,133 @@
+
+
+<worksheet xml:id="A16_More-fitting-nonlinear-curves">
+  <title>Math 150  Activity 16: More fitting nonlinear curves</title>
+  <p>
+    \sisetup{group-separator={{,}}, group-minimum-digits={3}}
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        In this example we want to use a
+        <em>power model</em>, left, to
+        fit the data at right.
+        <me>
+          Q = Pw^y \qquad \qquad \qquad \begin{array}{|c||r|r|r|r|}
+          \hline
+          w \amp  \num{3000} \amp  \num{4500} \amp  \num{10000} \amp  \num{300000} \\ \hline
+          Q \amp  10 \amp  15 \amp  25 \amp  175 \\ \hline
+          \end{array}
+        </me>
+      </p>
+
+      <p>
+        Here the input variable,
+        <m>w</m>, is raised to a fixed constant power <m>y</m>.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          We will need to adjust the formula using logarithms.
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          Write the system of equations and the vector equation using your previous answer and the data table.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Use the <c>project</c> command to find the best-fit coefficients for your equation.
+        </p>
+
+        <p>
+          { R gives <fillin characters="10"/> for the <c>(intercept)</c> and <fillin characters="10"/> for <c>log(w)</c>.}
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          What is the best-fit model? (Some adjustments will be required to the values you obtained from R.)
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="20%">
+    <statement>
+      <p>
+        Fit the same data points <m>(1,2)</m>,
+        <m>(2,5)</m>, <m>(5,4)</m>,
+        and <m>(7,3)</m> to the model <m>g(t) = a + b \sin{\left( \frac{2\pi}{16} t \right)} + c \cos{\left( \frac{2\pi}{16} t \right)}</m>.
+      </p>
+
+      <figure>
+
+        <sidebyside>
+          <task>
+            <p>
+              Write a system of equations that corresponds to the desired model.
+            </p>
+          </task>
+
+          <p>
+            \begin{task} Put your system of equations into vector form.
+          </p>
+        </sidebyside>
+
+      </figure>
+
+      \end{task}
+
+      <task workspace="10%">
+        <p>
+          Write down the R commands to find the best values for <m>a</m>, <m>b</m>,
+          and <m>c</m>.
+          Write the best-fitting function <m>g(t)</m> in the provided blank.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Fill in the indicated values and compare your model to the original data.
+        </p>
+
+        <sidebyside>
+          <p>
+            Modeled values:
+            <md>
+              <mrow>g(1) \amp = \lt fillin characters="10"/></mrow>
+              <mrow>[3ex]
+              g(2) \amp = \lt fillin characters="10"/></mrow>
+              <mrow>[3ex]
+              g(5) \amp = \lt fillin characters="10"/></mrow>
+              <mrow>[3ex]
+              g(7) \amp = \lt fillin characters="10"/></mrow>
+            </md>
+          </p>
+
+          <p>
+            Actual data:
+            <md>
+              <mrow>x = 1, y \amp = \lt fillin characters="10"/></mrow>
+              <mrow>[3ex]
+              x = 2, y \amp = \lt fillin characters="10"/></mrow>
+              <mrow>[3ex]
+              x = 5, y \amp = \lt fillin characters="10"/></mrow>
+              <mrow>[3ex]
+              x = 7, y \amp = \lt fillin characters="10"/></mrow>
+            </md>
+          </p>
+        </sidebyside>
+
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

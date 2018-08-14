@@ -1,0 +1,147 @@
+
+
+<worksheet xml:id="A08_Units-and-Dimensions">
+  <title>Math 150  Activity 08: Units and Dimensions</title>
+  <exercise>
+    <statement>
+      <p>
+        A joule (<m>\SI{1}{J}</m>) is an amount of energy.
+        A watt is a rate at which energy is used,
+        defined to be <m>\SI{1}{J/s}</m>.
+      </p>
+
+      <task workspace="20%">
+        <p>
+          How many joules of energy are required to run a
+          <m>\SI{100}{W}</m> light bulb for one day?
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Burning coal yields about <m>\SI{30d6}{J}</m> of energy
+          per kilogram of coal burned.
+          Assuming that a coal power plant is
+          30<percent /> efficient, how much coal has to be burned to light the bulb
+          for a day?
+        </p>
+      </task>
+
+      <p>
+        Growing Corn
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Assume that sunlight deposits energy on a cornfield at the rate of <m>\SI{250}{W/m^2}</m>,
+        averaging over the day-night cycle.
+        There are <m>\SI{4.186}{J}</m> in a calorie.
+      </p>
+
+      <task workspace="20%">
+        <p>
+          How much energy
+          (in calories)
+          is deposited on a square meter of field over the 4-month growing season?
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          In good growing conditions,
+          farmers can grow approximately 12500 ears of sweet corn per acre.
+          Use this to estimate the amount of sunlight energy per ear of corn.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Nutrition labels for corn indicate that there are roughly 120 calories in an ear of corn.
+          The word <q>calories</q>,
+          when you see it on a food label,
+          actually means <q>kilocalories</q>.
+          That is, the 120 labeled calories corresponds to 120,000 true calories,
+          or 120 kcal.
+          Compare sunlight energy with the corn energy to get an efficiency in percent.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <p>
+    Building Hoover Dam
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        The Hoover Dam produces <m>\SI{2d9}{W}</m> of electricity energy.
+        It is composed of <m>\SI{7d9}{kg}</m> of concrete.
+        To produce <m>\SI{1}{kg}</m> of concrete requires <m>\SI{1}{MJ}</m> of energy.
+      </p>
+
+      <task workspace="20%">
+        <p>
+          How much energy did it take to produce the concrete in the dam?
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          How long is the <q>energy payback time</q>
+          for the dam? (Give your answer in years.)
+        </p>
+      </task>
+
+      <task workspace="20%">
+        <p>
+          The area of Lake Mead, formed by Hoover Dam, is <m>247\;\mathrm{
+          mi}^2</m>.
+          Assuming that <m>\SI{250}{W/m^2}</m> of sunlight energy (on
+          average) falls on Lake Mead,
+          how much power could you produce if instead of the lake you installed solar cells with 12<percent /> efficiency?
+          Give your answer in Watts.
+        </p>
+      </task>
+
+      <p>
+        Dimensional Analysis
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        If we don't want to specify units,
+        we can still talk about the <em>dimensions</em> of quantities.
+        Dimensions are things like length <m>L</m>, time <m>T</m>,
+        temperature <m>\theta</m>, mass <m>M</m>, and so on.
+        We use [square brackets] to indicate the dimension of a unit:
+        for example,
+        the dimension of meter is length, or <m>[\si{m}] = L</m>.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          A joule is defined to be <m>\SI{1}{J} = \SI{1}{kg.m^2/s^2}</m>.
+          What is the dimension of this quantity?
+          Express your answer as a <em>product of integer powers</em>
+          of the dimensions given above.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          What is the dimension of the energy delivery unit
+          <m>\si{W/m^2}</m> that appears in the previous problems?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

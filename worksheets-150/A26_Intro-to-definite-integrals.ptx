@@ -1,0 +1,164 @@
+
+
+<worksheet xml:id="A26_Intro-to-definite-integrals">
+  <title>Math 150  Activity 26: Intro to definite integrals</title>
+  <exercise>
+    <statement>
+      <p>
+        Water flows into a tank at <m>g(t)</m> liters per minute.
+        The graph of <m>g(t)</m> is pictured below.
+      </p>
+
+      <sidebyside>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            xlabel=\(t   (\si{min})\),
+            ylabel=\(g(t)   (\si{L/min})\),
+            xmin=0, xmax=4,
+            ymin=0, ymax=4,
+            xtick={0, 1, 2, 3, 4},
+            ytick={0, 1, 2, 3, 4},
+            minor x tick num = 1,
+            minor y tick num = 1,
+            ]
+            \addplot[domain=0:8, style=very thick]{
+            3 + (2*x-1)*(2*x-5)*(2*x-7)/50
+            };
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+
+        <task workspace="10%">
+          <p>
+            Find <m>L_4</m> to estimate the total volume of water that enters the tank during the first 4 minutes.
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            Find <m>L_8</m> to estimate the total volume of water that enters the tank during the first 4 minutes.
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            Compare your estimates.
+            Which is better?
+          </p>
+        </task>
+      </sidebyside>
+
+      <p>
+        The symbol <m>\displaystyle\int_0^4 g(t) \; dt</m> represents the area between the graph of <m>g(t)</m> and the <m>t</m>-axis between <m>t = 0</m> and <m>t = 4</m>.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          xlabel=\(t   (\si{min})\),
+          ylabel=\(g(t)   (\si{L/min})\),
+          xmin=0, xmax=4,
+          ymin=0, ymax=4,
+          xtick={0, 1, 2, 3, 4},
+          ytick={0, 1, 2, 3, 4},
+          minor x tick num = 1,
+          minor y tick num = 1,
+          ]
+          \addplot[domain=0:8, style=very thick]{
+          3 + (2*x-1)*(2*x-5)*(2*x-7)/50
+          };
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Find <m>\displaystyle\int_0^4 g(t) \; dt</m>.
+        The graph is reproduced for your convenience.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Explain what each of the definite integrals
+        <m>\displaystyle \int_a^b f(x)\,dx</m> represents and explain how to find the units of measurement for it.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{2005}^{2010} P(t) \, dt</m>,
+          where <m>P(t)</m> is the rate at which the world's population is growing in year <m>t</m>,
+          in billions<nbsp />of people per year.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_0^8 s(x) \, dx</m>,
+          where <m>s(x)</m> is the rate of change of salinity
+          (salt concentration)
+          in <m>\si{g/L/cm}</m> in sea water,
+          and where <m>x</m> is the depth below the surface of the water in <m>\si{cm}</m>.
+          Note that <m>\si{g/L/cm} = \si[per-mode=fraction]{\gram\per\liter\per\centi\meter}</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <p>
+    This graph shows that water may be either entering or leaving the tank,
+    according as <m>g(t)</m> is positive or negative.
+    Suppose that it holds <m>\SI{20}{L}</m> when <m>t = 0</m>.
+  </p>
+  <image>
+    <latex-image>
+      <![CDATA[\begin{tikzpicture}\begin{axis}[
+      xlabel=\(t   (\si{min})\),
+      ylabel=\(g(t)   (\si{L/min})\),
+      xmin=0, xmax=4,
+      ymin=-1, ymax=1.4,
+      xtick={0, 1, 2, 3, 4},
+      ytick={-1, -0.5, 0, 0.5, 1, 1.5},
+      minor x tick num = 3,
+      minor y tick num = 1,
+      width=0.75\linewidth,
+      every inner x axis line/.append style={very thick}
+      ]
+      \addplot[domain=0:8, style=ultra thick]{
+      -(2*x-1-0.4)*(2*x-5-0.4)*(2*x-7-0.4)/50
+      };
+      \end{axis}\end{tikzpicture}]]>
+    </latex-image>
+  </image>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Estimate the <em>net change</em>
+        in the volume of water in the tank between <m>t = 1</m> and <m>t = 4</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        At what time is the volume of water in the tank the greatest?
+        Estimate this greatest volume.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        At what time is the volume of water in the tank the least?
+        Estimate this least volume.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

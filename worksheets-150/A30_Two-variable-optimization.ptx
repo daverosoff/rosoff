@@ -1,0 +1,148 @@
+
+
+<worksheet xml:id="A30_Two-variable-optimization">
+  <title>Math 150  Activity 30: Two-variable optimization</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        From the table of values given for the function <m>g(x,y)</m>,
+        estimate the locations and values of any global maxima or minima of <m>g(x,y)</m>.
+      </p>
+      <tabular>
+        <row>
+          <cell></cell>
+          <cell><m>x = 0</m></cell>
+          <cell><m>x = 0.2</m></cell>
+          <cell><m>x = 0.4</m></cell>
+          <cell><m>x = 0.6</m></cell>
+          <cell><m>x = 0.8</m></cell>
+          <cell><m>x = 1.0</m></cell>
+        </row>
+        <row bottom="medium">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell  ><m>y = 0</m></cell>
+          <cell>80</cell>
+          <cell>84</cell>
+          <cell>82</cell>
+          <cell>76</cell>
+          <cell>71</cell>
+          <cell>65</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>y = 5</m></cell>
+          <cell>86</cell>
+          <cell>90</cell>
+          <cell>88</cell>
+          <cell>73</cell>
+          <cell>77</cell>
+          <cell>71</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>y = 10</m></cell>
+          <cell>91</cell>
+          <cell>95</cell>
+          <cell>93</cell>
+          <cell>88</cell>
+          <cell>82</cell>
+          <cell>76</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>y = 15</m></cell>
+          <cell>87</cell>
+          <cell>91</cell>
+          <cell>89</cell>
+          <cell>84</cell>
+          <cell>78</cell>
+          <cell>72</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><m>y = 20</m></cell>
+          <cell>82</cell>
+          <cell>86</cell>
+          <cell>84</cell>
+          <cell>79</cell>
+          <cell>73</cell>
+          <cell>67</cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        For each contour plot pictured below,
+        list the <m>x</m>- and <m>y</m>- coordinates and the function values at each local maximum and local minimum and identify which are which.
+      </p>
+
+      <p>
+        <image width="47%" source="contour1.jpg" />
+      </p>
+
+      <p>
+        <image width="47%" source="contour.pdf" />
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Use the second derivative test to find and classify the critical points of <m>f(x,y) = y^3-4xy+6x^2</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Use the second derivative test to find and classify the critical points of <m>g(x,y) = x^3 + y^3 - 6y^2 - 3x + 9</m>.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

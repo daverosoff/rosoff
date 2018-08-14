@@ -1,0 +1,257 @@
+
+
+<worksheet xml:id="A24_R-derivatives-and-accumulation">
+  <title>Math 150  Activity 24: R Derivatives and Accumulation</title>
+  <exercise>
+    <statement>
+      <p>
+        In RStudio, define the function <m>ax^2 + bx + c</m>.
+        Name the
+        function <c>y</c> and use specific numerical values for <m>a</m>,
+        <m>b</m>,
+        and <m>c</m><mdash />your choice.
+        Record the R command you used below.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        A good name for the derivative of <c>y</c> would be <c>yp</c>,
+        since the prime <m>'</m> is unavailable as a character in the name of an R variable.
+        Use the <c>D</c> command to store the derivative of <c>y</c> in <c>yp</c> and record the R command(s) you used below.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Plot <c>y</c> and <c>yp</c> on the same set of axes in different colors and record the R command(s) you used below.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Define a new function <m>g(t) = e^{rt} \cos{at}</m>.
+        Name the
+        function <c>g</c> and use specific numerical values for <m>r</m> and
+        <m>a</m><mdash />your choice.
+        Record the R command you used below.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Use R to find the derivative of <c>g</c> at three different times <m>t</m>.
+        Record the values you found and the R command(s) you used below.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Tia is speeding down Route 0 in her cool red Fiat when her radar system warns her of an obstacle<nbsp />\si{180}{m} ahead.
+        She applies the brakes to slow down.
+        Her speed decreases throughout the 10 seconds it takes the car to stop,
+        but it doesn't necessarily decrease at a uniform rate.
+      </p>
+
+      <p>
+        Time since brakes applied (<m>\si{\second}</m>)
+      </p>
+
+      <p>
+        \hline Speed (<m>\si{m/s}</m>)
+      </p>
+
+      <task>
+        <p>
+          Estimate the distance Tia's car travels during each of the time intervals.
+        </p>
+
+        <subtask workspace="10%">
+          <p>
+            <m>t = 0</m> to <m>t = 2</m>:
+          </p>
+        </subtask>
+
+        <subtask workspace="10%">
+          <p>
+            <m>t = 2</m> to <m>t = 4</m>:
+          </p>
+        </subtask>
+
+        <subtask workspace="10%">
+          <p>
+            <m>t = 4</m> to <m>t = 6</m>:
+          </p>
+        </subtask>
+
+        <subtask workspace="10%">
+          <p>
+            <m>t = 6</m> to <m>t = 8</m>:
+          </p>
+        </subtask>
+
+        <subtask workspace="10%">
+          <p>
+            <m>t = 8</m> to <m>t = 10</m>:
+          </p>
+        </subtask>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Approximately how far does Tia's car travel before coming to a complete stop?
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Which one of the following statements can you justify from the information given?
+        </p>
+
+        <subtask>
+          <p>
+            The car stopped before getting to the obstacle.
+          </p>
+        </subtask>
+
+        <subtask>
+          <p>
+            The car collided with the obstacle.
+          </p>
+        </subtask>
+
+        <subtask>
+          <p>
+            The data is inconclusive.
+            There may or may not have been a collision.
+          </p>
+        </subtask>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          Subdivide the <m>t</m>-axis into five equal parts,
+          and mark a <m>t</m>-value in each part.
+          Use the speed from each <m>t</m>-value as the height of a rectangle.
+          You should have five rectangles, all of width <m>2</m>.
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[xscale=0.82, yscale=0.82]
+            \draw[style={gray, thick}] (0,0) grid (10, 10);
+            \draw[<->, style={black, very thick}] (10,0) -- (0,0) -- (0,10);\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+        <p>
+          Time since brakes applied (<m>\si{\second}</m>)
+        </p>
+
+        <p>
+          \hline Speed (<m>\si{m/s}</m>)
+        </p>
+
+        <task>
+          <p>
+            Plot the points given in the table,
+            using time as the horizontal coordinate.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            Draw a reasonable speed curve that passes through all five points.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            Compute the areas of all five rectangles.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            What does this have to do with the previous problem?
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          As coal deposits are depleted,
+          it becomes necessary to strip-mine larger areas for each additional ton of coal gathered.
+          The figure shows the number of acres per million tons,
+          <m>A(t)</m>,
+          that will be defaced as a function of the number of million tons removed, <m>t</m>.
+          In this problem,
+          you will estimate the number of acres defaced in removing the next 4 million tons of coal.
+        </p>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            ymin = 0,
+            xlabel= \(t\) ,
+            ylabel= \(A(t)\) ,
+            axis x line = middle,
+            axis y line = middle,
+            grid = both,
+            xtick={0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4},
+            ytick={0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4}
+            ]
+            \addplot+[mark = , smooth, black, very thick] coordinates {
+            (0.0, 0.2)
+            (0.5, 0.25)
+            (1.0, 0.35)
+            (1.5, 0.65)
+            (2.0, 1)
+            (2.5, 1.45)
+            (3.0, 2)
+            (3.5, 2.65)
+            (4.0, 3.45)
+            (4.5, 4.4)
+            };
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+
+        <task>
+          <p>
+            Subdivide the <m>x</m>-axis between <m>0</m> and <m>4</m> into four equal pieces and indicate the values of <m>A(t)</m> you will use in your estimations.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            Make an estimate of the number of acres defaced from <m>t = 0</m> to <m>t = 4</m> (by adding up four smaller estimates).
+          </p>
+        </task>
+
+        <task xml:id="p_over">
+          <p>
+            Draw four rectangles over the curve and compute their area.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            What do you notice about the answers to the previous parts?
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+  </sidebyside>
+</worksheet>
+

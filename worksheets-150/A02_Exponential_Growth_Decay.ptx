@@ -1,0 +1,158 @@
+
+
+<worksheet xml:id="A02_Exponential_Growth_Decay">
+  <title>Math 150  Activity 02: Exponential growth and decay</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        <em>Doubling time</em>
+        is the time required for an exponentially increasing quantity to double.
+      </p>
+
+      <task xml:id="x2formsexp">
+        <p>
+          Write two general forms for an exponential function.
+        </p>
+
+        <p>
+          ( <xref ref="x2formsexp"></xref>1) <fillin characters="10"/>
+        </p>
+
+        <p>
+          ( <xref ref="x2formsexp"></xref>2) <fillin characters="10"/>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          If you start with 1 unit of such a quantity,
+          how much will you have at the end of the doubling time?
+        </p>
+      </task>
+
+      <task xml:id="findexpmodel">
+        <p>
+          Find an exponential model for a quantity with a doubling time of 3 hours.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          You used one of the two forms you listed in<nbsp /><xref ref="x2formsexp" /> for your answer in<nbsp /><xref ref="findexpmodel" />.
+          Now write a function for the same quantity from<nbsp /><xref ref="findexpmodel" /> using the other form.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="50%">
+    <statement>
+      <p>
+        Find the doubling time of a quantity that is increasing by 5<percent /> per year.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        <em>Compound interest.</em>
+      </p>
+
+      <task xml:id="bankacct">
+        <p>
+          Find the formula for the amount in a bank account that pays 2<percent /> interest annually if <dollar />1000 is invested today.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          If no further deposits and no withdrawals are made,
+          how much is in the account from<nbsp /><xref ref="bankacct" /> 10 years after the initial investment?
+        </p>
+      </task>
+
+      <task workspace="50%">
+        <p>
+          When will the balance in the account be <dollar />1500?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        If an investment has interest which is compounded <em>continuously</em>,
+        the general formula is <m>P=P_0 e^{rt}</m>,
+        where <m>P_0</m> is the amount initially invested,
+        <m>P</m> is the amount in the account after <m>t</m> years and <m>r</m> is the annual interest rate in decimal (assuming no other deposits or withdrawals are made.)
+      </p>
+
+      <p>
+        If you invest <dollar />5000 at 2.5<percent /> compounded continuously,
+        how long will it take before the balance in the account is <dollar />12,000?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <em>Half-life</em> is the time required for a quantity that is decaying exponentially to decrease by one-half of its present value.
+      </p>
+
+      <task xml:id="halflife">
+        <p>
+          The half-life of a certain exponentially decaying quantity is 10 years.
+          If the starting amount is 10 grams,
+          find the formula for the amount left <m>t</m> years later.
+          Use: <m>Q=Q_0 e^{kt}</m>.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          Repeat part<nbsp /><xref ref="halflife" /> if instead the half-life is 500 years.
+        </p>
+      </task>
+
+      <task>
+        <p>
+          In general,
+          how do you find <m>k</m> for a quantity with a half-life of <m>h</m> years?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          Strontium-90 is a radioactive substance that is one of the main contaminants of a nuclear accident like the Fukushima incident in Japan.
+          The graph of the percentage of strontium-90 remaining after <m>t</m> years is shown below.
+        </p>
+
+        <task workspace="10%">
+          <p>
+            Approximate the half-life of strontium-90 from the graph.
+          </p>
+        </task>
+
+        <task>
+          <p>
+            In what year will 20<percent /> of the strontium-90 remain?
+          </p>
+        </task>
+
+        <p>
+          <image width="73%" source="figure/strontium.pdf" />
+        </p>
+      </statement>
+    </exercise>
+  </sidebyside>
+</worksheet>
+

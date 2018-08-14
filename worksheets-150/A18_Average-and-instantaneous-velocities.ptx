@@ -1,0 +1,188 @@
+
+
+<worksheet xml:id="A18_Average-and-instantaneous-velocities">
+  <title>Math 150  Activity 18: Average and instantaneous velocities</title>
+  <p>
+    \sisetup{group-separator={{,}}, group-minimum-digits={3}}
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        A moving particle's distance from its starting point after <m>t</m> seconds,
+        <m>s</m>, is given by the function <m>s(t) = 3t^2</m>.
+      </p>
+
+      <task xml:id="part_findave">
+        <p>
+          Find the average velocity between <m>t = 1</m> and <m>t = 1 + h</m> if
+        </p>
+
+        <subtask workspace="10%">
+          <p>
+            <m>h = 0.1</m>
+          </p>
+
+          <p>
+            \thesubpart. <fillin characters="10"/> }
+          </p>
+        </subtask>
+
+        <subtask workspace="10%">
+          <p>
+            <m>h = 0.01</m>
+          </p>
+
+          <p>
+            \thesubpart. <fillin characters="10"/> }
+          </p>
+        </subtask>
+
+        <subtask workspace="10%">
+          <p>
+            <m>h = 0.001</m>
+          </p>
+
+          <p>
+            \thesubpart. <fillin characters="10"/> }
+          </p>
+        </subtask>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Use your answers to<nbsp /><xref ref="part_findave" /> to estimate the instantaneous velocity of the particle at time <m>t = 1</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Graph <m>f(x) = x^2</m> and
+        <m>g(x) = x^2 + 2</m> on the same axes (provided below).
+        What can you say about the slopes of the tangent lines to each of the two graphs at the point <m>x = 0</m>? <m>x = 1</m>? <m>x = 2</m>? or <m>x = a</m>,
+        where <m>a</m> is some other constant?
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.5, yscale=0.5]
+          \draw [style={gray, thick}] (0,0) grid (16,16);
+          \draw [<->, style={black, very thick}] (8,0) -- (8,16);
+          \draw [<->, style={black, very thick}] (0,8) -- (16,8);
+          \node at (15.5, 8.5){\(x\)};
+          \node at (8.5, 15.5){\(y\)};\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        The graph of a function <m>h(t)</m> is pictured below.
+        Sketch the graph of its derivative,
+        <m>h'(t)</m>, on the blank axes.
+      </p>
+
+      <sidebyside>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(t\),
+            ylabel=\(h(t)\),
+            xmin=-6, xmax=6,
+            ymin=-6, ymax=6,
+            minor x tick num = 1,
+            minor y tick num = 1,
+            samples=200,
+            grid=both,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false
+            ]
+            \addplot[domain=-6:6, black, ultra thick]{(x-1)^2 - 2};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(t\),
+            ylabel=\(h'(t)\),
+            xmin=-6, xmax=6,
+            ymin=-6, ymax=6,
+            minor x tick num = 1,
+            minor y tick num = 1,
+            samples=200,
+            grid=both,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false
+            ]
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </sidebyside>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        The graph of a function <m>h(t)</m> is pictured below.
+        Sketch the graph of its derivative,
+        <m>h'(t)</m>, on the blank axes.
+      </p>
+
+      <sidebyside>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(t\),
+            ylabel=\(h(t)\),
+            xmin=-6, xmax=6,
+            ymin=-6, ymax=6,
+            minor x tick num = 1,
+            minor y tick num = 1,
+            samples=200,
+            grid=both,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false
+            ]
+            \addplot[domain=-6:6, black, ultra thick]{-((x+4)*(x+1)*(x-4.5)/7+3)};
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}\begin{axis}[
+            axis x line=middle,
+            axis y line=middle,
+            xlabel=\(t\),
+            ylabel=\(h'(t)\),
+            xmin=-6, xmax=6,
+            ymin=-6, ymax=6,
+            minor x tick num = 1,
+            minor y tick num = 1,
+            samples=200,
+            grid=both,
+            width=\linewidth,
+            plot box ratio = 1,
+            enlargelimits=false
+            ]
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </sidebyside>
+
+    </statement>
+  </exercise>
+</worksheet>
+

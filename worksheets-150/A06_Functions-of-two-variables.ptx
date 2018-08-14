@@ -1,0 +1,81 @@
+
+
+<worksheet xml:id="A06_Functions-of-two-variables">
+  <title>Math 150  Activity 06: Functions of two variables</title>
+  <exercise>
+    <statement>
+      <p>
+        The table below gives the cost, <m>C</m>
+        (in dollars),
+        of driving 500 miles as a function of the price, <m>x</m>
+        (in dollars per gallon),
+        and the fuel economy, <m>y</m>
+        (in miles per gallon or mpg),
+        of the car.
+        Sketch contours for <m>C = 45</m>, <m>55</m>, <m>65</m>,
+        and so on, up through <m>105</m>, directly on the table.
+      </p>
+
+      <figure>
+        <image width="73%" source="images/table.png" />
+      </figure>
+
+      <task>
+        <p>
+          If the cost, <m>C</m>,
+          of driving 500 miles is given by <m>C(x,y)</m> according to the above table,
+          find <m>C(3.60,26)</m> and interpret it.
+        </p>
+
+        <subtask>
+          <p>
+            Value:<fillin />
+          </p>
+        </subtask>
+
+        <subtask workspace="10%">
+          <p>
+            Interpretation:
+          </p>
+        </subtask>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Regular unleaded gasoline costs about <dollar />3.15/gallon this week.
+          Give a table for the cost <m>C</m> of driving 500 miles as a function of fuel economy,
+          <m>y</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <task workspace="10%">
+    <p>
+      Explain the significance of <m>C(x,26)</m> in terms of driving costs.
+      Graph this function as a function of <m>x</m>.
+    </p>
+
+    <p>
+      \gridWithNoAxes
+    </p>
+  </task>
+
+  <task workspace="10%">
+    <p>
+      How does the cost of driving 500 miles vary as a function of gasoline price?
+      Explain.
+    </p>
+  </task>
+
+  <task workspace="10%">
+    <p>
+      How does the cost of driving 500 miles vary as a function of fuel economy?
+      Explain.
+    </p>
+  </task>
+</worksheet>
+

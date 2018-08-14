@@ -1,0 +1,223 @@
+
+
+<worksheet xml:id="A29_Critical-points">
+  <title>Math 150  Activity 29: Critical points</title>
+  <exercise>
+    <statement>
+      <p>
+        Identify the critical points of the functions <m>h(t)</m> and <m>k(t)</m> in each of the figures below.
+        Each function's derivative appears below it.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          xlabel=\(t\),
+          ylabel=\(h(t)\),
+          xmin=0, xmax=6,
+          ymin=-10, ymax=10,
+          minor x tick num = 4,
+          minor y tick num = 3,
+          width=0.35\linewidth,
+          grid=major,
+          ]
+          \addplot[domain=0:6, style=very thick] {-1*(x-4)^2+2};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          xlabel=\(t\),
+          ylabel=\(k(t)\),
+          xmin=-2, xmax=4,
+          ymin=-10, ymax=10,
+          minor x tick num = 4,
+          minor y tick num = 3,
+          width=0.35\linewidth,
+          grid=major,
+          ]
+          \addplot[domain=-2:4, style=very thick] {(x+1/2)*(x+3/2)*(x-3)};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          xlabel=\(t\),
+          ylabel=\(h'(t)\),
+          xmin=0, xmax=6,
+          ymin=-10, ymax=10,
+          minor x tick num = 4,
+          minor y tick num = 3,
+          width=0.35\linewidth,
+          grid=major,
+          ]
+          \addplot[domain=0:6, style=very thick] {8-2*x};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          xlabel=\(t\),
+          ylabel=\(k'(t)\),
+          xmin=-2, xmax=4,
+          ymin=-10, ymax=10,
+          minor x tick num = 4,
+          minor y tick num = 3,
+          width=0.35\linewidth,
+          grid=major,
+          ]
+          \addplot[domain=-2:4, style=very thick] {3*x^2 - 2*x - 21/4};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+  <exercise workspace="30%">
+    <statement>
+      <p>
+        Find the critical points of the functions and classify them.
+      </p>
+
+      <task>
+        <p>
+          <m>f(x) = x^3 - 6x + 1</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x) = x \ln x</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace=".70%">
+    <statement>
+      <p>
+        The oxygen supply, <m>S</m>,
+        in blood depends on the hematocrit,
+        <m>H</m> (the percentage of red blood cells in the blood):
+        <me>
+          S = aHe^{-bH}  \text{ where \(a\) and \(b\) are positive constants. }
+        </me>
+      </p>
+
+      <p>
+        What values of <m>H</m> maximize and minimize (respectively) the oxygen supply?
+        Your answers may include some <m>a</m>s and <m>b</m>s.
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        On the graphs of <m>f'(x)</m> and <m>g'(x)</m> shown below,
+        give the <m>x</m>-coordinates of all critical points of <m>f(x)</m> and <m>g(x)</m> and identify them as local maxima, local minima,
+        or neither.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          xlabel=\(x\),
+          ylabel=\(f'(x)\),
+          xmin=-2, xmax=6,
+          ymin=-4, ymax=6,
+          minor x tick num = 3,
+          minor y tick num = 3,
+          width=0.35\linewidth,
+          grid=major,
+          ]
+          \addplot[domain=-2:6, style=very thick] {(x-3)^2 - 2};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          xlabel=\(x\),
+          ylabel=\(g'(x)\),
+          xmin=-2, xmax=6,
+          ymin=-4, ymax=6,
+          minor x tick num = 3,
+          minor y tick num = 3,
+          width=0.35\linewidth,
+          grid=major,
+          ]
+          \addplot[domain=-2:6, style=very thick] {(1/6)*(x+1/4)*(x-2)*(x-5)^(2))};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Use R to sketch a graph of
+        <m>f(t)=e^{-t}\sin(4t)</m> over the interval <m>0\leq t\leq 3</m>.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+          xlabel=\(t\),
+          ylabel=\(f(t)\),
+          xmin=0, xmax=3,
+          ymin=-1, ymax=1,
+          xtick={0, 0.5, 1, 1.5, 2, 2.5, 3},
+          ytick={-1, 0, 1},
+          minor x tick num=1,
+          minor y tick num=1,
+          width=\linewidth,
+          height=3in,
+          grid=both,
+          ]
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Identify all the critical points on your graph,
+        and label them as local maxima or local minima.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Compute the derivative of <m>f</m> in R.
+      </p>
+
+      <p>
+        R command:<fillin characters="10"/>
+      </p>
+
+      <p>
+        derivative:<fillin characters="10"/>
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Use the R command <c>findZeros()</c> to find the <m>t</m>-values for each of the critical points.
+      </p>
+
+      <p>
+        R command:<fillin characters="10"/>
+      </p>
+
+      <p>
+        critical points:<fillin characters="10"/>
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

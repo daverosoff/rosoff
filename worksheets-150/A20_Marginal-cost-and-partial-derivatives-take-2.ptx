@@ -1,0 +1,259 @@
+
+
+<worksheet xml:id="A20_Marginal-cost-and-partial-derivatives-take-2">
+  <title>Math 150  Activity 20: Marginal cost and partial derivatives</title>
+  <p>
+    \sisetup{group-separator={{,}}, group-minimum-digits={3}} \sisetup{text-celsius = <m>^\circ\mkern-1mu</m>C}
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Let us consider three functions important in business: cost,
+        revenue and profit.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          Define fixed costs:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Define variable costs:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Example of a linear cost function:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Define revenue and give an example:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Define profit and give an example:
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise workspace="10%">
+      <statement>
+        <p>
+          Define marginal cost:
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="10%">
+      <statement>
+        <p>
+          Define marginal revenue:
+        </p>
+      </statement>
+    </exercise>
+  </sidebyside>
+
+  <exercise>
+    <statement>
+      <p>
+        Let <m>C(q)</m> represent the total cost of producing <m>q</m> items.
+        Suppose <m>C(15)=2600</m> and <m>C'(15) = 74</m>.
+        Estimate the total cost of producing:
+      </p>
+
+      \begin{multicols*}{3}
+
+      <task workspace="10%">
+        <p>
+          16 items
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          14 items
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          18 items
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        A contour plot of a function<nbsp /><m>S(x,y)</m> is shown below.
+        In the figure,
+        the points <m>A</m> and <m>B</m> are located where their labels appear.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[view={0}{90}, axis lines=middle,
+          xmin=0, xmax=5,
+          ymin=0, ymax=4,
+          zmin=0, zmax=8,
+          enlargelimits=false,
+          xlabel=\(x\), ylabel=\(y\),
+          plot box ratio=1,
+          every node/.style = {circle, fill=black, thick, minimum size=1pt}]
+          \addplot3[contour gnuplot={levels={0.5,1,2,3,4}},thick,
+          samples=80,
+          contour/draw color={black},
+          contour/contour label style={nodes={text=black}}]
+          {(1/2)*(x-2)^2 + (y-2)^2};
+          \end{axis}
+          \draw node at (1,1,0){\(A\)};
+          \draw node at (4.3,2.8,0){\(B\)};\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+
+      <task workspace="20%">
+        <p>
+          Is<nbsp /><m>\partial S/\partial x</m> positive or negative at<nbsp /><m>A</m>?
+          What about<nbsp /><m>\partial S/\partial y</m>?
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Estimate<nbsp /><m>\partial S/\partial x</m> and<nbsp /><m>\partial S/\partial y</m> at<nbsp /><m>B</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Global weather patterns depend sensitively on deep ocean currents that distribute heat around the earth.
+        Currents are related to variations in seawater density<nbsp /><m>\rho</m> (Greek letter <em>rho</em>).
+        This quantity depends on several variables,
+        including salinity, <m>S</m>,
+        and temperature, <m>T</m>.
+        No simple formula for<nbsp /><m>\rho = F(S, T)</m> is known,
+        but some experimentally obtained values are tabulated below.
+        In the table,
+        <m>T</m> is measured in<nbsp /><m>\si{\celsius}</m>,
+        <m>S</m> is measured in<nbsp /><m>\si{g/L}</m>,
+        and <m>\rho</m> is measured in<nbsp /><m>\si{kg/m^3}</m>.
+      </p>
+      <tabular>
+        <row>
+          <cell></cell>
+          <cell>\SI{32}{\celsius}</cell>
+          <cell>\SI{32.5}{\celsius}</cell>
+          <cell>\SI{33}{\celsius}</cell>
+          <cell>\SI{33.5}{\celsius}</cell>
+          <cell>\SI{34}{\celsius}</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>\SI{5 }{g/L}</cell>
+          <cell>1.0253</cell>
+          <cell>1.0257</cell>
+          <cell>1.0261</cell>
+          <cell>1.0265</cell>
+          <cell>1.0269</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>\SI{10}{g/L}</cell>
+          <cell>1.0246</cell>
+          <cell>1.0250</cell>
+          <cell>1.0254</cell>
+          <cell>1.0256</cell>
+          <cell>1.0264</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>\SI{15}{g/L}</cell>
+          <cell>1.0237</cell>
+          <cell>1.0241</cell>
+          <cell>1.0245</cell>
+          <cell>1.0247</cell>
+          <cell>1.0255</cell>
+        </row>
+        <row bottom="minor">
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>\SI{20}{g/L}</cell>
+          <cell>1.0224</cell>
+          <cell>1.0229</cell>
+          <cell>1.0232</cell>
+          <cell>1.0238</cell>
+          <cell>1.0241</cell>
+        </row>
+      </tabular>
+
+      <task workspace="10%">
+        <p>
+          Estimate <m>\partial \rho/\partial S</m> when
+          <m>S=\SI{15}{g/L}</m> and <m>T=\SI{33.5}{\celsius}</m>.
+          Interpret your answer in terms of seawater density.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Estimate <m>\partial \rho/\partial T</m> when
+          <m>S=\SI{15}{g/L}</m> and <m>T=\SI{33.5}{\celsius}</m>.
+          Interpret your answer in terms of seawater density.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        For a function <m>f(x,y)</m> we are given <m>f(10, 20)=13</m>,
+        <m>f_x(10, 20)=2</m>, and <m>f_y(10, 20)=5</m>.
+        Estimate <m>f(15, 22)</m>.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

@@ -1,0 +1,59 @@
+
+
+<worksheet xml:id="A10_Dimensions-and-estimation">
+  <title>Math 150  Activity 10: From dimensions to estimation</title>
+  <exercise>
+    <statement>
+      <p>
+        <em>(Final exam, spring 2014)</em>
+        A fluid whose density is <m>\rho</m> drains through a hole at the bottom of a cylindrical tank of height <m>h</m>.
+        Use dimensional analysis to express the speed of the exiting fluid,
+        <m>v</m>, in terms of <m>\rho</m>,
+        <m>h</m>, and the acceleration due to gravity, <m>g</m>.
+        Your answer should include an unknown dimensionless constant. (<em>Hint</em>.<nbsp />The dimension of <m>\rho</m> is <m>ML^{-3}</m>.)
+      </p>
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          <em>(Midterm exam, spring 2014)</em>
+          One formula for the force of gravity, <m>F_g</m>,
+          exerted by Earth on some object is
+          <me>
+            F_g = \frac{G m m_E}{r^2}
+          </me>,
+          where <m>m</m> is the mass of the object, <m>m_E</m> is the mass of
+          Earth, <m>r</m> is the distance between the center of Earth
+          and the center of the object,
+          and <m>G</m> is the so-called
+          <em>gravitational constant</em>.
+          Find the units of <m>G</m>. <em>Hint.</em>
+          Recall that <m>\text{ force }  = \text{ mass }  \times \text{ acceleration }</m>.
+        </p>
+      </statement>
+    </exercise>
+  </sidebyside>
+
+  <pagebreak />
+
+  <p>
+    \paragraph{Estimation nation} Throughout the applications of math,
+    it's important to be able to come up with reasonable estimates based on incomplete information,
+    or even guesses.
+    Successful scientists, engineers,
+    and business people need to do this regularly,
+    as does most anyone who uses numbers to help them make plans of any kind.
+  </p>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        A couple of C of I students want to play a joke on a friend by filling his dorm room with wadded up phone book pages.
+        How many phone books will they need?
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

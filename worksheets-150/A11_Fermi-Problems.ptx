@@ -1,0 +1,106 @@
+
+
+<worksheet xml:id="A11_Fermi-Problems">
+  <title>Math 150  Activity 11: Fermi problems</title>
+  <exercise>
+    <statement>
+      <title>How many bicycle mechanics live in Boise?</title>
+      <p>
+        This problem is based on a famous problem attributed to the great Fermi himself.
+        You can use the ideas and techniques of the last few activities to break down this seemingly intractable estimation problem into a sequence of more reasonable ones.
+        You might still have to guess at a few values of consequence,
+        but that is part of the process.
+        You'll be able to look some of them up.
+      </p>
+
+      <p>
+        Look up in a credible source or estimate each of the following values.
+        Make sure to include appropriate units with each value.
+        Most bicycle enthusiasts agree that a bicycle should be tuned at least once per year to maintain proper function.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          Approximate population of Boise:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Approximate fraction of Boise residents who own bicycles:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Approximate number of bicycles per bicycle owner:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Approximate fraction of bicycles that are tuned regularly:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Approximate frequency with which bicycles are tuned:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Approximate time it takes to tune a bicycle:
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Approximate working hours per bicycle tuner per year:
+        </p>
+      </task>
+
+      <task workspace="80%">
+        <p>
+          Now, use the <q>fishbone</q>
+          dimensional conversion to estimate the
+          number of bicycle mechanics in Boise<mdash />you might need to make another
+          estimate about work hours.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <p>
+    <em>In these problems,
+    you'll need to determine the breakdown of the pertinent quantity into separate dimensions yourself.
+    Use common sense, look things up when you can,
+    and estimate when you have to.</em>
+  </p>
+  <exercise workspace="10%">
+    <statement>
+      <title>Dutch cups</title>
+      <p>
+        You just got promoted to district manager of Dutch Bros.<nbsp />for the whole Treasure Valley.
+        Your first task is to order paper cups and lids for the upcoming month,
+        but all your store managers are unavailable.
+        How many cups and lids should you order for all the regional stores for the month of October?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <title>Amber waves of pizza</title>
+      <p>
+        How much pizza is consumed by Idaho's college students each semester?
+        For fun, report your answer in <em>cofis</em>.
+        A cofi is the area of the C of I campus, equal to about 50 acres.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+
