@@ -27,17 +27,17 @@
           find <m>C(3.60,26)</m> and interpret it.
         </p>
 
-        <subtask>
+        <task>
           <p>
             Value:<fillin />
           </p>
-        </subtask>
+        </task>
 
-        <subtask workspace="10%">
+        <task workspace="10%">
           <p>
             Interpretation:
           </p>
-        </subtask>
+        </task>
       </task>
 
       <task workspace="10%">

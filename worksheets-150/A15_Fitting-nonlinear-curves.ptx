@@ -124,23 +124,23 @@
           Use the model to find the projected temperatures at the following times:
         </p>
 
-        <subtask>
+        <task>
           <p>
             At time <m>t = 2.5</m>, the temperature is <fillin characters="10"/>.
           </p>
-        </subtask>
+        </task>
 
-        <subtask>
+        <task>
           <p>
             At time <m>t = 230</m>, the temperature is <fillin characters="10"/>.
           </p>
-        </subtask>
+        </task>
 
-        <subtask>
+        <task>
           <p>
             At time <m>t = 260</m>, the temperature is <fillin characters="10"/>.
           </p>
-        </subtask>
+        </task>
       </task>
 
     </statement>

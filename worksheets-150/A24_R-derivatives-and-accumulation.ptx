@@ -71,35 +71,35 @@
           Estimate the distance Tia's car travels during each of the time intervals.
         </p>
 
-        <subtask workspace="10%">
+        <task workspace="10%">
           <p>
             <m>t = 0</m> to <m>t = 2</m>:
           </p>
-        </subtask>
+        </task>
 
-        <subtask workspace="10%">
+        <task workspace="10%">
           <p>
             <m>t = 2</m> to <m>t = 4</m>:
           </p>
-        </subtask>
+        </task>
 
-        <subtask workspace="10%">
+        <task workspace="10%">
           <p>
             <m>t = 4</m> to <m>t = 6</m>:
           </p>
-        </subtask>
+        </task>
 
-        <subtask workspace="10%">
+        <task workspace="10%">
           <p>
             <m>t = 6</m> to <m>t = 8</m>:
           </p>
-        </subtask>
+        </task>
 
-        <subtask workspace="10%">
+        <task workspace="10%">
           <p>
             <m>t = 8</m> to <m>t = 10</m>:
           </p>
-        </subtask>
+        </task>
       </task>
 
       <task workspace="10%">
@@ -113,24 +113,24 @@
           Which one of the following statements can you justify from the information given?
         </p>
 
-        <subtask>
+        <task>
           <p>
             The car stopped before getting to the obstacle.
           </p>
-        </subtask>
+        </task>
 
-        <subtask>
+        <task>
           <p>
             The car collided with the obstacle.
           </p>
-        </subtask>
+        </task>
 
-        <subtask>
+        <task>
           <p>
             The data is inconclusive.
             There may or may not have been a collision.
           </p>
-        </subtask>
+        </task>
       </task>
 
     </statement>

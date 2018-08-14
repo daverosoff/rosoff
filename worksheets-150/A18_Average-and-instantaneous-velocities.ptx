@@ -17,7 +17,7 @@
           Find the average velocity between <m>t = 1</m> and <m>t = 1 + h</m> if
         </p>
 
-        <subtask workspace="10%">
+        <task workspace="10%">
           <p>
             <m>h = 0.1</m>
           </p>
@@ -25,9 +25,9 @@
           <p>
             \thesubpart. <fillin characters="10"/> }
           </p>
-        </subtask>
+        </task>
 
-        <subtask workspace="10%">
+        <task workspace="10%">
           <p>
             <m>h = 0.01</m>
           </p>
@@ -35,9 +35,9 @@
           <p>
             \thesubpart. <fillin characters="10"/> }
           </p>
-        </subtask>
+        </task>
 
-        <subtask workspace="10%">
+        <task workspace="10%">
           <p>
             <m>h = 0.001</m>
           </p>
@@ -45,7 +45,7 @@
           <p>
             \thesubpart. <fillin characters="10"/> }
           </p>
-        </subtask>
+        </task>
       </task>
 
       <task workspace="10%">

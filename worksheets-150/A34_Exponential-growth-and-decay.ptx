@@ -57,23 +57,23 @@
           Sketch curves with initial values:
         </p>
 
-        <subtask>
+        <task>
           <p>
             <m>y(0) = 3</m>
           </p>
-        </subtask>
+        </task>
 
-        <subtask>
+        <task>
           <p>
             <m>y(0) = -1</m>
           </p>
-        </subtask>
+        </task>
 
-        <subtask>
+        <task>
           <p>
             <m>y(0) = 1</m>
           </p>
-        </subtask>
+        </task>
 
         <image>
           <latex-image>
@@ -118,23 +118,23 @@
           Sketch curves with initial values:
         </p>
 
-        <subtask>
+        <task>
           <p>
             <m>y(0) = 0.1</m>
           </p>
-        </subtask>
+        </task>
 
-        <subtask>
+        <task>
           <p>
             <m>y(0) = 0</m>
           </p>
-        </subtask>
+        </task>
 
-        <subtask>
+        <task>
           <p>
             <m>y(0) = -0.3</m>
           </p>
-        </subtask>
+        </task>
       </task>
 
     </statement>
