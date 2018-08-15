@@ -1,0 +1,28 @@
+
+
+<worksheet xml:id="chain-rule-2">
+  <title>Math 275  Workshop 07a: The chain rule, II</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Let <m>x_t = t</m> and <m>y_t = t^2</m>.
+        Let <m>f(x,y)</m> be an arbitrary function and find formulas for <m>f_t</m>,
+        <m>f_{tt}</m> in terms of <m>f_x</m>,
+        <m>f_y</m>, <m>f_{xx}</m>, <m>f_{xy}</m>, and <m>f_{yy}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Now let <m>x = r \cos{\theta}</m> and <m>y = r \sin{\theta}</m>,
+        and use the chain rule to find general formulas for <m>f_{rr}</m>,
+        <m>f_{r \theta}</m>, and <m>f_{\theta\theta}</m>.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

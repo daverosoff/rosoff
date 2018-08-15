@@ -1,0 +1,209 @@
+
+
+<worksheet xml:id="intro-vector-fields">
+  <title>Math 275  Workshop 13: Some vector fields</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Draw the following vector fields.
+        Each picture should include at least 10 vectors.
+      </p>
+
+      <sidebyside>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[xscale=1.45, yscale=1.45]
+            \begin{axis}[
+            title = {\(\vec{F} = \angl{2y,y}\)},
+            grid  = both,
+            xmin  = -10,
+            xmax  = 10,
+            ymin  = -10,
+            ymax  = 10,
+            xtick = {-10, 10},
+            ytick = {-10, 10},
+            xticklabel = ,
+            yticklabel = ,
+            minor x tick num = 19,
+            minor y tick num = 19,
+            axis lines = middle,
+            unit vector ratio = 1
+            ]
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[xscale=1.45, yscale=1.45]
+            \begin{axis}[
+            title = {\(\vec{R} = \angl{x,y}\)},
+            grid  = both,
+            xmin  = -10,
+            xmax  = 10,
+            ymin  = -10,
+            ymax  = 10,
+            xtick = {-10, 10},
+            ytick = {-10, 10},
+            xticklabel = ,
+            yticklabel = ,
+            minor x tick num = 19,
+            minor y tick num = 19,
+            axis lines = middle,
+            unit vector ratio = 1
+            ]
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[xscale=1.45, yscale=1.45]
+            \begin{axis}[
+            title = {\(\vec{S} = \angl{-y,x}\)},
+            grid  = both,
+            xmin  = -10,
+            xmax  = 10,
+            ymin  = -10,
+            ymax  = 10,
+            xtick = {-10, 10},
+            ytick = {-10, 10},
+            xticklabel = ,
+            yticklabel = ,
+            minor x tick num = 19,
+            minor y tick num = 19,
+            axis lines = middle,
+            unit vector ratio = 1
+            ]
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[xscale=1.45, yscale=1.45]
+            \begin{axis}[
+            title = {\(\vec{u_{\theta}} = \frac{1}{\sqrt{x^2+y^2}}\angl{-y,x}\)},
+            grid  = both,
+            xmin  = -10,
+            xmax  = 10,
+            ymin  = -10,
+            ymax  = 10,
+            xtick = {-10, 10},
+            ytick = {-10, 10},
+            xticklabel = ,
+            yticklabel = ,
+            minor x tick num = 19,
+            minor y tick num = 19,
+            axis lines = middle,
+            unit vector ratio = 1
+            ]
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </sidebyside>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        For each function, draw the gradient vector field
+        <m>\nabla f</m> and some equipotential curves <m>f(x,y) = c</m>.
+      </p>
+
+      <sidebyside>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[xscale=1.45, yscale=1.45]
+            \begin{axis}[
+            title = {\(f = x - 3y\)},
+            grid  = both,
+            xmin  = -10,
+            xmax  = 10,
+            ymin  = -10,
+            ymax  = 10,
+            xtick = {-10, 10},
+            ytick = {-10, 10},
+            xticklabel = ,
+            yticklabel = ,
+            minor x tick num = 19,
+            minor y tick num = 19,
+            axis lines = middle,
+            unit vector ratio = 1
+            ]
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+        <image>
+          <latex-image>
+            <![CDATA[\begin{tikzpicture}[xscale=1.45, yscale=1.45]
+            \begin{axis}[
+            title = {\(f = (x-1)^2 + y^2\)},
+            grid  = both,
+            xmin  = -10,
+            xmax  = 10,
+            ymin  = -10,
+            ymax  = 10,
+            xtick = {-10, 10},
+            ytick = {-10, 10},
+            xticklabel = ,
+            yticklabel = ,
+            minor x tick num = 19,
+            minor y tick num = 19,
+            axis lines = middle,
+            unit vector ratio = 1
+            ]
+            \end{axis}\end{tikzpicture}]]>
+          </latex-image>
+        </image>
+      </sidebyside>
+
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.45, yscale=1.45]
+          \begin{axis}[
+          title = {\(f = x + y^2\)},
+          grid  = both,
+          xmin  = -10,
+          xmax  = 10,
+          ymin  = -10,
+          ymax  = 10,
+          xtick = {-10, 10},
+          ytick = {-10, 10},
+          xticklabel = ,
+          yticklabel = ,
+          minor x tick num = 19,
+          minor y tick num = 19,
+          axis lines = middle,
+          unit vector ratio = 1
+          ]
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.45, yscale=1.45]
+          \begin{axis}[
+          title = {\(f = \sqrt{x^2+y^2}\)},
+          grid  = both,
+          xmin  = -10,
+          xmax  = 10,
+          ymin  = -10,
+          ymax  = 10,
+          xtick = {-10, 10},
+          ytick = {-10, 10},
+          xticklabel = ,
+          yticklabel = ,
+          minor x tick num = 19,
+          minor y tick num = 19,
+          axis lines = middle,
+          unit vector ratio = 1
+          ]
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+</worksheet>
+

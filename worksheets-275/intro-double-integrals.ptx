@@ -1,0 +1,98 @@
+
+
+<worksheet xml:id="intro-double-integrals">
+  <title>Math 275  Workshop 09: Introduction to double integrals</title>
+  <exercise>
+    <statement>
+      <p>
+        Draw the region and compute the area.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{x=1}^2 \int_{y=1}^{2x} dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{-1}^{1} \int_{y^2}^{1} dx \; dy</m>
+        </p>
+      </task>
+
+      <task workspace="0.80%">
+        <p>
+          <m>\displaystyle \int_{0}^1 \int_{x^3}^{x} dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{-1}^{1} \int_{x^2-1}^{1-x^2} dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_0^{\infty} \int_{e^{-2x}}^{e^{-x}} dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="0.80%">
+        <p>
+          <m>\displaystyle \int_{-1}^{1} \int_{x=y}^{\abs{y}} dx \; dy</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        Reverse the order of integration and find the new limits (the integrals are the same ones from the front side,
+        reproduced for your convenience).
+      </p>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{x=1}^2 \int_{y=1}^{2x} dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{-1}^{1} \int_{y^2}^{1} dx \; dy</m>
+        </p>
+      </task>
+
+      <task workspace="0.80%">
+        <p>
+          <m>\displaystyle \int_{0}^1 \int_{x^3}^{x} dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{-1}^{1} \int_{x^2-1}^{1-x^2} dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_0^{\infty} \int_{e^{-2x}}^{e^{-x}} dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="0.80%">
+        <p>
+          <m>\displaystyle \int_{-1}^{1} \int_{x=y}^{\abs{y}} dx \; dy</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

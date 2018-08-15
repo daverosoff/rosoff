@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <docinfo>
+    <macros>
+    </macros>
+    <latex-image-preamble>
+    \usepackage{tikz}
+    \usepackage{tkz-graph}
+    \usepackage{tkz-euclide}
+    \usetikzlibrary{patterns}
+    \usetikzlibrary{positioning}
+    \usetikzlibrary{matrix,arrows}
+    \usetikzlibrary{calc}
+    \usetikzlibrary{shapes}
+    \usetikzlibrary{through,intersections,decorations,shadows,fadings}
+
+    \usepackage{pgfplots}
+
+    </latex-image-preamble>
+  </docinfo>
+
+  <article>
+  <title>Title Goes Here</title>
+  <frontmatter>
+    <titlepage>
+    </titlepage>
+  </frontmatter>
+
+  <xi:include href="./triple-integrals.ptx" />
+  <xi:include href="./tangent-planes-linearization.ptx" />
+  <xi:include href="./surfaces-level-curves.ptx" />
+  <xi:include href="./planes-and-projections.ptx" />
+  <xi:include href="./plane-parametric-curves.ptx" />
+  <xi:include href="./partial-derivatives-limits.ptx" />
+  <xi:include href="./partial-derivatives-limits-solution.ptx" />
+  <xi:include href="./more-double-integrals.ptx" />
+  <xi:include href="./more-double-integrals-solutions.ptx" />
+  <xi:include href="./midpoints-of-quadrilateral.ptx" />
+  <xi:include href="./max-min-saddle.ptx" />
+  <xi:include href="./matrices-linear-equations.ptx" />
+  <xi:include href="./intro-vector-fields.ptx" />
+  <xi:include href="./intro-parametric.ptx" />
+  <xi:include href="./intro-double-integrals.ptx" />
+  <xi:include href="./integrating-vector-fields.ptx" />
+  <xi:include href="./gradients-directional-derivs.ptx" />
+  <xi:include href="./dot-products.ptx" />
+  <xi:include href="./chain-rule.ptx" />
+  <xi:include href="./chain-rule-2.ptx" />
+  <xi:include href="./Functions-of-two-variables.ptx" />
+
+  <backmatter>
+    <xi:include href="./bibliography.ptx" />
+  </backmatter>
+
+  </article>
+</mathbook>
+

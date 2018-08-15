@@ -1,0 +1,78 @@
+
+
+<worksheet xml:id="plane-parametric-curves">
+  <title>Math 275  Workshop 12: Plane curves, projectiles, and cycloids</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Find the time of flight <m>T</m>, the range <m>R</m>,
+        and the maximum height <m>Y</m> of a projectile with
+        <m>v_0 = \SI{5}{m/s}</m> and the indicated launch angle.
+      </p>
+
+      <task>
+        <p>
+          <m>\alpha = \pi/6</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\alpha = \pi/3</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\alpha = \pi/2</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        If <m>v_0 = \SI{9.8}{m/s}</m> and the projectile returns to the ground at <m>T = 1</m>,
+        find the angle <m>\alpha</m> and the range <m>R</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        A ball is thrown at <m>\alpha = \pi/3</m> with
+        <m>v_0 = \SI{20}{m/s}</m> to clear a wall <m>\SI{2}{m}</m> high.
+        How far away is the wall?
+      </p>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        If <m>\vv(0) = 3\ii + 3\jj</m>,
+        find <m>\vv(t), \vv(1), \vv(2)</m> and <m>R(t), R(1), R(2)</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Eliminate <m>t</m> from <m>x = t</m>,
+        <m>y = t - (1/2)t^2</m> to find the cartesian equation of the projectile's trajectory.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Repeat the previous problem,
+        but for arbitrary <m>v_0</m> and <m>\alpha</m>.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

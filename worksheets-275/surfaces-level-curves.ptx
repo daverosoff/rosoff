@@ -1,0 +1,166 @@
+
+
+<worksheet xml:id="surfaces-level-curves">
+  <title>Math 275  Workshop 03: Surfaces and level curves</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Draw the surface <m>z = f(x,y)</m> for these four functions.
+        Include contours for levels <m>0</m>, <m>1/2</m>,
+        <m>1</m>, <m>3/2</m>, <m>2</m>.
+        Think about where the contours for levels <m>-1/2</m>, <m>-1</m>,
+        <m>-3/2</m>,
+        <m>-2</m> would go and include some of them if appropriate.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
+          \begin{axis}[
+          title={\(f_1 = \sqrt{4 - x^2 - y^2}\)},
+          axis lines=middle,
+          xmin=-2, xmax=2,
+          ymin=-2, ymax=2,
+          xtick={-2, -1, 0, 1, 2},
+          minor x tick num=3,
+          ytick={-2, -1, 0, 1, 2},
+          minor y tick num=3,
+          grid=both,
+          unit vector ratio=1
+          ]
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
+          \begin{axis}[
+          title={\(f_3 = 2 - \dfrac{1}{2}(x^2 + y^2)\)},
+          axis lines=middle,
+          xmin=-2, xmax=2,
+          ymin=-2, ymax=2,
+          xtick={-2, -1, 0, 1, 2},
+          minor x tick num=3,
+          ytick={-2, -1, 0, 1, 2},
+          minor y tick num=3,
+          grid=both,
+          unit vector ratio=1
+          ]
+
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
+          \begin{axis}[
+          title={\(f_2 = 2 - \sqrt{x^2+y^2}\)},
+          axis lines=middle,
+          xmin=-2, xmax=2,
+          ymin=-2, ymax=2,
+          xtick={-2, -1, 0, 1, 2},
+          minor x tick num=3,
+          ytick={-2, -1, 0, 1, 2},
+          minor y tick num=3,
+          grid=both,
+          unit vector ratio=1
+          ]
+
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
+          \begin{axis}[
+          title={\(f_4 = 1 + e^{-x^2-y^2}\)},
+          axis lines=middle,
+          xmin=-2, xmax=2,
+          ymin=-2, ymax=2,
+          xtick={-2, -1, 0, 1, 2},
+          minor x tick num=3,
+          ytick={-2, -1, 0, 1, 2},
+          minor y tick num=3,
+          grid=both,
+          unit vector ratio=1
+          ]
+
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="0.20%">
+    <statement>
+      <p>
+        Where is the maximum value of each function attained?
+        How do you know?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Set <m>y=0</m> and compute the <m>x</m> derivative of functions <m>f_1</m> and <m>f_4</m> at <m>x =2</m>.
+        Which is steeper at <m>(2,0)</m>?
+        <em>FIX!!!! One is undefined.</em>
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Repeat question 3, but use <m>y=1</m> and compute <m>x</m> derivatives at <m>x = 1</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="20%">
+    <statement>
+      <p>
+        In CoCalc, use Sage to plot contour maps of the following functions.
+        Explore the options for which contours you can include and coloring.
+        Make notes about these commands in the space below.
+        <ol type="a">
+          <li>
+            <p>
+              <m>f(x,y) = x-y</m> <c>contour_plot(x-y, (x, -2, 2), (y, -2, 2))</c>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>f(x,y) = (x+y)^2</m> <c>help(contour_plot)</c>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>f(x,y) = xe^{-y}</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>f(x,y) = \sin{(x-y)}</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>f(x,y) = y-x^2</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>f(x,y) = y/x^2</m>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+

@@ -1,0 +1,79 @@
+
+
+<worksheet xml:id="gradients-directional-derivs">
+  <title>Math 275  Workshop 06: Gradients and directional derivatives</title>
+  <exercise>
+    <statement>
+      <p>
+        For each function, compute <m>\nabla F</m>,
+        <m>D_{\vec{u}} f = (\nabla F) \cdot \vec{u}</m>,
+        and <m>D_{\vec{u}} f</m> at <m>P</m>.
+      </p>
+
+      <task>
+        <p>
+          <m>f(x,y) = x^2 - y^2, \vec{u} = (\sqrt{3}/2, 1/2), P = (1,0)</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = 3x+4y+7, \vec{u} = (3/5, 4/5), P = (0,\pi/2)</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = e^x \cos{y}, \vec{u} = (0,1), P = (0,\pi/2)</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = y^{10}, \vec{u} = (0,-1), P = (1,-1)</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        At a point where <m>f(x,y)</m> is a maximum, what is <m>\nabla f</m>?
+        Describe the level curve containing the maximum points <m>(x,y)</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Let <m>\vec{N} = (f_x, f_y, -1)</m>,
+        <m>\vec{U} = (f_x, f_y, f_x^2 + f_y^2)</m>,
+        and <m>\vec{L} = (f_y, -f_x, 0)</m>.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          What is the significance of these vectors? (Think about the graph of <m>f</m>.)
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Check that each pair of vectors is perpendicular.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          How are the vectors related to the tangent plane to the graph of <m>f</m>?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

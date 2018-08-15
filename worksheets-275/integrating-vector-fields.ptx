@@ -1,0 +1,46 @@
+
+
+<worksheet xml:id="integrating-vector-fields">
+  <title>Math 275  Workshop 14: Integrating vector fields</title>
+  <exercise>
+    <statement>
+      <p>
+        Evaluate the vector fields using the given parametrization,
+        or an appropriate parametrization of your choice.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{\mathcal{C}} dy</m>:
+          <m>x = t</m>, <m>y = 2t</m>, <m>0 \leq t \leq 1</m>.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{\mathcal{C}} x \; dx</m> and <m>\displaystyle \int_{\mathcal{C}} xy \; dy</m>:
+          <m>x = \cos{t}</m>, <m>y = \sin{t}</m>,
+          <m>0 \leq t \leq \pi/2</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <task workspace="10%">
+    <p>
+      <m>\displaystyle \int_{\mathcal{C}} xy \; ds</m>:
+      bent line from <m>(0,0)</m> to <m>(1,1)</m> to <m>(1,0)</m>.
+    </p>
+  </task>
+
+  <task workspace="10%">
+    <p>
+      <m>\displaystyle \int_{\mathcal{C}} y \; dx - x \; dy</m>:
+      any square path with sides of length 3.
+    </p>
+  </task>
+</worksheet>
+

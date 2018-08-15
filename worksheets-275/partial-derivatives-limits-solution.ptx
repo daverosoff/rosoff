@@ -1,0 +1,114 @@
+
+
+<worksheet xml:id="partial-derivatives-limits-solution">
+  <title>Math 275  Workshop 04: Partial derivatives and limits</title>
+  <exercise>
+    <statement>
+      <p>
+        Let <m>f_1(x,y) = x^2/(x^2 + y^2)</m>.
+        Find the limit of <m>f_1(x,y)</m> as
+        <m>(x,y) \to (0,0)</m> along the <m>x</m>-axis.
+        In other words,
+        find the (ordinary, 1-dimensional) limit of a suitable "slice function" obtained from <m>f_1</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The slice function is <m>f_1(x,0) = x^2/x^2</m>.
+        Taking the limit, we find
+        <me>
+          \lim_{x\to 0} \frac{x^2}{x^2} = \lim_{x\to 0} \frac{1}{1} = 1
+        </me>.
+      </p>
+
+      <p>
+        The <q>cancellation</q>
+        <m>x^2/x^2 = 1</m> is valid when <m>x \ne 0</m>,
+        so the two functions have the same limit at <m>0</m>.
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Find the limit of <m>f_1(x,y)</m> as <m>(x,y) \to (0,0)</m> as
+        <m>(x,y) \to (0,0)</m> along the <m>y</m>-axis,
+        again using a slice function.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The slice function is <m>f_1(0,y) = 0/y^2</m>.
+        Taking the limit, we find
+        <me>
+          \lim_{y\to 0} \frac{0}{y^2} = \lim_{x\to 0} 0 = 0
+        </me>.
+      </p>
+
+      <p>
+        The <q>simplification</q>
+        <m>0/y^2</m> is valid when <m>y \ne 0</m>,
+        so the two functions have the same limit at <m>0</m>.
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Does <m>\lim\limits_{(x,y) \to (0,0)} f_1 (x,y)</m> exist?
+        Why?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        It does not,
+        because the one-dimensional limits obtained above do not agree.
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Now let <m>f_2(x,y) = xy/(x^2 + y^2)</m>.
+        Show that the limit of <m>f_2(x,y)</m> as
+        <m>(x,y) \to (0,0)</m> along either coordinate axis is 0.
+      </p>
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          Find the limit of <m>f_2(x,y)</m> as
+          <m>(x,y) \to (0,0)</m> along the line <m>y = x</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Does <m>\lim\limits_{(x,y) \to (0,0)} f_2 (x,y)</m> exist?
+          Why do you think so?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Finally, let <m>f_3(x,y) = x^2 y/(x^4 + y^2)</m>.
+          Show that the limit as <m>(x,y) \to (0,0)</m> along every line through the origin is <m>0</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Show that, nevertheless,
+          <m>\lim\limits_{(x,y) \to (0,0)} f_3 (x,y)</m> does not exist by letting <m>(x,y)</m> approach the origin along a suitable curve.
+        </p>
+      </statement>
+    </exercise>
+  </sidebyside>
+</worksheet>
+

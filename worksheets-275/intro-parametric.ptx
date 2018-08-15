@@ -1,0 +1,98 @@
+
+
+<worksheet xml:id="intro-parametric">
+  <title>Math 275  Workshop 11: Parametric motion</title>
+  <exercise workspace="0.60%">
+    <statement>
+      <p>
+        Find parametric equations for steady motion from
+        <m>P = (3, 1, -2)</m> at <m>t = 0</m> on a line to <m>Q = (0, 0, 0)</m> at <m>t = 3</m>.
+        What is the speed?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="0.10%">
+    <statement>
+      <p>
+        The equations
+        <me>
+          x - 1 = \frac{1}{2}(y-2) = \frac{1}{3}(z-2)
+        </me>
+        describe a<fillin characters="10"/>.
+        The same path is given
+        parametrically by
+        <me>
+          x = 1 + t,  y =\lt fillin characters="10"/>,  z =\lt fillin characters="10"/>
+        </me>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Which vectors follow the same path as <m>\vec{R} = t\ii + t^2 \jj</m>?
+        The speed along the path may be different.
+      </p>
+
+      <task>
+        <p>
+          <m>2t \ii + 2t^2 \jj</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>2t \ii + 4t^2 \jj</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>-t \ii + t^2 \jj</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>t^3 \ii + t^6 \jj</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Find a parametric form for the straight line <m>y = mx + b</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="1.50%">
+    <statement>
+      <p>
+        Find the velocity <m>\vv</m>, speed <m>\abs{\vv}</m>,
+        and tangent vector <m>\vec{T}</m> for these motions:
+      </p>
+
+      <task>
+        <p>
+          <m>\vec{R} = t\ii + t^{-1}\jj</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\vec{R} = (t \cos{t}, t \sin{t})</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>\vec{R} = (t+1, 2t+1, 2t+2)</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

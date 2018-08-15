@@ -1,0 +1,163 @@
+
+
+<worksheet xml:id="partial-derivatives-limits">
+  <title>Math 275  Workshop 04: Partial derivatives and limits</title>
+  <exercise>
+    <statement>
+      <p>
+        Find <m>\dee f/\dee x</m> and
+        <m>\dee f/\dee y</m> for each function <m>f</m> below.
+        If you want to check your answers, use Sage.
+      </p>
+
+      <task>
+        <p>
+          <m>f(x,y) = 3x - y + x^2 y^2</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = \sin{(3x-y)} + y</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = x^3 y^2 - x^2 - e^y</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = xe^{x+4}</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = (x+y)/(x-y)</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = 1/\sqrt{x^2+y^2}</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = (x^2 + y^2)^{-1}</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = \ln{(x+2y)}</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = \ln{\sqrt{x^2+y^2}}</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = y^x</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = \tan^{-1}(y/x)</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = \ln{(xy)}</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        Let <m>f_1(x,y) = x^2/(x^2 + y^2)</m>.
+        Find the limit of <m>f_1(x,y)</m> as
+        <m>(x,y) \to (0,0)</m> along the <m>x</m>-axis.
+        In other words,
+        find the (ordinary, 1-dimensional) limit of a suitable "slice function" obtained from <m>f_1</m>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Find the limit of <m>f_1(x,y)</m> as <m>(x,y) \to (0,0)</m> as
+        <m>(x,y) \to (0,0)</m> along the <m>y</m>-axis,
+        again using a slice function.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Does <m>\lim\limits_{(x,y) \to (0,0)} f_1 (x,y)</m> exist?
+        Why?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Now let <m>f_2(x,y) = xy/(x^2 + y^2)</m>.
+        Show that the limit of <m>f_2(x,y)</m> as
+        <m>(x,y) \to (0,0)</m> along either coordinate axis is 0.
+      </p>
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          Find the limit of <m>f_2(x,y)</m> as
+          <m>(x,y) \to (0,0)</m> along the line <m>y = x</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Does <m>\lim\limits_{(x,y) \to (0,0)} f_2 (x,y)</m> exist?
+          Why do you think so?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Finally, let <m>f_3(x,y) = x^2 y/(x^4 + y^2)</m>.
+          Show that the limit as <m>(x,y) \to (0,0)</m> along every line through the origin is <m>0</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Show that, nevertheless,
+          <m>\lim\limits_{(x,y) \to (0,0)} f_3 (x,y)</m> does not exist by letting <m>(x,y)</m> approach the origin along a suitable curve.
+        </p>
+      </statement>
+    </exercise>
+  </sidebyside>
+</worksheet>
+

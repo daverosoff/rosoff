@@ -1,0 +1,79 @@
+
+
+<worksheet xml:id="max-min-saddle">
+  <title>Math 275  Workshop 08: Optimization and second derivatives</title>
+  <exercise>
+    <statement>
+      <p>
+        Find all the stationary points (<m>\nabla f = 0</m>),
+        and use the second derivative test to classify them as maxima, minima,
+        or saddle points.
+      </p>
+
+      <task>
+        <p>
+          <m>f(x,y) = xy - x + y</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = x^2 - y^2 + 4y</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = xe^y - e^x</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f(x,y) = (x+y)^2 + (x+2y-6)^2</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Find and classify the stationary points of
+        <me>
+          f(x,y) = \sin{x} - \cos{y}
+        </me>
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Minimize <m>f(x,y) = x^2 + xy + y^2 - x - y</m> restricted by
+      </p>
+
+      <task>
+        <p>
+          <m>x \leq 0</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>y \geq 1</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>x \leq 0</m> and <m>y \geq 1</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

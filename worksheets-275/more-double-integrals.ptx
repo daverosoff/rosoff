@@ -1,0 +1,39 @@
+
+
+<worksheet xml:id="more-double-integrals">
+  <title>Math 275  Workshop 09a: More double integrals</title>
+  <exercise>
+    <statement>
+      <p>
+        Sketch the domain of integration.
+        Then change to polar coordinates and evaluate.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{x=-2}^2 \int_{y=0}^{\sqrt{4-x^2}} (x^2+y^2) \; dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{x=0}^{1/2} \int_{y = \sqrt{3}x}^{\sqrt{1-x^2}} x \; dy \; dx</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{y=0}^{5} \int_{x=0}^{y} x \; dx \; dy</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\displaystyle \int_{x=-1}^{2} \int_{y=0}^{\sqrt{4-x^2}} (x^2+y^2) \; dy \; dx</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

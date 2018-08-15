@@ -1,0 +1,130 @@
+
+
+<worksheet xml:id="planes-and-projections">
+  <title>Math 275  Workshop 02: Planes and projections</title>
+  <exercise>
+    <statement>
+      <p>
+        Find equations for the indicated planes.
+        Get the instructor to check your work.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          The plane through <m>P_0 = (3, -1, 2)</m> perpendicular to <m>\vec{N} = (0, 1, 1)</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          The plane through <m>P_0 = (3, -1, 2)</m> perpendicular to <m>\vec{N} = 2\ii - 2\jj - \kk</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          The plane through <m>P_0 = (x_0, y_0, z_0)</m> parallel to <m>x - y + 2z = 4</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise>
+      <statement>
+        <p>
+          The technology of normal vectors works in <m>\RR^3</m> because <m>1 + 2 = 3</m>.
+          There are 3 overall directions,
+          and a plane takes up 2 of them.
+          Just 1 direction is left over for the normal vector.
+          In the 4-dimensional space <m>\RR^4</m>,
+          a normal vector describes a 3-dimensional <em>hyperplane</em>.
+        </p>
+
+        <task workspace="10%">
+          <p>
+            Find the normal vector for the hyperplane
+            <me>
+              2x - 5y + z + 2t = 0
+            </me>.
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            By inspection (guess-and-check),
+            find two points <m>P</m> and <m>Q</m> that live on this hyperplane.
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            Check directly that <m>\overrightarrow{PQ} \cdot \vec{N} = 0</m>.
+          </p>
+        </task>
+
+      </statement>
+    </exercise>
+  </sidebyside>
+
+  <pagebreak />
+
+  <exercise>
+    <statement>
+      <p>
+        Find the projection <m>\vec{P}</m> of <m>\vec{B}</m> along <m>\vec{A}</m> (<m>\vec{P}</m> is sometimes called
+        <em>the vector projection of <m>\vec{B}</m> along <m>\vec{A}</m></em>).
+        Also find <m>\abs*{\vec{P}}</m> (sometimes called <em>the scalar projection of <m>\vec{B}</m> along <m>\vec{A}</m></em>).
+        Draw a picture of each projection.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          <m>\vec{A} = (2,3), \vec{B} = (1, -1)</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\vec{A} = (4, 2), \vec{B} = (1, -1)</m>
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          <m>\vec{A} = (1, -1), \vec{B} = (4, 2)</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <sidebyside>
+    <exercise xml:id="q_projalong">
+      <statement>
+        <p>
+          Give a formula <em>without coordinates</em>
+          (!) for the projection of <m>\vec{B}</m> along <m>\vec{A}</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="q_projperp">
+      <statement>
+        <p>
+          Use your answer to <xref ref="q_projalong" /> to get a formula
+          <em>without coordinates</em>
+          for the projection of <m>\vec{B}</m> perpendicular to <m>\vec{A}</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="10%">
+      <statement>
+        <p>
+          Check the dot product of your vectors from <xref ref="q_projalong" /> and <xref ref="q_projperp" />.
+        </p>
+      </statement>
+    </exercise>
+  </sidebyside>
+</worksheet>
+

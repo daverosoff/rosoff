@@ -1,0 +1,116 @@
+
+
+<worksheet xml:id="tangent-planes-linearization">
+  <title>Math 275  Workshop 05: Tangent planes and linearization</title>
+  <exercise>
+    <statement>
+      <p>
+        Find the equations of the tangent planes at the indicated points.
+      </p>
+
+      <task>
+        <p>
+          <m>f(x,y) = e^{x+2y}</m>, <m>P = (0,0,1)</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>H(u,w) = \sin{(uw)}</m>, <m>u = \pi/6</m>, <m>w = 1</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>V = \pi r^2 h</m>, <m>r = 2</m>, <m>h = 2</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>g(x,y) = \dfrac{x}{x+y}</m>,
+          <m>P = \left(1, 5, \dfrac{1}{6}\right)</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>16x^2 + y^2 + 4z^2 = 21</m>, <m>P = (1, 1, -1)</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>x^2 + y^2 + 2z^2 = 7</m>, <m>P = (1, 2, 1)</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <sidebyside>
+    <exercise xml:id="q_linear">
+      <statement>
+        <p>
+          If <m>z = 3x - 2y</m> find <m>dz</m> from <m>dx</m> and <m>dy</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="q_nonlinear">
+      <statement>
+        <p>
+          If <m>z = x^3/y^2</m> find <m>dz</m> from <m>dx</m> and <m>dy</m> at <m>x_0 = 1</m>,
+          <m>y_0 = 1</m>.
+        </p>
+      </statement>
+    </exercise>
+  </sidebyside>
+
+  <exercise workspace="1.70%">
+    <statement>
+      <p>
+        If <m>x</m> moves to <m>1.02</m> and <m>y</m> moves to <m>1.03</m>,
+        find <m>dz</m> and <m>\Delta z</m> for both functions from <xref ref="q_linear">problems</xref>
+        and <xref ref="q_nonlinear"></xref>.
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="0.30%">
+    <statement>
+      <p>
+        How are the surfaces <m>z = 3x-2y</m> and <m>z = x^3/y^2</m> related?
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        The gas equation for one mole of oxygen relates its pressure, <m>P</m>
+        (in atmospheres), its temperature,
+        <m>T</m> (in \si{K}), and its volume, <m>V</m> (in
+        cubic decimeters, <m>\si{dm^3}</m>):
+        <me>
+          T = 16.574 \frac{1}{V} - 0.54754 \frac{1}{V^2} - 0.3879 P + 12.187VP
+        </me>.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          Find the temperature <m>T</m> and differential <m>dT</m> if the volume is
+          <m>\SI{32}{dm^3}</m> and the pressure is \SI{0.5}{atm}.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          What is the change in volume if the pressure increases by
+          <m>\SI{0.1}{atm}</m> and the temperature remains constant?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

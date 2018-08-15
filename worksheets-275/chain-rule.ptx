@@ -1,0 +1,89 @@
+
+
+<worksheet xml:id="chain-rule">
+  <title>Math 275  Workshop 07: The chain rule, I</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Find <m>df/dt</m> from the chain rule.
+      </p>
+
+      <task>
+        <p>
+          <m>f = x^2 + y^2</m>, <m>x = t</m>, <m>y = t^2</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f = \sqrt{x^2 + y^2}</m>,
+          <m>x = t</m>, <m>y = t^2</m>
+        </p>
+      </task>
+
+      <task>
+        <p>
+          <m>f = x/y</m>, <m>x = e^t</m>, <m>y = 2e^t</m>
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Use the chain rule to solve the problems.
+        You will need to relate the evident variables first.
+      </p>
+
+      <task workspace="10%">
+        <p>
+          At <m>t = 0</m>, Nurl starts filling a snow-cone such that its height grows at a rate
+          <m>dh/dt = 1</m> and <m>dr/dt = 2</m>.
+          At what rate is the volume increasing when <m>t = 3</m>?
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <task workspace="10%">
+    <p>
+      If a rocket has speed <m>dx/dt = 6</m> down range and <m>dy/dt = 2t</m> upward,
+      how fast is it moving away from the launch point at <m>(0,0)</m>?
+      How fast is the angle <m>\theta</m> changing,
+      if <m>\tan{\theta} = y/x</m>? (<em>Hint.</em>
+      Differentiate <m>\tan{\theta}</m> implicitly with respect to <m>x</m> and <m>y</m>.)
+    </p>
+  </task>
+
+  <exercise>
+    <statement>
+      <p>
+        Let <m>r^2 = x^2 + y^2</m>. (This is Strang's favorite example.)
+      </p>
+
+      <task workspace="10%">
+        <p>
+          Show that
+          <me>
+            \frac{\dee^2 r}{\dee x^2} = \frac{y^2}{r^3}
+          </me>
+          directly, by finding <m>\dfrac{\dee}{\dee x} \dfrac{\dee r}{\dee x}</m>.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Now use the chain rule to derive the same result.
+          Start by recalling from your calculations above that <m>\dfrac{\dee r}{\dee x} = \dfrac{x}{r}</m>,
+          then differentiate both sides implicitly with respect to <m>x</m>.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

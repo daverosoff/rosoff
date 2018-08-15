@@ -1,0 +1,43 @@
+
+
+<worksheet xml:id="triple-integrals">
+  <title>Math 275  Workshop 10: Do me a solid</title>
+  <exercise workspace="10%">
+    <statement>
+      <p>
+        Find the limits of integration using
+        <m>dx \; dy \; dz</m> and find the volumes of the solids.
+        Draw pictures. (I suggest you solve these problems in order.)
+      </p>
+
+      <task xml:id="p_cube">
+        <p>
+          A cube with sides of length 2, centered at <m>(0,0,0)</m>.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Part of the same cube, the prism above the plane <m>z = y</m>.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          The tetrahedron bounded by planes <m>x = 0</m>,
+          <m>y = 0</m>, <m>z = 0</m>, and <m>x + y + 2z = 2</m>.
+        </p>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          The tetrahedron with corners <m>(0,0,0)</m>,
+          <m>(2,0,0)</m>, <m>(0,4,0)</m>, and <m>(0,0,4)</m>.
+          First find the plane through the last three corners.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+</worksheet>
+

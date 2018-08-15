@@ -1,0 +1,152 @@
+
+
+<worksheet xml:id="Functions-of-two-variables">
+  <title>Math 275  Functions of two variables</title>
+  <exercise>
+    <statement>
+      <p>
+        The table below gives the cost, <m>C</m>
+        (in dollars),
+        of driving 500 miles as a function of the price, <m>y</m>
+        (in dollars per gallon),
+        and the fuel economy, <m>x</m>
+        (in miles per gallon or mpg),
+        of the car.
+        Sketch contours for <m>C = 45</m>, <m>55</m>, <m>65</m>,
+        and so on, up through <m>105</m>, directly on the table.
+      </p>
+
+      <figure>
+        <image width="73%" source="images/table.png" />
+      </figure>
+
+      <task>
+        <p>
+          If the cost, <m>C</m>,
+          of driving 500 miles is given by <m>C(x,y)</m> according to the above table,
+          find <m>C(3.60,26)</m> and interpret it.
+        </p>
+
+        <task>
+          <p>
+            Value:
+          </p>
+        </task>
+
+        <task workspace="10%">
+          <p>
+            Interpretation:
+          </p>
+        </task>
+      </task>
+
+      <task workspace="10%">
+        <p>
+          Regular unleaded gasoline costs about <dollar />3.85/gallon this week.
+          Find a formula for <m>C(3.85, y)</m>.
+          Use your formula to plot this function in Sage.
+          Write down the Sage command you used below.
+        </p>
+      </task>
+
+    </statement>
+  </exercise>
+
+  <pagebreak />
+
+  <task workspace="10%">
+    <p>
+      Explain the significance of <m>C(x,26)</m> in terms of driving costs.
+      Find a formula for <m>C(x,26)</m>.
+    </p>
+  </task>
+
+  <task workspace="10%">
+    <p>
+      Use Sage to plot <m>C(x,26)</m>.
+      Write the Sage command(s) you used below.
+    </p>
+  </task>
+
+  <exercise>
+    <statement>
+      <p>
+        Label the local extrema on the following contour plots.
+        Say whether each extreme point is a maximum or a minimum.
+      </p>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[view={0}{90}, axis lines=middle,
+          xmin=-1, xmax=1,
+          ymin=-1, ymax=1,
+          zmin=-1, zmax=1,
+          enlargelimits=false,
+          xlabel=\(x\), ylabel=\(y\),
+          plot box ratio=1,
+          every node/.style = {circle, fill=black, thick, minimum size=1pt}]
+          \addplot3[contour gnuplot={levels={-0.3,-0.2,-0.1,0,0.1,0.2,0.3}},thick,
+          samples=100, 
+          contour/draw color={black},
+          contour/contour label style={nodes={text=black}}]
+          {8*y^4+x^2+x*y-3*y^2-y^3};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[view={0}{90}, axis lines=middle,
+          xmin=-2, xmax=2,
+          ymin=-2, ymax=2,
+          zmin=-2, zmax=2,
+          enlargelimits=false,
+          xlabel=\(x\), ylabel=\(y\),
+          plot box ratio=1,
+          every node/.style = {circle, fill=black, thick, minimum size=1pt}]
+          \addplot3[contour gnuplot={levels={-3,-2.5,-2,-1.5,-1,-0.5,0,0.5,1,1.5,2,2.5,3}},thick,
+          samples=100, 
+          contour/draw color={black},
+          contour/contour label style={nodes={text=black}}]
+          {x^3-x*y+y^3};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[view={0}{90}, axis lines=middle,
+          xmin=-1, xmax=1,
+          ymin=-1, ymax=1,
+          zmin=-0.5, zmax=0.5,
+          enlargelimits=false,
+          xlabel=\(x\), ylabel=\(y\),
+          plot box ratio=1,
+          every node/.style = {circle, fill=black, thick, minimum size=1pt}]
+          \addplot3[contour gnuplot={levels={-2,-1.5,-1,-0.5,0,0.5,1,1.5,2}},thick,
+          samples=80, 
+          contour/draw color={black},
+          contour/contour label style={nodes={text=black}}]
+          {(x-y)*exp(x^2-y^2)};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+      <image>
+        <latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[view={0}{90}, axis lines=middle,
+          xmin=-1, xmax=1,
+          ymin=-1, ymax=1,
+          zmin=-0.5, zmax=0.5,
+          enlargelimits=false,
+          xlabel=\(x\), ylabel=\(y\),
+          plot box ratio=1,
+          every node/.style = {circle, fill=black, thick, minimum size=1pt}]
+          \addplot3[contour gnuplot={levels={-4,-3,-2,-1,0,1,2,3,4}},thick,
+          samples=80, 
+          contour/draw color={black},
+          contour/contour label style={nodes={text=black}}]
+          {x^3+y^4-6*x-2*y^2};
+          \end{axis}\end{tikzpicture}]]>
+        </latex-image>
+      </image>
+    </statement>
+  </exercise>
+</worksheet>
+

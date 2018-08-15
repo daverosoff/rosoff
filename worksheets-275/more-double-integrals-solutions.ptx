@@ -1,0 +1,113 @@
+
+
+<worksheet xml:id="more-double-integrals-solutions">
+  <title>Math 275  Workshop 09a: More double integrals</title>
+  <exercise>
+    <p>
+      Sketch the domain of integration.
+      Then change to polar coordinates and evaluate.
+    </p>
+
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{x=-2}^2 \int_{y=0}^{\sqrt{4-x^2}} (x^2+y^2) \; dy \; dx</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The region is the upper semidisk of radius <m>2</m>,
+          defined by the inequalities
+          <md>
+            <mrow>0 \amp \leq r \leq 2</mrow>
+            <mrow>0 \amp \leq \theta \leq \pi</mrow>
+          </md>.
+        </p>
+
+        <p>
+          We integrate <m>x^2 + y^2 = r^2</m> over this semidisk:
+          <md>
+            <mrow>\iint_{R} x^2 + y^2 \; dA \amp = \int_{0}^{\pi} \int_{0}^2 r^2 \cdot r \; dr \; d\theta</mrow>
+            <mrow>\amp = \int_0^{\pi} \left.\frac{r^4}{4}\right|_{0}^2 \; d\theta</mrow>
+            <mrow>\amp = \int_0^{\pi} 4 \; d\theta = 4\pi</mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{x=0}^{1/2} \int_{y = \sqrt{3}x}^{\sqrt{1-x^2}} x \; dy \; dx</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The region is the circular sector bounded by the lines <m>y = \sqrt{3} \cdot x</m> and <m>x = 0</m> and
+          the upper semicircle <m>y = \sqrt{1 - x^2}</m>.
+          The first line is <m>\theta = \pi/3</m> and the second is
+          <m>\theta = \pi/2</m>, so the integral becomes
+          <md>
+            <mrow>\iint_{R} x \; dA \amp = \int_{\pi/3}^{\pi/2} \int_{0}^{1} r \cos \theta r \; dr \; d\theta</mrow>
+            <mrow>\amp = \int_{\pi/3}^{\pi/2} \left[\frac{r^3}{3}\right]_{0}^{1} \cos\theta \; d\theta
+            = \int_{\pi/3}^{\pi/2} \frac{\cos \theta}{3} \; d\theta</mrow>
+            <mrow>\amp = \frac{1}{3} \sin \theta\Big|_{\pi/3}^{\pi/2} = \frac{1}{3} \left(1 - \frac{\sqrt{3}}{2}\right)</mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+
+    <task>
+      <p>
+        <m>\displaystyle \int_{y=0}^{5} \int_{x=0}^{y} x \; dx \; dy</m>
+      </p>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          <m>\displaystyle \int_{x=-1}^{2} \int_{y=0}^{\sqrt{4-x^2}} (x^2+y^2) \; dy \; dx</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          This is similar to part (b),
+          except that the vertical line <m>x = -1</m> has a less convenient
+          polar form.
+          The region decomposes as the union of a sector with aperture <m>2\pi/3</m> and a triangle.
+          <md>
+            <mrow>\iint_R x^2 + y^2 \; dA \amp = \int_{0}^{2\pi/3} \int_{0}^{2} r^2 \cdot r \; dr \; d\theta
+            + \int_{2\pi/3}^{\pi} \int_{0}^{-\sec\theta} r^2 \cdot r \; dr \; d\theta</mrow>
+            <mrow>\amp = \int_{0}^{2\pi/3} \left.\frac{r^4}{4}\right|_{0}^2 \; d\theta
+            + \int_{2\pi/3}^{\pi} \left.\frac{r^4}{4}\right|_{0}^{-\sec\theta} \; d\theta</mrow>
+            <mrow>\amp = \int_{0}^{2\pi/3} 4\; d\theta + \int_{2\pi/3}^{\pi} \frac{1}{4}\sec^{4}\theta \; d\theta</mrow>
+          </md>.
+        </p>
+
+        <p>
+          To integrate <m>\sec^{4} \theta</m>,
+          recall that <m>\sec^2 \theta = \tan^2 \theta + 1</m>, so that
+          <me>
+            \int \sec^4 \theta \; d \theta = \int (\tan^2 \theta + 1) \sec^2 \theta \; d \theta
+            = \int \tan^2 \theta \sec^2 \theta \; d \theta + \int \sec^2 \theta \; d \theta
+            = \frac{\tan^3 \theta}{3} + \tan \theta
+          </me>,
+          where we have suppressed the constant of integration.
+          Returning to the double integral, we
+          find that
+          <md>
+            <mrow>\int_{0}^{2\pi/3} 4\; d\theta + \int_{2\pi/3}^{\pi} \frac{1}{4}\sec^{4}\theta \; d\theta
+            \amp = \frac{8\pi}{3} + \frac{1}{4}\left[\frac{\tan^3 \theta}{3} + \tan \theta\right]_{2\pi/3}^{\pi}</mrow>
+            <mrow>\amp = \frac{8\pi}{3} + \frac{1}{4}\left(\frac{\tan^3 \pi}{3} + \tan \pi \right)
+            - \frac{1}{4}\left(\frac{\tan^3 2\pi/3}{3} + \tan 2\pi/3\right)</mrow>
+            <mrow>\amp = \frac{8\pi}{3} + \frac{1}{4}\left(0 - 0\right) - \frac{1}{4}\left(-\sqrt{3} - \sqrt{3}\right)</mrow>
+            <mrow>\amp = \frac{8\pi}{3} + \frac{1}{2}\sqrt{3}</mrow>
+            <mrow>\amp = \frac{8\pi}{3} + \frac{\sqrt{3}}{2}</mrow>
+          </md>.
+        </p>
+      </solution>
+    </task>
+
+  </exercise>
+</worksheet>
+
