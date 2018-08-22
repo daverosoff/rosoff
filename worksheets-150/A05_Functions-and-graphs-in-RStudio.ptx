@@ -8,7 +8,7 @@
       <task workspace="10%">
         <p>
           Define a function <m>\mathit{Line} = mx + b</m>.
-          That is, your function is named \mathit{Line} and uses three variables <m>m</m>, <m>b</m>,
+          That is, your function is named <m>\mathit{Line}</m> and uses three variables <m>m</m>, <m>b</m>,
           and <m>x</m>.
           Record the R command you used below.
         </p>
@@ -29,7 +29,7 @@
 
       <task>
         <p>
-          Use \mathit{Line} with the same values for <m>m</m> and <m>b</m> to graph the line.
+          Use <m>\mathit{Line}</m> with the same values for <m>m</m> and <m>b</m> to graph the line.
           Record the R command you used below.
         </p>
       </task>
@@ -59,7 +59,7 @@
   <exercise>
     <statement>
       <p>
-        Use the R command \lstinline!housing = fetchData("Income-Housing.csv")! to open a data file. (The name of the file is <c>Income-Housing.csv</c>.)
+        Use the R command <c>housing = fetchData("Income-Housing.csv")</c> to open a data file. (The name of the file is <c>Income-Housing.csv</c>.)
       </p>
 
       <p>
