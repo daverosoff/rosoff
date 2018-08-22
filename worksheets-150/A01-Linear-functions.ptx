@@ -61,7 +61,7 @@
         </task>
 
         <p>
-          <image width="73%" source="figure/graph.pdf" />
+          <image width="73%" source="images/graph.pdf" />
         </p>
       </statement>
     </exercise>
@@ -137,7 +137,7 @@
         </p>
         <tabular>
           <row>
-            <cell>\toprule
+            <cell><!-- \toprule -->
             <m>x</m></cell>
             <cell><m>y</m></cell>
             <cell><m>x</m></cell>
@@ -146,7 +146,7 @@
             <cell><m>y</m></cell>
           </row>
           <row>
-            <cell>\midrule
+            <cell><!-- \midrule -->
             33.5</cell>
             <cell>332</cell>
             <cell>37.5</cell>
@@ -179,7 +179,7 @@
             <cell></cell>
           </row>
           <row>
-            <cell>\bottomrule</cell>
+            <!-- <cell>\bottomrule</cell> -->
           </row>
         </tabular>
       </statement>
