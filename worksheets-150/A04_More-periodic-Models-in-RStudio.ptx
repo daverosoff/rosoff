@@ -10,7 +10,7 @@
       </p>
       <tabular>
         <row>
-          <cell>\toprule
+          <cell><!-- \toprule -->
           <m>x</m></cell>
           <cell><m>0</m></cell>
           <cell><m>2</m></cell>
@@ -21,7 +21,7 @@
           <cell><m>12</m></cell>
         </row>
         <row>
-          <cell>\midrule
+          <cell><!-- \midrule -->
           <m>f(x)</m></cell>
           <cell><m>5</m></cell>
           <cell><m>0</m></cell>
@@ -32,7 +32,7 @@
           <cell><m>-5</m></cell>
         </row>
         <row>
-          <cell>\bottomrule</cell>
+          <!-- <cell>\bottomrule</cell> -->
         </row>
       </tabular>
 
@@ -170,7 +170,7 @@
       </p>
 
       <p>
-        \lstinline!plotFun(A*x^2<nbsp />A, A.lim=range(-2,2), x=3)!
+        <c>plotFun(A*x^2<nbsp />A, A.lim=range(-2,2), x=3)</c>
       </p>
 
       <p>
