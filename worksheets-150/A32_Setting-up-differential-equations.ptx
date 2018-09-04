@@ -6,68 +6,88 @@
     <statement>
       <p>
         What is a differential equation?
-        Give a definition and two examples.
+        Give a definition and two
+        examples.
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
-        For each of the following situations,
-        sketch a graph that is a plausible representation of the function.
-        Also, label the axes appropriately.
+        For each of the following situations, sketch a graph that
+        is a plausible representation of the function.
+        Also, label the
+        axes appropriately.
       </p>
 
       <task>
         <p>
-          The temperature of a glass of ice-water left on a kitchen table.
+          The temperature of a glass of ice-water left on a
+          kitchen table.
         </p>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}[xscale=0.42, yscale=0.42]
-            \draw[style={gray, thick}] (0,0) grid (18,12);
-            \draw[<->, style={black, very thick}] (0,0) -- (0,12);\end{tikzpicture}]]>
-          </latex-image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.42, yscale=0.42]
+                \draw[style={gray, thick}] (0,0) grid (18,12);
+                \draw[<->, style={black, very thick}] (0,0) -- (0,12);\end{tikzpicture}]]>
+</latex-image>
         </image>
+
       </task>
 
       <task>
         <p>
-          The amount of money in an interest-bearing bank account into which <m>\SI{50}[\dollar]{}</m> is deposited.
+          The amount of money in an interest-bearing bank account
+          into which <m>\SI{50}[\dollar]{}</m> is deposited.
         </p>
-        <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}[xscale=0.42, yscale=0.42]
-            \draw[style={gray, thick}] (0,0) grid (18,12);
-            \draw[<->, style={black, very thick}] (0,0) -- (0,12);\end{tikzpicture}]]>
-          </latex-image>
-        </image>
-      </task>
 
+        <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.42, yscale=0.42]
+                \draw[style={gray, thick}] (0,0) grid (18,12);
+                \draw[<->, style={black, very thick}] (0,0) -- (0,12);\end{tikzpicture}]]>
+</latex-image>
+        </image>
+
+      </task>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
-        A cup of coffee contains about <m>\SI{100}{mg}</m> of caffeine.
-        Caffeine is metabolized and leaves the body at a continuous rate of about <m>\SI{17}{\%}</m> every hour.
+        A cup of coffee contains about
+        <quantity><mag>100</mag><unit prefix="mili" base="gram"/></quantity>
+        of caffeine.
+        Caffeine is metabolized and leaves the body at a continuous rate of about
+        <quantity><mag>17</mag><unit base="percent"/></quantity>
+        every hour.
       </p>
 
       <task workspace="10%">
         <p>
           Write a differential equation for the amount, <m>A</m>,
-          of caffeine in the body as a function of the number of hours,
-          <m>t</m>, since the coffee was consumed.
+          of caffeine
+          in the body as a function of the number of hours, <m>t</m>,
+          since the
+          coffee was consumed.
         </p>
       </task>
 
       <task workspace="20%">
         <p>
-          Use the differential equation to find <m>dA/dt</m> at the start of the first hour (right after the coffee is consumed).
-          Use your answer to estimate the change in the amount of caffeine during the first hour.
+          Use the differential equation to find <m>dA/dt</m> at the start of
+          the first hour
+          (right after the coffee is consumed).
+          Use your answer
+          to estimate the change in the amount of caffeine during the first
+          hour.
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -76,10 +96,10 @@
   <exercise>
     <statement>
       <p>
-        Fill in the missing values in the table below,
-        given that <m>dy/dt = -0.5 y</m>.
-        Assume the rate of growth, given by <m>dy/dt</m>,
-        is approximately constant over each unit time interval.
+        Fill in the missing values in the table below, given that
+        <m>dy/dt = -0.5 y</m>.
+        Assume the rate of growth, given by <m>dy/dt</m>, is
+        approximately constant over each unit time interval.
       </p>
 
       <p>
@@ -87,22 +107,25 @@
       </p>
 
       <p>
-        \hline <m>y</m>
+        \hline
+        <m>y</m>
       </p>
 
       <p>
         Keep in mind the following two precepts to guide your thinking:
+
         <ol type="i">
           <li>
             <p>
-              You are writing down a <em>differential equation</em>,
-              not a formula for the quantity of interest.
+              You are writing down a <em>differential equation</em>, not a
+              formula for the quantity of interest.
             </p>
           </li>
 
           <li>
             <p>
-              The net rate of change of the quantity may be easily expressed as a difference of the form:
+              The net rate of change of the quantity may be easily expressed
+              as a difference of the form:
               <m>\mathbf{\text{ rate } _{\text{ in } } - \text{ rate } _{\text{ out } }}</m>.
             </p>
           </li>
@@ -110,6 +133,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -121,29 +145,41 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
-        Radioactive substances decay at a rate proportional to the amount of the substance that is present.
-        Write a differential equation for the quantity, <m>Q</m>,
-        of a radioactive substance present at time <m>t</m>. (It would make sense to measure <m>Q</m> in either grams or number of atoms.) Is the constant of proportionality positive or negative?
+        Radioactive substances decay at a rate proportional to the
+        amount of the substance that is present.
+        Write a differential equation
+        for the quantity, <m>Q</m>,
+        of a radioactive substance present at time <m>t</m>.
+        (It would make sense to measure <m>Q</m> in either grams or number of atoms.)
+        Is the constant of proportionality positive or negative?
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
-        A person consumes 10 micrograms (<m>\SI{1}{\micro\gram} = \SI[scientific-notation=true]{0.000001}{g}</m>) a day of toxin.
-        This toxin is ingested throughout the day.
-        It leaves the body at a continuous rate of <m>\SI{3}{\%}</m> every day.
-        Write a differential equation for the amount of toxin, <m>A</m>,
-        in micrograms,
-        in the person's body as a function of the number of days, <m>t</m>.
+        A person consumes 10 micrograms (<m>\lt quantity>\lt mag>1\lt /mag>\lt unit prefix="micro" base="gram"/>\lt /quantity> =
+        \SI[scientific-notation=true]{0.000001}{g}</m>) a day of toxin.
+        This toxin is ingested
+        throughout the day.
+        It leaves the body at a continuous rate of
+        <quantity><mag>3</mag><unit base="percent"/></quantity>
+        every day.
+        Write a differential equation for the amount
+        of toxin, <m>A</m>, in micrograms,
+        in the person's body as a function of
+        the number of days, <m>t</m>.
       </p>
     </statement>
   </exercise>
 
   <sidebyside>
+
     <exercise workspace="20%">
       <statement>
         <p>
@@ -152,6 +188,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
@@ -165,9 +202,9 @@
         <task workspace="20%">
           What must <m>C</m> and <m>k</m> be if <m>P = C e^{kt}</m> also satisfies the condition <m>P = 8</m> when <m>t = 0</m>?
         </task>
-
       </statement>
     </exercise>
+
   </sidebyside>
 </worksheet>
 

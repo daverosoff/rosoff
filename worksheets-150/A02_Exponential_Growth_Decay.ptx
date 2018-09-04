@@ -5,8 +5,7 @@
   <exercise workspace="10%">
     <statement>
       <p>
-        <em>Doubling time</em>
-        is the time required for an exponentially increasing quantity to double.
+        <em>Doubling time</em> is the time required for an exponentially increasing quantity to double.
       </p>
 
       <task xml:id="x2formsexp">
@@ -42,9 +41,9 @@
           Now write a function for the same quantity from<nbsp /><xref ref="findexpmodel" /> using the other form.
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="50%">
     <statement>
       <p>
@@ -52,6 +51,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -76,7 +76,6 @@
           When will the balance in the account be <dollar />1500?
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -97,6 +96,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -120,15 +120,14 @@
 
       <task>
         <p>
-          In general,
-          how do you find <m>k</m> for a quantity with a half-life of <m>h</m> years?
+          In general, how do you find <m>k</m> for a quantity with a half-life of <m>h</m> years?
         </p>
       </task>
-
     </statement>
   </exercise>
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
@@ -153,6 +152,7 @@
         </p>
       </statement>
     </exercise>
+
   </sidebyside>
 </worksheet>
 

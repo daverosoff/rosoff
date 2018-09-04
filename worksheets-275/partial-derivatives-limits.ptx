@@ -81,7 +81,6 @@
           <m>f(x,y) = \ln{(xy)}</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -98,6 +97,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -107,6 +107,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -115,6 +116,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -126,6 +128,7 @@
   </exercise>
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
@@ -134,6 +137,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
@@ -142,6 +146,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
@@ -150,6 +155,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
@@ -158,6 +164,7 @@
         </p>
       </statement>
     </exercise>
+
   </sidebyside>
 </worksheet>
 

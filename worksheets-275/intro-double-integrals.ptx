@@ -43,7 +43,6 @@
           <m>\displaystyle \int_{-1}^{1} \int_{x=y}^{\abs{y}} dx \; dy</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -52,8 +51,10 @@
   <exercise>
     <statement>
       <p>
-        Reverse the order of integration and find the new limits (the integrals are the same ones from the front side,
-        reproduced for your convenience).
+        Reverse the order of integration and find the new limits
+        (the
+        integrals are the same ones from the front side, reproduced for your
+        convenience).
       </p>
 
       <task workspace="10%">
@@ -91,7 +92,6 @@
           <m>\displaystyle \int_{-1}^{1} \int_{x=y}^{\abs{y}} dx \; dy</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

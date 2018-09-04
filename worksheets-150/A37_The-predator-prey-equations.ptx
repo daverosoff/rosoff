@@ -7,28 +7,33 @@
       <mrow>\frac{dx}{dt} \amp = 2x - 2xy</mrow>
       <mrow>\frac{dy}{dt} \amp = 2xy - 2y</mrow>
     </md>.
+
     <image>
-      <latex-image>
-        <![CDATA[\begin{tikzpicture}[
-        declare function={f(\x,\y) = 2*(x-x*y);
-        g(\x,\y) = 2*(x*y-y);} 
-        ]
-        \begin{axis}[
-        xlabel=healthy (in tens of thousands),
-        ylabel=zombie (in thousands),
-        slopefield,
-        title={A predator--prey system},
-        ]
-        \addplot3 (x,y,0);
-        \end{axis}\end{tikzpicture}]]>
-      </latex-image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[
+                declare function={f(\x,\y) = 2*(x-x*y);
+                g(\x,\y) = 2*(x*y-y);} 
+            ]
+            \begin{axis}[
+                xlabel=healthy (in tens of thousands),
+                ylabel=zombie (in thousands),
+                slopefield,
+                title={A predator--prey system},
+            ]
+                \addplot3 (x,y,0);
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
     </image>
+
     <exercise>
       <statement>
         <p>
-          The integral curves of this slope field are <em>closed</em>.
+          The integral curves of this slope field are
+          <em>closed</em>.
           This means they loop back on themselves.
-          Draw the integral curves of the slope field that pass through the following points:
+          Draw the
+          integral curves of the slope field that pass through the following points:
         </p>
 
         <task>
@@ -54,9 +59,9 @@
         <task>
           <m>(1,1)</m>
         </task>
-
       </statement>
     </exercise>
+
   </sidebyside>
 
   <exercise>
@@ -82,7 +87,6 @@
         measure <m>x = 1</m> and <m>y = 1</m>. Make a conjecture about what will they
         will observe a short time later.
       </task>
-
     </statement>
   </exercise>
 
@@ -98,20 +102,22 @@
           <mrow>\frac{dy}{dt} \amp = 2xy - 2y</mrow>
         </md>.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[
-          declare function={f(\x,\y) = 2*(x-x*y);
-          g(\x,\y) = 2*(x*y-y);} 
-          ]
-          \begin{axis}[
-          xlabel=healthy (in tens of thousands),
-          ylabel=zombie (in thousands),
-          slopefield,
-          ]
-          \addplot3 (x,y,0);
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                declare function={f(\x,\y) = 2*(x-x*y);
+                g(\x,\y) = 2*(x*y-y);} 
+            ]
+            \begin{axis}[
+                xlabel=healthy (in tens of thousands),
+                ylabel=zombie (in thousands),
+                slopefield,
+            ]
+                \addplot3 (x,y,0);
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
 
       <task>
@@ -122,27 +128,32 @@
 
       <task>
         <p>
-          Use part (a) to estimate the populations when <m>t=1</m>.
+          Use part (a)
+          to estimate the populations when <m>t=1</m>.
         </p>
       </task>
 
       <task>
         <p>
-          Use part (a) to estimate the populations when <m>t=0.25</m>.
+          Use part (a)
+          to estimate the populations when <m>t=0.25</m>.
           Add appropriate details to the picture.
         </p>
       </task>
 
       <task workspace="20%">
         <p>
-          Use your answer from (c) and the same technique to estimate how many humans and zombies will be alive at <m>t = 0.50</m>.
+          Use your answer from (c) and the same technique to
+          estimate how many humans and zombies will be alive at
+          <m>t = 0.50</m>.
           Add this to the picture.
         </p>
       </task>
 
       <task workspace="40%">
         <p>
-          Continue this process to get estimates for <m>t=0.75</m> and <m>t = 1</m>,
+          Continue this process to get estimates
+          for <m>t=0.75</m> and <m>t = 1</m>,
           adding to the picture as you go.
         </p>
       </task>
@@ -152,7 +163,6 @@
           Does it look like either population will eventually die out?
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

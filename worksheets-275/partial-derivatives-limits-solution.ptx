@@ -22,12 +22,12 @@
       </p>
 
       <p>
-        The <q>cancellation</q>
-        <m>x^2/x^2 = 1</m> is valid when <m>x \ne 0</m>,
+        The <q>cancellation</q> <m>x^2/x^2 = 1</m> is valid when <m>x \ne 0</m>,
         so the two functions have the same limit at <m>0</m>.
       </p>
     </solution>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -46,12 +46,13 @@
       </p>
 
       <p>
-        The <q>simplification</q>
-        <m>0/y^2</m> is valid when <m>y \ne 0</m>,
-        so the two functions have the same limit at <m>0</m>.
+        The <q>simplification</q> <m>0/y^2</m> is valid when <m>y \ne 0</m>,
+        so the two
+        functions have the same limit at <m>0</m>.
       </p>
     </solution>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -62,10 +63,12 @@
     <solution>
       <p>
         It does not,
-        because the one-dimensional limits obtained above do not agree.
+        because the one-dimensional limits obtained above do not
+        agree.
       </p>
     </solution>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -77,6 +80,7 @@
   </exercise>
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
@@ -85,6 +89,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
@@ -93,6 +98,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
@@ -101,6 +107,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
@@ -109,6 +116,7 @@
         </p>
       </statement>
     </exercise>
+
   </sidebyside>
 </worksheet>
 

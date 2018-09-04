@@ -5,8 +5,8 @@
   <exercise>
     <statement>
       <p>
-        For each item below,
-        record the appropriate derivative rule along with any notes that might be helpful to you later.
+        For each item below, record the appropriate derivative rule along
+        with any notes that might be helpful to you later.
       </p>
 
       <task>
@@ -38,9 +38,9 @@
           Chain Rule
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -70,9 +70,9 @@
           Find <m>h'(t)</m>.
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -88,17 +88,18 @@
       <task workspace="10%">
         <p>
           Find <m>dB/dt</m>, assuming <m>P</m> and <m>r</m> are constant.
-          In terms of money, what does <m>dB/dt</m> represent?
+          In terms of
+          money, what does <m>dB/dt</m> represent?
         </p>
       </task>
 
       <task workspace="10%">
         <p>
           Find <m>dB/dr</m>, assuming <m>P</m> and <m>t</m> are constant.
-          In terms of money, what does <m>dB/dr</m> represent?
+          In terms of
+          money, what does <m>dB/dr</m> represent?
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -120,31 +121,35 @@
         <p>
           Graph <m>f(t)</m> for <m>0 \leq t \leq 24</m>.
         </p>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}\begin{axis}[
-            axis x line=middle,
-            axis y line=middle,
-            xlabel=\(t\),
-            ylabel=\(f(t)\),
-            xmin=0, xmax=24,
-            ymin=7, ymax=30,
-            xtick={0, 3, 6, 9, 12, 15, 18, 21, 24},
-            ytick={10, 13, 16, 19, 22, 25, 28},
-            yticklabel=,
-            grid=both,
-            width=\linewidth,
-            height=\linewidth,
-            enlargelimits=false
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+                axis x line=middle,
+                axis y line=middle,
+                xlabel=\(t\),
+                ylabel=\(f(t)\),
+                xmin=0, xmax=24,
+                ymin=7, ymax=30,
+                xtick={0, 3, 6, 9, 12, 15, 18, 21, 24},
+                ytick={10, 13, 16, 19, 22, 25, 28},
+                yticklabel=,
+                grid=both,
+                width=\linewidth,
+                height=\linewidth,
+                enlargelimits=false
             ]
             \end{axis}\end{tikzpicture}]]>
-          </latex-image>
+</latex-image>
         </image>
+
       </task>
 
       <task workspace="20%">
         <p>
-          Find <m>f'(t)</m> (using the rules).
+          Find <m>f'(t)</m>
+          (using the rules).
         </p>
       </task>
 
@@ -170,11 +175,11 @@
           <m>f'(10) =</m> <fillin characters="10"/>
         </p>
       </task>
-
     </statement>
   </exercise>
 
   <sidebyside>
+
     <exercise workspace="10%">
       <statement>
         <p>
@@ -194,6 +199,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
@@ -209,14 +215,15 @@
 
         <task workspace="10%">
           <p>
-            What do the values of <m>f</m> and <m>df/dp</m> tell you about the sales of skateboards?
+            What do the values of <m>f</m> and <m>df/dp</m> tell you
+            about the sales of skateboards?
           </p>
         </task>
 
         <task workspace="10%">
           <p>
-            The total revenue, <m>R</m>,
-            earned by the sale of skateboards is <m>R = pq</m>.
+            The total revenue, <m>R</m>, earned by the sale of skateboards is
+            <m>R = pq</m>.
             Find <m>\left.\dfrac{dR}{dp}\right|_{p=140}</m>.
           </p>
         </task>
@@ -227,9 +234,9 @@
             <m>\SI{140}[\dollar]{}</m> to <m>\SI{141}[\dollar]{}</m>?
           </p>
         </task>
-
       </statement>
     </exercise>
+
   </sidebyside>
 </worksheet>
 

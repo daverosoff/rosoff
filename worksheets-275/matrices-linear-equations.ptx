@@ -17,42 +17,48 @@
         Refer to 11.4 as needed. <em>Hint</em>.
         Work on the board until you are sure you know what picture to draw.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}\begin{axis}[
-          xmin=-2, xmax=6,
-          ymin=-2, ymax=6,
-          xtick={-2,0,2,4,6},
-          ytick={-2,0,2,4,6},
-          minor x tick num = 1,
-          minor y tick num = 1,
-          grid=both,
-          enlargelimits=true,
-          plot box ratio=1,
-          axis lines=middle
-          ]
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+        xmin=-2, xmax=6,
+        ymin=-2, ymax=6,
+        xtick={-2,0,2,4,6},
+        ytick={-2,0,2,4,6},
+        minor x tick num = 1,
+        minor y tick num = 1,
+        grid=both,
+        enlargelimits=true,
+        plot box ratio=1,
+        axis lines=middle
+      ]
+      \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}\begin{axis}[
-          xmin=-2, xmax=8,
-          ymin=-2, ymax=6,
-          xtick={-2,0,2,4,6,8},
-          ytick={-2,0,2,4,6},
-          minor x tick num = 1,
-          minor y tick num = 1,
-          grid=both,
-          enlargelimits=false,
-          plot box ratio=1,
-          axis lines=middle
-          ]
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+        xmin=-2, xmax=8,
+        ymin=-2, ymax=6,
+        xtick={-2,0,2,4,6,8},
+        ytick={-2,0,2,4,6},
+        minor x tick num = 1,
+        minor y tick num = 1,
+        grid=both,
+        enlargelimits=false,
+        plot box ratio=1,
+        axis lines=middle
+      ]
+      \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
     </statement>
   </exercise>
+
   <exercise xml:id="q_multiply">
     <statement>
       <p>
@@ -77,7 +83,9 @@
         </p>
 
         <p>
-          <m>A\vec{u} = \begin{bmatrix}a_1 \amp b_1 \\ a_2 \amp b_2 \end{bmatrix} \begin{bmatrix}x \\ y \end{bmatrix} =</m>
+          <m>A\vec{u} = \begin{bmatrix}a_1 \amp b_1 \\ a_2 \amp b_2
+          \end{bmatrix} \begin{bmatrix}x \\ y
+          \end{bmatrix} =</m>
         </p>
       </task>
 
@@ -87,12 +95,14 @@
         </p>
 
         <p>
-          <m>A\vec{u} = \begin{bmatrix}a_1 \amp b_1 \\ a_2 \amp b_2 \end{bmatrix} \begin{bmatrix}x \\ y \end{bmatrix} =</m>
+          <m>A\vec{u} = \begin{bmatrix}a_1 \amp b_1 \\ a_2 \amp b_2
+          \end{bmatrix} \begin{bmatrix}x \\ y
+          \end{bmatrix} =</m>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise xml:id="q_inverse">
     <statement>
       <p>
@@ -120,7 +130,6 @@
           <m>A^{-1} =</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -129,12 +138,14 @@
   <exercise xml:id="q_ckproduct">
     <statement>
       <p>
-        Verify by using your formula(s) from <xref ref="q_multiply">Question</xref>
-        and <xref ref="q_inverse">Question</xref>
-        that the product of the rotation matrix with its inverse is the 2-by-2 identity matrix.
+        Verify by using your formula(s) from
+        <xref ref="q_multiply">Question</xref>
+        and <xref ref="q_inverse">Question</xref> that the product
+        of the rotation matrix with its inverse is the 2-by-2 identity matrix.
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -154,8 +165,10 @@
 
       <task workspace="20%">
         <p>
-          Find the combination <m>\vec{p} = x\vec{a} + y\vec{b}</m> of the vectors <m>\vec{a} = (1,1,1)</m> and
-          <m>\vec{b} = (-1,0,1)</m> that comes closest to <m>\vec{d} = (2,6,4)</m>.
+          Find the combination <m>\vec{p} = x\vec{a} + y\vec{b}</m> of the vectors
+          <m>\vec{a} = (1,1,1)</m> and
+          <m>\vec{b} = (-1,0,1)</m> that comes closest to <m>\vec{d}
+          = (2,6,4)</m>.
           First, solve the normal equations for <m>x</m> and <m>y</m>.
           For extra glory, draw the row and column pictures.
         </p>
@@ -163,11 +176,10 @@
 
       <task workspace="10%">
         <p>
-          Then, check that the error
-          <m>\vec{p} - \vec{d}</m> is perpendicular to the vectors <m>\vec{a}</m> and <m>\vec{b}</m>.
+          Then, check that the error <m>\vec{p} - \vec{d}</m> is perpendicular to
+          the vectors <m>\vec{a}</m> and <m>\vec{b}</m>.
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

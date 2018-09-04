@@ -6,16 +6,22 @@
     <statement>
       <p>
         <em>(Final exam, spring 2014)</em>
-        A fluid whose density is <m>\rho</m> drains through a hole at the bottom of a cylindrical tank of height <m>h</m>.
-        Use dimensional analysis to express the speed of the exiting fluid,
-        <m>v</m>, in terms of <m>\rho</m>,
-        <m>h</m>, and the acceleration due to gravity, <m>g</m>.
-        Your answer should include an unknown dimensionless constant. (<em>Hint</em>.<nbsp />The dimension of <m>\rho</m> is <m>ML^{-3}</m>.)
+        A fluid whose density is <m>\rho</m> drains through a hole at the bottom of a
+        cylindrical tank of height <m>h</m>.
+        Use dimensional analysis to express the
+        speed of the exiting fluid,
+        <m>v</m>, in terms of <m>\rho</m>, <m>h</m>, and the
+        acceleration due to gravity, <m>g</m>.
+        Your answer should include an unknown
+        dimensionless constant.
+        (<em>Hint</em>.<nbsp />The dimension of <m>\rho</m> is
+        <m>ML^{-3}</m>.)
       </p>
     </statement>
   </exercise>
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
@@ -35,18 +41,22 @@
         </p>
       </statement>
     </exercise>
+
   </sidebyside>
 
   <pagebreak />
 
   <p>
-    \paragraph{Estimation nation} Throughout the applications of math,
-    it's important to be able to come up with reasonable estimates based on incomplete information,
+    \paragraph{Estimation nation}
+    Throughout the applications of math,
+    it's important to be able to
+    come up with reasonable estimates based on incomplete information,
     or even guesses.
-    Successful scientists, engineers,
-    and business people need to do this regularly,
-    as does most anyone who uses numbers to help them make plans of any kind.
+    Successful scientists, engineers, and business people
+    need to do this regularly, as does most anyone who uses numbers
+    to help them make plans of any kind.
   </p>
+
   <exercise workspace="10%">
     <statement>
       <p>

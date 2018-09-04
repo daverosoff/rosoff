@@ -5,22 +5,25 @@
   <exercise>
     <statement>
       <p>
-        Solar photovoltaic (PV) cells are one of the world's fastest-growing energy source.
-        The rate of solar PV production,
-        <m>S</m>, in gigawatts per year,
-        is approximated by <m>S(t)=0.277e^{0.368t}</m>,
-        where <m>t</m> is in years since 2000.
+        Solar photovoltaic (PV) cells are one of the world's
+        fastest-growing energy source.
+        The rate of solar PV production, <m>S</m>,
+        in gigawatts per year,
+        is approximated by <m>S(t)=0.277e^{0.368t}</m>, where
+        <m>t</m> is in years since 2000.
       </p>
 
       <task workspace="10%">
         <p>
-          Write down the definite integral that gives the total solar PV production between <m>2000</m> and <m>2010</m>.
+          Write down the definite integral that gives the total solar PV
+          production between <m>2000</m> and <m>2010</m>.
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          Estimate the total solar PV production between <m>2000</m> and <m>2010</m> using <m>R_5</m>.
+          Estimate the total solar PV production between <m>2000</m> and <m>2010</m> using
+          <m>R_5</m>.
           Is this an overestimate or an underestimate?
         </p>
       </task>
@@ -38,21 +41,25 @@
           Total change in production <fillin characters="10"/>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
         A forest fire covers 2000 acres at time <m>t=0</m>.
-        The fire grows at the rate of <m>8\sqrt{t}</m> acres per hour,
-        where <m>t</m> is in hours. (Note:
-        an acre is 1/640 sq mi and about <m>\SI{0.404}{ha}</m>.)
+        The fire grows at the
+        rate of <m>8\sqrt{t}</m> acres per hour,
+        where <m>t</m> is in hours.
+        (Note: an acre is
+        1/640 sq mi and about
+        <quantity><mag>0.404</mag><unit base="hectare"/></quantity>.)
       </p>
 
       <task workspace="10%">
         <p>
-          Write down the definite integral that gives the amount by which the area of the fire increases between <m>t = 0</m> and <m>t = 30</m>.
+          Write down the definite integral that gives the amount by which the area
+          of the fire increases between <m>t = 0</m> and <m>t = 30</m>.
         </p>
       </task>
 
@@ -77,7 +84,6 @@
           Total area on fire <fillin characters="10"/>
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -88,8 +94,8 @@
       <p>
         The velocity of a car
         (in miles per hour)
-        is given by <m>v(t) = 40t - 10t^2</m>,
-        where <m>t</m> is in hours.
+        is given by <m>v(t) = 40t -
+        10t^2</m>, where <m>t</m> is in hours.
       </p>
 
       <task workspace="10%">
@@ -100,14 +106,18 @@
 
       <task>
         <p>
-          Sketch a graph of velocity against time and represent the distance traveled during the first three hours as an area on your graph.
+          Sketch a graph of velocity against time and represent the distance
+          traveled during the first three hours as an area on your graph.
         </p>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}[xscale=0.66,yscale=0.66]
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.66,yscale=0.66]
             \draw [style={gray, thick}] (0,0) grid (20,8);\end{tikzpicture}]]>
-          </latex-image>
+</latex-image>
         </image>
+
       </task>
 
       <task workspace="10%">
@@ -115,9 +125,9 @@
           Use R to find the distance traveled in the first three hours.
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -131,17 +141,20 @@
 
       <task>
         <p>
-          On a graph of <m>C'(q)</m>,
-          illustrate graphically the total variable cost of producing 150 units.
+          On a graph of <m>C'(q)</m>, illustrate graphically the total variable cost of
+          producing 150 units.
         </p>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}[xscale=0.66,yscale=0.66]
-            \draw [style={gray, thick}] (0,0) grid (20,8);
-            \draw [<-, style={black, very thick}] (0,8) -- (0,0);
-            \draw [->, style={black, very thick}] (0,0) -- (20,0);\end{tikzpicture}]]>
-          </latex-image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.66,yscale=0.66]
+                \draw [style={gray, thick}] (0,0) grid (20,8);
+                \draw [<-, style={black, very thick}] (0,8) -- (0,0);
+                \draw [->, style={black, very thick}] (0,0) -- (20,0);\end{tikzpicture}]]>
+</latex-image>
         </image>
+
       </task>
 
       <task workspace="10%">
@@ -152,10 +165,10 @@
 
       <task workspace="10%">
         <p>
-          Find the value of <m>C'(150)</m> and interpret your answer in terms of costs of production.
+          Find the value of <m>C'(150)</m> and interpret your answer in terms of costs of
+          production.
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

@@ -16,8 +16,7 @@
 
       <task>
         <p>
-          <m>f = \sqrt{x^2 + y^2}</m>,
-          <m>x = t</m>, <m>y = t^2</m>
+          <m>f = \sqrt{x^2 + y^2}</m>, <m>x = t</m>, <m>y = t^2</m>
         </p>
       </task>
 
@@ -26,9 +25,9 @@
           <m>f = x/y</m>, <m>x = e^t</m>, <m>y = 2e^t</m>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -38,12 +37,12 @@
 
       <task workspace="10%">
         <p>
-          At <m>t = 0</m>, Nurl starts filling a snow-cone such that its height grows at a rate
-          <m>dh/dt = 1</m> and <m>dr/dt = 2</m>.
-          At what rate is the volume increasing when <m>t = 3</m>?
+          At <m>t = 0</m>, Nurl starts filling a snow-cone such that its height
+          grows at a rate <m>dh/dt = 1</m> and <m>dr/dt = 2</m>.
+          At what rate is the volume
+          increasing when <m>t = 3</m>?
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -51,18 +50,22 @@
 
   <task workspace="10%">
     <p>
-      If a rocket has speed <m>dx/dt = 6</m> down range and <m>dy/dt = 2t</m> upward,
-      how fast is it moving away from the launch point at <m>(0,0)</m>?
-      How fast is the angle <m>\theta</m> changing,
-      if <m>\tan{\theta} = y/x</m>? (<em>Hint.</em>
-      Differentiate <m>\tan{\theta}</m> implicitly with respect to <m>x</m> and <m>y</m>.)
+      If a rocket has speed <m>dx/dt = 6</m> down range and <m>dy/dt = 2t</m>
+      upward, how fast is it moving away from the launch point at <m>(0,0)</m>?
+      How
+      fast is the angle <m>\theta</m> changing,
+      if <m>\tan{\theta} = y/x</m>?
+      (<em>Hint.</em> Differentiate
+      <m>\tan{\theta}</m> implicitly with respect to
+      <m>x</m> and <m>y</m>.)
     </p>
   </task>
 
   <exercise>
     <statement>
       <p>
-        Let <m>r^2 = x^2 + y^2</m>. (This is Strang's favorite example.)
+        Let <m>r^2 = x^2 + y^2</m>.
+        (This is Strang's favorite example.)
       </p>
 
       <task workspace="10%">
@@ -78,11 +81,11 @@
       <task workspace="10%">
         <p>
           Now use the chain rule to derive the same result.
-          Start by recalling from your calculations above that <m>\dfrac{\dee r}{\dee x} = \dfrac{x}{r}</m>,
+          Start by recalling
+          from your calculations above that <m>\dfrac{\dee r}{\dee x} = \dfrac{x}{r}</m>,
           then differentiate both sides implicitly with respect to <m>x</m>.
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

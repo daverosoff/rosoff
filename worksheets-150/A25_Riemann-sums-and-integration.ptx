@@ -19,13 +19,15 @@
 
       <task>
         <p>
-          Give a lower estimate for the distance the car traveled in 12 seconds.
+          Give a lower estimate for the distance the car traveled in 12
+          seconds.
         </p>
       </task>
 
       <task>
         <p>
-          Give an upper estimate for the distance the car traveled in 12 seconds.
+          Give an upper estimate for the distance the car traveled in 12
+          seconds.
         </p>
       </task>
 
@@ -35,26 +37,33 @@
           Is this a better estimate?
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
         Plot the car's velocity against time on the axes below.
-        Sketch in a reasonable curve connecting the points.
+        Sketch
+        in a reasonable curve connecting the points.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[xscale=0.42, yscale=0.42]
-          \draw [style={gray, thick}] (0,0) grid (18,18);
-          \draw [<-, style={black, very thick}] (18,0) -- (0,0);
-          \draw [<-, style={black, very thick}] (0,18) -- (0,0);\end{tikzpicture}]]>
-        </latex-image>
+            \draw [style={gray, thick}] (0,0) grid (18,18);
+            \draw [<-, style={black, very thick}] (18,0) -- (0,0);
+            \draw [<-, style={black, very thick}] (0,18) -- (0,0);\end{tikzpicture}]]>
+</latex-image>
       </image>
+
       <p>
-        Note that the product <m>5 \times 3</m> is the area of a rectangle with height 5 and width 3.
-        Draw the rectangles on your graph corresponding to the points from the data.
+        Note that the product <m>5 \times 3</m> is the area of
+        a rectangle with height 5 and width 3.
+        Draw
+        the rectangles on your graph corresponding to
+        the points from the data.
       </p>
     </statement>
   </exercise>
@@ -64,66 +73,75 @@
   <exercise workspace="10%">
     <statement>
       <p>
-        The figures below show the velocity, <m>v</m>,
-        of an object (in <m>\si{m/s}</m>).
+        The figures below show the velocity, <m>v</m>, of an object
+        (in
+        <quantity><unit base="meter"/><per base="second"/></quantity>).
       </p>
 
       <task>
         <p>
           Sketch <m>n=3</m> rectangles, all with width<nbsp />2,
-          to estimate the total distance the object traveled between <m>t = 0</m> and <m>t = 6</m>.
+          to estimate the total distance the object
+          traveled between <m>t = 0</m> and <m>t = 6</m>.
         </p>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}\begin{axis}[
-            axis x line=middle,
-            axis y line=middle,
-            xlabel=\(t\),
-            ylabel=\(v\),
-            minor x tick num = 3,
-            minor y tick num = 3,
-            samples=200,
-            grid=major,
-            width=\linewidth,
-            plot box ratio = 1,
-            enlargelimits=false,
-            every node/.style =
-            {circle, fill=black, thick, minimum size=1pt}]
-            \addplot[domain=0:6, style={ultra thick}] {20*sqrt(x)};
-            \end{axis}\end{tikzpicture}]]>
-          </latex-image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+                    axis x line=middle,
+                    axis y line=middle,
+                    xlabel=\(t\),
+                    ylabel=\(v\),
+                    minor x tick num = 3,
+                    minor y tick num = 3,
+                    samples=200,
+                    grid=major,
+                    width=\linewidth,
+                    plot box ratio = 1,
+                    enlargelimits=false,
+                    every node/.style =
+                        {circle, fill=black, thick, minimum size=1pt}]
+                    \addplot[domain=0:6, style={ultra thick}] {20*sqrt(x)};
+                \end{axis}\end{tikzpicture}]]>
+</latex-image>
         </image>
+
       </task>
 
       <task>
         <p>
           Sketch <m>n=6</m> rectangles, all with width<nbsp />1,
-          to estimate the total distance the object traveled between <m>t = 0</m> and <m>t = 6</m>.
+          to estimate the total distance the object
+          traveled between <m>t = 0</m> and <m>t = 6</m>.
         </p>
-        <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}\begin{axis}[
-            axis x line=middle,
-            axis y line=middle,
-            xlabel=\(t\),
-            ylabel=\(v\),
-            minor x tick num = 3,
-            minor y tick num = 3,
-            samples=200,
-            grid=major,
-            width=\linewidth,
-            plot box ratio = 1,
-            enlargelimits=false,
-            every node/.style =
-            {circle, fill=black, thick, minimum size=1pt}],
-            \addplot[domain=0:6, style={ultra thick}] {20*sqrt(x)};
-            \end{axis}\end{tikzpicture}]]>
-          </latex-image>
-        </image>
-      </task>
 
+        <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+                    axis x line=middle,
+                    axis y line=middle,
+                    xlabel=\(t\),
+                    ylabel=\(v\),
+                    minor x tick num = 3,
+                    minor y tick num = 3,
+                    samples=200,
+                    grid=major,
+                    width=\linewidth,
+                    plot box ratio = 1,
+                    enlargelimits=false,
+                    every node/.style =
+                        {circle, fill=black, thick, minimum size=1pt}],
+                    \addplot[domain=0:6, style={ultra thick}] {20*sqrt(x)};
+                \end{axis}\end{tikzpicture}]]>
+</latex-image>
+        </image>
+
+      </task>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -153,9 +171,11 @@
 
       <p>
         If the heights of your rectangles (the <m>f(x_i)</m>) come from left endpoints,
-        the sum is called a left-hand sum.
-        If you use right endpoints,
-        it is called a right-hand sum.The left-hand sum with <m>n</m> rectangles is often called <m>L_n</m>,
+        the sum is called a
+        left-hand sum.
+        If you use right endpoints, it is called
+        a right-hand sum.The left-hand sum
+        with <m>n</m> rectangles is often called <m>L_n</m>,
         and <m>R_n</m> is similar.
       </p>
 
@@ -163,56 +183,61 @@
         <p>
           Sketch <m>n=5</m> rectangles and give <m>L_5</m> for <m>x = 1</m> to <m>x = 6</m>.
         </p>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}\begin{axis}[
-            axis x line=middle,
-            axis y line=middle,
-            xlabel=\(x\),
-            ylabel=\(f(x)\),
-            ymin=0, ymax=11,
-            minor x tick num = 3,
-            minor y tick num = 3,
-            samples=200,
-            grid=major,
-            width=\linewidth,
-            plot box ratio = 1,
-            enlargelimits=false,
-            every node/.style =
-            {circle, fill=black, thick, minimum size=1pt}],
-            \addplot[domain=0:7, style={ultra thick}] {-(1/3)*(x-4.2)^2 + 10.4};
-            \end{axis}\end{tikzpicture}]]>
-          </latex-image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+                axis x line=middle,
+                axis y line=middle,
+                xlabel=\(x\),
+                ylabel=\(f(x)\),
+                ymin=0, ymax=11,
+                minor x tick num = 3,
+                minor y tick num = 3,
+                samples=200,
+                grid=major,
+                width=\linewidth,
+                plot box ratio = 1,
+                enlargelimits=false,
+                every node/.style =
+                    {circle, fill=black, thick, minimum size=1pt}],
+                \addplot[domain=0:7, style={ultra thick}] {-(1/3)*(x-4.2)^2 + 10.4};
+                \end{axis}\end{tikzpicture}]]>
+</latex-image>
         </image>
+
       </task>
 
       <task>
         <p>
           Sketch <m>n=5</m> rectangles and give <m>R_5</m> for <m>x = 1</m> to <m>x = 6</m>.
         </p>
-        <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}\begin{axis}[
-            axis x line=middle,
-            axis y line=middle,
-            xlabel=\(x\),
-            ylabel=\(f(x)\),
-            ymin=0, ymax=11,
-            minor x tick num = 3,
-            minor y tick num = 3,
-            samples=200,
-            grid=major,
-            width=\linewidth,
-            plot box ratio = 1,
-            enlargelimits=false,
-            every node/.style =
-            {circle, fill=black, thick, minimum size=1pt}],
-            \addplot[domain=0:7, style={ultra thick}] {-(1/3)*(x-4.2)^2 + 10.4};
-            \end{axis}\end{tikzpicture}]]>
-          </latex-image>
-        </image>
-      </task>
 
+        <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+                    axis x line=middle,
+                    axis y line=middle,
+                    xlabel=\(x\),
+                    ylabel=\(f(x)\),
+                    ymin=0, ymax=11,
+                    minor x tick num = 3,
+                    minor y tick num = 3,
+                    samples=200,
+                    grid=major,
+                    width=\linewidth,
+                    plot box ratio = 1,
+                    enlargelimits=false,
+                    every node/.style =
+                        {circle, fill=black, thick, minimum size=1pt}],
+                    \addplot[domain=0:7, style={ultra thick}] {-(1/3)*(x-4.2)^2 + 10.4};
+                    \end{axis}\end{tikzpicture}]]>
+</latex-image>
+        </image>
+
+      </task>
     </statement>
   </exercise>
 </worksheet>
