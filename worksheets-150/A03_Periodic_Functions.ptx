@@ -9,6 +9,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -17,8 +18,8 @@
 
       <task>
         <p>
-          For three different values of <m>C</m>,
-          sketch the graph of <m>y = \sin{(x)} + C</m>.
+          For three different values of <m>C</m>, sketch the graph of
+          <m>y = \sin{(x)} + C</m>.
           Clearly label each graph.
         </p>
       </task>
@@ -29,15 +30,23 @@
         </p>
 
         <p>
-          <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42] \draw[style={gray,
-          thick}] (0, 0) grid (14, 12); \draw[style={gray,
-          thick}] (16, 0) grid (30, 12); \draw[style={gray,
-          thick}] (32, 0) grid (46, 12); \end{tikzpicture}]]> </latex-image> </image>
+
+          <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42]
+            \draw[style={gray, thick}] (0, 0) grid (14, 12);
+            \draw[style={gray, thick}] (16, 0) grid (30, 12);
+            \draw[style={gray, thick}] (32, 0) grid (46, 12);
+        \end{tikzpicture}]]>
+</latex-image>
+          </image>
+
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -47,7 +56,8 @@
       <task>
         <p>
           For three different values of <m>A</m>,
-          sketch the graph of <m>y = A \cos{(x)}</m>.
+          sketch the graph of <m>y =
+          A \cos{(x)}</m>.
           Clearly label each graph.
         </p>
       </task>
@@ -58,13 +68,20 @@
         </p>
 
         <p>
-          <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42] \draw[style={gray,
-          thick}] (0, 0) grid (14, 12); \draw[style={gray,
-          thick}] (16, 0) grid (30, 12); \draw[style={gray,
-          thick}] (32, 0) grid (46, 12); \end{tikzpicture}]]> </latex-image> </image>
+
+          <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42]
+            \draw[style={gray, thick}] (0, 0) grid (14, 12);
+            \draw[style={gray, thick}] (16, 0) grid (30, 12);
+            \draw[style={gray, thick}] (32, 0) grid (46, 12);
+        \end{tikzpicture}]]>
+</latex-image>
+          </image>
+
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -79,7 +96,8 @@
       <task>
         <p>
           For three different values of <m>B</m>,
-          sketch the graph of <m>y = \sin{(Bx)}</m>.
+          sketch the graph of <m>y =
+          \sin{(Bx)}</m>.
           Clearly label each graph.
         </p>
       </task>
@@ -90,15 +108,23 @@
         </p>
 
         <p>
-          <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42] \draw[style={gray,
-          thick}] (0, 0) grid (14, 12); \draw[style={gray,
-          thick}] (16, 0) grid (30, 12); \draw[style={gray,
-          thick}] (32, 0) grid (46, 12); \end{tikzpicture}]]> </latex-image> </image>
+
+          <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42]
+            \draw[style={gray, thick}] (0, 0) grid (14, 12);
+            \draw[style={gray, thick}] (16, 0) grid (30, 12);
+            \draw[style={gray, thick}] (32, 0) grid (46, 12);
+        \end{tikzpicture}]]>
+</latex-image>
+          </image>
+
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -106,6 +132,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -117,8 +144,16 @@
       </p>
 
       <p>
-        <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42] \draw[style={gray,
-        thick}] (0, 0) grid (24, 12); \end{tikzpicture}]]> </latex-image> </image>
+
+        <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42]
+            \draw[style={gray, thick}] (0, 0) grid (24, 12);
+        \end{tikzpicture}]]>
+</latex-image>
+        </image>
+
       </p>
     </statement>
   </exercise>

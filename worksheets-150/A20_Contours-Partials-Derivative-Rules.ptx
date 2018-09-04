@@ -5,33 +5,37 @@
   <p>
     \sisetup{group-separator={{,}}, group-minimum-digits={3}}
   </p>
+
   <exercise>
     <statement>
       <p>
         A contour plot of a function<nbsp /><m>S(x,y)</m> is shown below.
-        In the figure, the points <m>A</m>,
+        In the
+        figure, the points <m>A</m>,
         <m>B</m>, <m>C</m> are located where their labels appear.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}\begin{axis}[view={0}{90}, axis lines=middle,
-          xmin=0, xmax=5,
-          ymin=0, ymax=4,
-          zmin=0, zmax=8,
-          enlargelimits=false,
-          xlabel=\(x\), ylabel=\(y\),
-          plot box ratio=1,
-          every node/.style = {circle, fill=black, thick, minimum size=1pt}]
-          \addplot3[contour gnuplot={levels={0.5,1,2,3,4}},thick,
-          samples=80, 
-          contour/draw color={black},
-          contour/contour label style={nodes={text=black}}]
-          {(1/2)*(x-2)^2 + (y-2)^2};
-          \end{axis}
-          \draw node at (1,1,0){\(A\)};
-          \draw node at (4.3,2.8,0){\(B\)};
-          \draw node at (3.8,4.5,0){\(C\)};\end{tikzpicture}]]>
-        </latex-image>
+            xmin=0, xmax=5,
+            ymin=0, ymax=4,
+            zmin=0, zmax=8,
+            enlargelimits=false,
+            xlabel=\(x\), ylabel=\(y\),
+            plot box ratio=1,
+            every node/.style = {circle, fill=black, thick, minimum size=1pt}]
+            \addplot3[contour gnuplot={levels={0.5,1,2,3,4}},thick,
+            samples=80, 
+            contour/draw color={black},
+            contour/contour label style={nodes={text=black}}]
+                {(1/2)*(x-2)^2 + (y-2)^2};
+            \end{axis}
+            \draw node at (1,1,0){\(A\)};
+            \draw node at (4.3,2.8,0){\(B\)};
+            \draw node at (3.8,4.5,0){\(C\)};\end{tikzpicture}]]>
+</latex-image>
       </image>
 
       <task workspace="10%">
@@ -44,41 +48,46 @@
       <task workspace="10%">
         <p>
           Estimate<nbsp /><m>\partial S/\partial x</m> at<nbsp /><m>B</m>.
-          What can you say about the sign of<nbsp /><m>\partial S/\partial y</m> at<nbsp /><m>B</m>?
+          What can you say
+          about the sign of<nbsp /><m>\partial S/\partial y</m> at<nbsp /><m>B</m>?
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          Estimate<nbsp /><m>\partial S/\partial x</m> and<nbsp /><m>\partial S/\partial y</m> at<nbsp /><m>C</m>.
+          Estimate<nbsp /><m>\partial S/\partial x</m> and<nbsp /><m>\partial S/\partial 
+          y</m> at<nbsp /><m>C</m>.
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
-        Global weather patterns depend sensitively on deep ocean currents that distribute heat around the earth.
-        Currents are related to variations in seawater density<nbsp /><m>\rho</m> (Greek letter <em>rho</em>).
+        Global weather patterns depend sensitively on deep ocean
+        currents that distribute heat around the earth.
+        Currents are related
+        to variations in seawater density<nbsp /><m>\rho</m> (Greek letter <em>rho</em>).
         This quantity depends on several variables,
-        including salinity, <m>S</m>,
-        and temperature, <m>T</m>.
-        No simple formula for<nbsp /><m>\rho = F(S, T)</m> is known,
-        but some experimentally obtained values are tabulated below.
+        including salinity, <m>S</m>, and
+        temperature, <m>T</m>.
+        No simple formula for<nbsp /><m>\rho = F(S, T)</m> is known, but
+        some experimentally obtained values are tabulated below.
         In the table,
-        <m>T</m> is measured in<nbsp /><m>\si{\celsius}</m>,
-        <m>S</m> is measured in<nbsp /><m>\si{g/L}</m>,
-        and <m>\rho</m> is measured in<nbsp /><m>\si{kg/m^3}</m>.
+        <m>T</m> is measured in<nbsp /><quantity><unit base="celsius"/></quantity>,
+        <m>S</m> is measured in<nbsp /><quantity><unit base="gram"/><per base="liter"/></quantity>, and
+        <m>\rho</m> is measured in<nbsp /><quantity><unit prefix="kilo" base="gram"/><per base="meter" exp="3"/></quantity>.
       </p>
+
       <tabular>
         <row>
           <cell></cell>
-          <cell>\SI{32}{\celsius}</cell>
-          <cell>\SI{32.5}{\celsius}</cell>
-          <cell>\SI{33}{\celsius}</cell>
-          <cell>\SI{33.5}{\celsius}</cell>
-          <cell>\SI{34}{\celsius}</cell>
+          <cell><quantity><mag>32</mag><unit base="celsius"/></quantity></cell>
+          <cell><quantity><mag>32.5</mag><unit base="celsius"/></quantity></cell>
+          <cell><quantity><mag>33</mag><unit base="celsius"/></quantity></cell>
+          <cell><quantity><mag>33.5</mag><unit base="celsius"/></quantity></cell>
+          <cell><quantity><mag>34</mag><unit base="celsius"/></quantity></cell>
         </row>
         <row bottom="minor">
           <cell></cell>
@@ -89,7 +98,7 @@
           <cell></cell>
         </row>
         <row>
-          <cell>\SI{5 }{g/L}</cell>
+          <cell><quantity><mag>5 </mag><unit base="gram"/><per base="liter"/></quantity></cell>
           <cell>1.0253</cell>
           <cell>1.0257</cell>
           <cell>1.0261</cell>
@@ -105,7 +114,7 @@
           <cell></cell>
         </row>
         <row>
-          <cell>\SI{10}{g/L}</cell>
+          <cell><quantity><mag>10</mag><unit base="gram"/><per base="liter"/></quantity></cell>
           <cell>1.0246</cell>
           <cell>1.0250</cell>
           <cell>1.0254</cell>
@@ -121,7 +130,7 @@
           <cell></cell>
         </row>
         <row>
-          <cell>\SI{15}{g/L}</cell>
+          <cell><quantity><mag>15</mag><unit base="gram"/><per base="liter"/></quantity></cell>
           <cell>1.0237</cell>
           <cell>1.0241</cell>
           <cell>1.0245</cell>
@@ -137,7 +146,7 @@
           <cell></cell>
         </row>
         <row>
-          <cell>\SI{20}{g/L}</cell>
+          <cell><quantity><mag>20</mag><unit base="gram"/><per base="liter"/></quantity></cell>
           <cell>1.0224</cell>
           <cell>1.0229</cell>
           <cell>1.0232</cell>
@@ -149,30 +158,33 @@
       <task workspace="10%">
         <p>
           Examine the table carefully.
-          Do you think it is possible to say anything about <m>\partial \rho/\partial S</m>?
+          Do you think it is possible to say
+          anything about <m>\partial \rho/\partial S</m>?
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          Do you think it is possible to say anything about <m>\partial \rho/\partial T</m>?
+          Do you think it is possible to say anything about <m>\partial 
+          \rho/\partial T</m>?
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          If the temperature of seawater rises but the salinity doesn't change,
-          what happens to the density?
+          If the temperature of seawater rises but the salinity doesn't
+          change, what happens to the density?
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          Suppose an experiment requires that the density of the seawater be held constant while the temperature rises.
-          What changes could experimenters make to effect this?
+          Suppose an experiment requires that the density of the seawater
+          be held constant while the temperature rises.
+          What changes could
+          experimenters make to effect this?
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -183,16 +195,21 @@
   </p>
 
   <p>
-    On this page you will note down some important formulas to find derivatives algebraically (instead of by sketching lines).
-    These should be committed to memory.
+    On this page you will note down some important formulas to find
+    derivatives algebraically
+    (instead of by sketching lines).
+    These
+    should be committed to memory.
   </p>
+
   <exercise>
     <statement>
       <p>
         Derivative of a constant function:
-        if<nbsp /><m>f(x) = k</m> and<nbsp /><m>k</m> is a constant,
-        then<nbsp /><m>f'(x) = 0</m>.
-        Find the derivatives of the following constants:
+        if<nbsp /><m>f(x) = k</m> and<nbsp /><m>k</m> is
+        a constant, then<nbsp /><m>f'(x) = 0</m>.
+        Find the derivatives of the following
+        constants:
       </p>
 
       <task>
@@ -212,14 +229,15 @@
           <m>f(x) = 0</m>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
         Derivative of a linear function:
-        if<nbsp /><m>h(s) = qs + r</m> and <m>q</m> and<nbsp /><m>r</m> are constant,
+        if<nbsp /><m>h(s) = qs + r</m> and
+        <m>q</m> and<nbsp /><m>r</m> are constant,
         then<nbsp /><m>h'(s) = q</m>.
         Find the derivatives of the following linear functions:
       </p>
@@ -241,9 +259,9 @@
           <m>h(s) = 0.568 s - 18.6</m>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -268,9 +286,9 @@
           <m>\frac{d}{dx} x^{-11} =</m>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -300,11 +318,11 @@
           <m>\frac{d}{dx} \ln{(x)} =</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
@@ -321,9 +339,8 @@
         </p>
 
         <p>
-          (Recall that an expression like<nbsp /><m>c_1 f_1(x) + c_2 f_2(x)</m> is called a
-          <em>linear combination</em>
-          of<nbsp /><m>f_1</m> and<nbsp /><m>f_2</m>.)
+          (Recall that an expression like<nbsp /><m>c_1 f_1(x) + c_2 f_2(x)</m> is called
+          a <em>linear combination</em> of<nbsp /><m>f_1</m> and<nbsp /><m>f_2</m>.)
         </p>
 
         <task workspace="10%">
@@ -343,9 +360,9 @@
             <m>\frac{d}{dx} \left( 4(3^x) + 6x - 3 \right) =</m>
           </p>
         </task>
-
       </statement>
     </exercise>
+
   </sidebyside>
 </worksheet>
 

@@ -5,9 +5,10 @@
   <exercise>
     <statement>
       <p>
-        Find all the stationary points (<m>\nabla f = 0</m>),
-        and use the second derivative test to classify them as maxima, minima,
-        or saddle points.
+        Find all the stationary points (<m>\nabla f = 0</m>), and use the
+        second derivative test to classify them as maxima, minima,
+        or saddle
+        points.
       </p>
 
       <task>
@@ -33,7 +34,6 @@
           <m>f(x,y) = (x+y)^2 + (x+2y-6)^2</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -49,6 +49,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -72,7 +73,6 @@
           <m>x \leq 0</m> and <m>y \geq 1</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

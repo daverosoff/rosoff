@@ -5,75 +5,83 @@
   <exercise>
     <statement>
       <p>
-        Quantities that grow quickly for a while and then level off are well modeled by
-        <em>logistic</em> functions.
+        Quantities that grow quickly for a while and then level off
+        are well modeled by <em>logistic</em> functions.
         One example is the percentage, <m>P(t)</m>,
         of US households with cable television where <m>t</m> is in years since <m>1979</m>.
       </p>
 
       <p>
-        From data collected,
-        a best-fitting logistic function for the tabulated data is shown below.
+        From data collected, a best-fitting logistic
+        function for the tabulated data is shown below.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}\begin{axis}[
-          xlabel=\(t\),
-          ylabel=\(P\),
-          xmin=0, xmax=35,
-          ymin=0, ymax=81,
-          minor x tick num = 3,
-          minor y tick num = 3,
-          width=\linewidth,
-          grid=major,
-          ]
-          \addplot[domain=0:35, style=very thick]{
-          68.8/(1+29.89*e^(-0.26*x))
-          };
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                    xlabel=\(t\),
+                    ylabel=\(P\),
+                    xmin=0, xmax=35,
+                    ymin=0, ymax=81,
+                    minor x tick num = 3,
+                    minor y tick num = 3,
+                    width=\linewidth,
+                    grid=major,
+                ]
+                \addplot[domain=0:35, style=very thick]{
+                    68.8/(1+29.89*e^(-0.26*x))
+                };
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
 
       <task workspace="10%">
         <p>
-          Explain why a logistic function is reasonable for this kind of economic situation.
+          Explain why a logistic function is reasonable for this kind
+          of economic situation.
         </p>
       </task>
 
       <task>
         <p>
           Estimate the point of diminishing returns.
-          This is the point where further increases in <m>P</m> are never as large as the maximum increase.
+          This is the
+          point where further increases in <m>P</m> are never as large as
+          the maximum increase.
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          Let <m>L/2</m> be the percentage attained at the point of diminishing returns.
+          Let <m>L/2</m> be the percentage attained at the point of
+          diminishing returns.
           Graph the line <m>P = L</m> above.
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          The curve plotted above is the graph of the function <m>P(t) = 68.8/(1+29.89e^{-0.26t})</m>.
+          The curve plotted above is the graph of the function
+          <m>P(t) = 68.8/(1+29.89e^{-0.26t})</m>.
           What do you notice about its numerator?
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          Label the following regions on the graph above:
-          <em>concave down</em>, <em>concave up</em>,
+          Label the following regions on the graph above: <em>concave
+          down</em>, <em>concave up</em>,
           <em>approximately exponential</em>
-          (include the continuous rate of growth).
-          Also label the <em>carrying capacity</em>
-          and the point where the concavity changes.
+          (include
+          the continuous rate of growth).
+          Also label the <em>carrying
+          capacity</em> and the point where the concavity changes.
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -103,7 +111,6 @@
           Write the function for this situation.
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -112,57 +119,67 @@
   <exercise workspace="10%">
     <statement>
       <p>
-        Drug concentration in the bloodstream is often well modeled by a surge function.
-        Surge functions all have the form <m>y = ate^{-bt}</m>.
-        They increase rapidly and then decay toward 0 with a maximum value at <m>t = 1/b</m>.
-        The concentration, <m>C</m><nbsp />(in <m>\si{ng/mL}</m>),
-        of a drug in a certain patient's bloodstream is given by <m>C(t) = 20te^{-0.09t}</m>.
+        Drug concentration in the bloodstream is often well
+        modeled by a surge function.
+        Surge functions all have the form <m>y =
+        ate^{-bt}</m>.
+        They increase rapidly and then decay toward 0 with a maximum
+        value at <m>t = 1/b</m>.
+        The concentration, <m>C</m><nbsp />(in
+        <quantity><unit prefix="nano" base="gram"/><per prefix="mili" base="liter"/></quantity>),
+        of a drug in a certain patient's bloodstream is given by
+        <m>C(t) = 20te^{-0.09t}</m>.
       </p>
 
       <sidebyside>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}\begin{axis}[
-            xlabel=\(t   (\si{min})\),
-            ylabel=\(C   (\si{ng/mL})\),
-            xmin=0, xmax=50,
-            ymin=0, ymax=100,
-            minor x tick num = 3,
-            minor y tick num = 1,
-            width=\linewidth,
-            grid=major,
-            ]
-            \addplot[domain=0:50, style=very thick]{
-            20*x*exp(-0.09*x)
-            };
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+                    xlabel=\(t   (<quantity><unit base="minute"/></quantity>)\),
+                    ylabel=\(C   (<quantity><unit prefix="nano" base="gram"/><per prefix="mili" base="liter"/></quantity>)\),
+                    xmin=0, xmax=50,
+                    ymin=0, ymax=100,
+                    minor x tick num = 3,
+                    minor y tick num = 1,
+                    width=\linewidth,
+                    grid=major,
+                ]
+                \addplot[domain=0:50, style=very thick]{
+                    20*x*exp(-0.09*x)
+                };
             \end{axis}\end{tikzpicture}]]>
-          </latex-image>
+</latex-image>
         </image>
 
         <task>
           <p>
-            How long does it take for the drug to reach peak concentration?
+            How long does it take for the drug to reach peak
+            concentration?
             What is the peak concentration?
           </p>
         </task>
 
         <task>
           <p>
-            What is the concentration of the drug in the body after 15 minutes?
+            What is the concentration of the drug in the body
+            after 15 minutes?
             After an hour?
           </p>
         </task>
 
         <task>
           <p>
-            If the minimum effective concentration is <m>\SI{20}{ng/mL}</m>,
+            If the minimum effective concentration is
+            <quantity><mag>20</mag><unit prefix="nano" base="gram"/><per prefix="mili" base="liter"/></quantity>,
             when should the next dose be administered?
           </p>
         </task>
       </sidebyside>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -170,23 +187,25 @@
       </p>
 
       <sidebyside>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}\begin{axis}[
-            xlabel=\(t\),
-            ylabel=\(y\),
-            xmin=0, xmax=50,
-            ymin=0, ymax=100,
-            minor x tick num = 3,
-            minor y tick num = 3,
-            width=\linewidth,
-            grid=major,
-            ]
-            \addplot[domain=0:50, style=very thick]{
-            15*x*exp(-0.075*x)
-            };
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[
+                    xlabel=\(t\),
+                    ylabel=\(y\),
+                    xmin=0, xmax=50,
+                    ymin=0, ymax=100,
+                    minor x tick num = 3,
+                    minor y tick num = 3,
+                    width=\linewidth,
+                    grid=major,
+                ]
+                \addplot[domain=0:50, style=very thick]{
+                    15*x*exp(-0.075*x)
+                };
             \end{axis}\end{tikzpicture}]]>
-          </latex-image>
+</latex-image>
         </image>
 
         <task workspace="10%">
@@ -197,11 +216,11 @@
 
         <task workspace="10%">
           <p>
-            Estimate the values of <m>t</m> and <m>y</m> at the peak to find the value of <m>a</m>.
+            Estimate the values of <m>t</m> and <m>y</m> at the peak
+            to find the value of <m>a</m>.
           </p>
         </task>
       </sidebyside>
-
     </statement>
   </exercise>
 </worksheet>

@@ -3,16 +3,21 @@
 <worksheet xml:id="A21_Derivatives-quick-reference">
   <title>Math 150  Activity 21: Derivatives quick reference</title>
   <p>
-    On this page you will note down some important formulas to find derivatives algebraically (instead of by sketching lines).
-    These rules should be firmly committed to memory.
+    On this page you will note down some important formulas to find
+    derivatives algebraically
+    (instead of by sketching lines).
+    These
+    rules should be firmly committed to memory.
   </p>
+
   <exercise>
     <statement>
       <p>
         Derivative of a constant function:
-        if<nbsp /><m>f(x) = k</m> and<nbsp /><m>k</m> is a constant,
-        then<nbsp /><m>f'(x) = 0</m>.
-        Find the derivatives of the following constants:
+        if<nbsp /><m>f(x) = k</m> and<nbsp /><m>k</m> is
+        a constant, then<nbsp /><m>f'(x) = 0</m>.
+        Find the derivatives of the following
+        constants:
       </p>
 
       <task>
@@ -32,14 +37,15 @@
           <m>f(x) = 0</m>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
         Derivative of a linear function:
-        if<nbsp /><m>h(s) = qs + r</m> and <m>q</m> and<nbsp /><m>r</m> are constant,
+        if<nbsp /><m>h(s) = qs + r</m> and
+        <m>q</m> and<nbsp /><m>r</m> are constant,
         then<nbsp /><m>h'(s) = q</m>.
         Find the derivatives of the following linear functions:
       </p>
@@ -61,9 +67,9 @@
           <m>h(s) = 0.568 s - 18.6</m>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -88,9 +94,9 @@
           <m>\frac{d}{dx} \dfrac{1}{x^{11}} =</m>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -120,13 +126,13 @@
           <m>\frac{d}{dx} \ln{(x)} =</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 
   <pagebreak />
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
@@ -143,9 +149,8 @@
         </p>
 
         <p>
-          (Recall that an expression like<nbsp /><m>c_1 f_1(x) + c_2 f_2(x)</m> is called a
-          <em>linear combination</em>
-          of<nbsp /><m>f_1</m> and<nbsp /><m>f_2</m>.)
+          (Recall that an expression like<nbsp /><m>c_1 f_1(x) + c_2 f_2(x)</m> is called
+          a <em>linear combination</em> of<nbsp /><m>f_1</m> and<nbsp /><m>f_2</m>.)
         </p>
 
         <task workspace="10%">
@@ -165,16 +170,16 @@
             <m>\frac{d}{dx} \left( k(3^x) + bx - c \right) =</m>
           </p>
         </task>
-
       </statement>
     </exercise>
+
   </sidebyside>
 
   <exercise workspace="10%">
     <statement>
       <p>
-        Find the equation of the line tangent to the graph of <m>f</m> at <m>(1,-1)</m>,
-        where <m>f(x) = 4x - 5x^2</m>.
+        Find the equation of the line tangent to the graph of <m>f</m>
+        at <m>(1,-1)</m>, where <m>f(x) = 4x - 5x^2</m>.
       </p>
     </statement>
   </exercise>

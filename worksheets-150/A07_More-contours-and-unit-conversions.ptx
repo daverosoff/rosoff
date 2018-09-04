@@ -5,22 +5,27 @@
   <exercise xml:id="q_makecontours">
     <statement>
       <p>
-        On the same axes,
-        graph cross-sections of the function, <m>S = 2d+0.5m</m>.
-        Include contours <m>S=10</m>, <m>15</m>, and <m>20</m>.
+        On the same axes, graph cross-sections of the
+        function, <m>S = 2d+0.5m</m>.
+        Include contours <m>S=10</m>, <m>15</m>,
+        and <m>20</m>.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[xscale=0.42,yscale=0.42]
-          \draw [style={gray, thick}] (0,0) grid (18,18);
-          \draw [<->, style={black, very thick}] (3,18) -- (3,0);
-          \draw [<->, style={black, very thick}] (0,3) -- (18,3);
-          \node at (19,3){\(m\)};
-          \node at (3,19){\(d\)};\end{tikzpicture}]]>
-        </latex-image>
+        \draw [style={gray, thick}] (0,0) grid (18,18);
+        \draw [<->, style={black, very thick}] (3,18) -- (3,0);
+        \draw [<->, style={black, very thick}] (0,3) -- (18,3);
+        \node at (19,3){\(m\)};
+        \node at (3,19){\(d\)};\end{tikzpicture}]]>
+</latex-image>
       </image>
+
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -28,20 +33,24 @@
         Include labeled contours for <m>z = 0</m>,
         <m>z = \pm 2</m>, and <m>z = \pm 4</m>.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[xscale=0.66,yscale=0.42]
-          \draw [style={gray, thick}] (0,0) grid (12,18);
-          \draw [<->, style={black, very thick}] (0,9) -- (12,9);
-          \draw [<->, style={black, very thick}] (6,0) -- (6,18);
-          \node at (13,9){\(x\)};
-          \node at (6,19){\(y\)};
-          \node at (4,-1){\(-\pi\)};
-          \node at (8,-1){\(\pi\)};\end{tikzpicture}]]>
-        </latex-image>
+        \draw [style={gray, thick}] (0,0) grid (12,18);
+        \draw [<->, style={black, very thick}] (0,9) -- (12,9);
+        \draw [<->, style={black, very thick}] (6,0) -- (6,18);
+        \node at (13,9){\(x\)};
+        \node at (6,19){\(y\)};
+        \node at (4,-1){\(-\pi\)};
+        \node at (8,-1){\(\pi\)};\end{tikzpicture}]]>
+</latex-image>
       </image>
+
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -51,6 +60,7 @@
   </exercise>
 
   <sidebyside>
+
     <exercise xml:id="q_contour">
       <statement>
         <p>
@@ -72,26 +82,29 @@
         </task>
 
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}\begin{axis}[view={0}{90}, axis lines=middle,
-            xmin=0, xmax=5,
-            ymin=0, ymax=5,
-            zmin=0, zmax=8,
-            enlargelimits=false,
-            xlabel=\(x\), ylabel=\(y\),
-            plot box ratio=1,
-            every node/.style = {circle, fill=black, thick, minimum size=1pt}]
-            \addplot3[contour gnuplot={levels={-3,-2,-1,0,1,2,3,4}},thick,
-            samples=90,
-            grid=both,
-            contour/draw color={black},
-            contour/contour label style={nodes={text=black}}]
-            {x-(y-2.5)^2-1};
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}\begin{axis}[view={0}{90}, axis lines=middle,
+                xmin=0, xmax=5,
+                ymin=0, ymax=5,
+                zmin=0, zmax=8,
+                enlargelimits=false,
+                xlabel=\(x\), ylabel=\(y\),
+                plot box ratio=1,
+                every node/.style = {circle, fill=black, thick, minimum size=1pt}]
+                \addplot3[contour gnuplot={levels={-3,-2,-1,0,1,2,3,4}},thick,
+                samples=90,
+                grid=both,
+                contour/draw color={black},
+                contour/contour label style={nodes={text=black}}]
+                    {x-(y-2.5)^2-1};
             \end{axis}\end{tikzpicture}]]>
-          </latex-image>
+</latex-image>
         </image>
+
       </statement>
     </exercise>
+
   </sidebyside>
 
   <exercise>
@@ -103,8 +116,11 @@
 
       <p>
         <m>f(1,4) =</m> <fillin characters="10"/>
+
         <m>f(2,2) =</m> <fillin characters="10"/>
-        <m>f(5,2.5) =</m> <fillin characters="10"/> }
+
+        <m>f(5,2.5) =</m> <fillin characters="10"/>
+        }
       </p>
     </statement>
   </exercise>
@@ -116,60 +132,54 @@
     units.
     Some unit factors that may be familiar are
     <me>
-      \dfrac{\SI{1000}{mL}}{\SI{1}{L}},  \dfrac{1\;\mathrm{mi}}{5280\;\mathrm{ft}},
+      \dfrac{\lt quantity>\lt mag>1000\lt /mag>\lt unit prefix="mili" base="liter"/>\lt /quantity>}{\lt quantity>\lt mag>1\lt /mag>\lt unit base="liter"/>\lt /quantity>},  \dfrac{1\;\mathrm{mi}}{5280\;\mathrm{ft}},
       \text{ and }  \dfrac{360^{\circ}}{2\pi\;\mathrm{radian}}
     </me>.
   </p>
 
   <p>
-    Multiplication by unit factors is like multiplication by 1:
-    it doesn't change the value of the quantity that gets multiplied,
+    Multiplication by unit factors is like multiplication by 1: it
+    doesn't change the value of the quantity that gets multiplied,
     only the expression of that quantity in predefined units.
   </p>
+
   <exercise>
     <statement>
       <p>
-        Multiply by appropriate unit factors to achieve the indicated unit conversions.
+        Multiply by appropriate unit factors to achieve the indicated unit
+        conversions.
         Make sure you understand how to draw the
         <q>fishbone</q> diagrams.
       </p>
 
       <task>
         <p>
-          <m>\SI{625}{cm} =</m><fillin characters="10"/> \si{m}
-        </p>
+          <m>\lt quantity>\lt mag>625\lt /mag>\lt unit prefix= "centi" base="meter"/>\lt /quantity> =</m><fillin characters="10"/><quantity><unit base="meter"/></quantity></p>
 
-        <p>
-          <m>\SI{625}{cm}</m>
-        </p>
+        <p><quantity><mag>625</mag><unit prefix= "centi" base="meter"/></quantity></p>
 
         <p>
           \hline
         </p>
 
         <p>
-          = <fillin characters="10"/> \si{m}
-        </p>
+          = <fillin characters="10"/><quantity><unit base="meter"/></quantity></p>
       </task>
 
       <task workspace="20%">
         <p>
-          <m>\SI{625}{m} =</m><fillin characters="10"/> \si{cm}
-        </p>
+          <m>\lt quantity>\lt mag>625\lt /mag>\lt unit base="meter"/>\lt /quantity> =</m><fillin characters="10"/><quantity><unit prefix= "centi" base="meter"/></quantity></p>
       </task>
 
       <task workspace="20%">
         <p>
-          <m>{70}\;\mathrm{mi/hr} =</m><fillin characters="10"/> \si{m/s}
-        </p>
+          <m>{70}\;\mathrm{mi/hr} =</m><fillin characters="10"/><quantity><unit base="meter"/><per base="second"/></quantity></p>
       </task>
 
       <task workspace="20%">
         <p>
-          <m>\SI{44}{kg.m/s^2} =</m><fillin characters="10"/> \si{g.cm/s^2}
-        </p>
+          <m>\lt quantity>\lt mag>44\lt /mag>\lt unit base="meter"/>\lt unit base="meter"/>\lt per base="second" exp="2"/>\lt /quantity> =</m><fillin characters="10"/><quantity><unit prefix= "centi" base="meter"/><unit prefix= "centi" base="meter"/><per base="second" exp="2"/></quantity></p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

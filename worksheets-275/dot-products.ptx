@@ -9,9 +9,9 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
-
       <task workspace="10%">
         <p>
           Find a nonzero vector that is perpendicular to <m>(v_1, v_2)</m>. (<em>Hint.</em>
@@ -25,9 +25,9 @@
           Can you use your idea from the previous part?)
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -36,16 +36,18 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
-        Write down the unit vectors whose angle from the vector
-        <m>\angl{1,0}</m> is <m>\theta</m> (in the positive direction).
-        Then write down <em>all</em>
-        vectors at this angle. (All your answers will involve <m>\theta</m>.)
+        Write down the unit vectors whose angle from the vector <m>\angl{1,0}</m> is <m>\theta</m>
+        (in the positive direction).
+        Then write down <em>all</em> vectors at this angle.
+        (All your answers will involve <m>\theta</m>.)
       </p>
     </statement>
   </exercise>
+
   <p>
     \question
   </p>

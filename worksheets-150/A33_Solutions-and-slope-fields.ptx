@@ -5,18 +5,22 @@
   <exercise workspace="10%">
     <statement>
       <p>
-        What does it mean for a function to be a <em>solution</em>
-        of a differential equation? (Sometimes,
-        we say <q>to</q> a differential equation instead of <q>of</q>.
+        What does it mean for a function to be a <em>solution</em> of
+        a differential equation? (Sometimes,
+        we say <q>to</q> a differential
+        equation instead of <q>of</q>.
         The meaning is the same.)
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
-        Three differential equations and six functions are listed below.
-        Match each differential equation to the function(s) that are solutions of it.
+        Three differential equations and six functions are listed
+        below.
+        Match each differential equation to the function(s) that are
+        solutions of it.
       </p>
 
       <task workspace="10%">
@@ -83,96 +87,112 @@
     <statement>
       <p>
         On each slope field pictured below,
-        draw the curve that passes through the indicated point.
+        draw the curve that passes
+        through the indicated point.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[
-          declare function={f(\x) = (-2+y)*(0.73-y);} 
-          ]
-          \begin{axis}[
-          slopefield,
-          title={Point \((0,0.8)\)},
-          ]
-          \addplot3 (x,y,0);
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                declare function={f(\x) = (-2+y)*(0.73-y);} 
+            ]
+            \begin{axis}[
+                slopefield,
+                title={Point \((0,0.8)\)},
+            ]
+            \addplot3 (x,y,0);
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[
-          declare function={f(\x) = (-2+y)*(0.73-y);} 
-          ]
-          \begin{axis}[
-          slopefield,
-          title={Point \((0,0.35)\)},
-          ]
-          \addplot3 (x,y,0);
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                declare function={f(\x) = (-2+y)*(0.73-y);} 
+            ]
+            \begin{axis}[
+                slopefield,
+                title={Point \((0,0.35)\)},
+            ]
+            \addplot3 (x,y,0);
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
-        Match each slope field to the differential equation it comes from.
+        Match each slope field to the differential equation it comes
+        from.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[
-          declare function={f(\x) = 5*y*(1-y);},
-          ]
-          \begin{axis}[
-          slopefield,
-          title={Field 1},
-          width=\linewidth
-          ]
-          \addplot3 (x,y,0);
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                declare function={f(\x) = 5*y*(1-y);},
+            ]
+            \begin{axis}[
+                slopefield,
+                title={Field 1},
+                width=\linewidth
+            ]
+            \addplot3 (x,y,0);
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[
-          declare function={f(\x) = 5*(y-0.2);}
-          ]
-          \begin{axis}[
-          slopefield,
-          title={Field 2},
-          width=\linewidth
-          ]
-          \addplot3 (x,y,0);
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                declare function={f(\x) = 5*(y-0.2);}
+            ]
+            \begin{axis}[
+                slopefield,
+                title={Field 2},
+                width=\linewidth
+            ]
+            \addplot3 (x,y,0);
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[
-          declare function={f(\x) = sin(deg(5*pi*(x-0.5)*(y-0.5));},
-          ]
-          \begin{axis}[
-          slopefield,
-          title={Field 3},
-          width=\linewidth
-          ]
-          \addplot3 (x,y,0);
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                declare function={f(\x) = sin(deg(5*pi*(x-0.5)*(y-0.5));},
+            ]
+            \begin{axis}[
+                slopefield,
+                title={Field 3},
+                width=\linewidth
+            ]
+            \addplot3 (x,y,0);
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}[
-          declare function={f(\x) = 5*(0.78-y);}
-          ]
-          \begin{axis}[
-          slopefield,
-          title={Field 4},
-          width=\linewidth
-          ]
-          \addplot3 (x,y,0);
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                declare function={f(\x) = 5*(0.78-y);}
+            ]
+            \begin{axis}[
+                slopefield,
+                title={Field 4},
+                width=\linewidth
+            ]
+            \addplot3 (x,y,0);
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
 
       <task workspace="10%">
@@ -210,7 +230,6 @@
           <m>y' = 5y-1</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

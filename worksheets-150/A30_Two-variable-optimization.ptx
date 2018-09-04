@@ -6,8 +6,10 @@
     <statement>
       <p>
         From the table of values given for the function <m>g(x,y)</m>,
-        estimate the locations and values of any global maxima or minima of <m>g(x,y)</m>.
+        estimate the locations and values of any global maxima or minima of
+        <m>g(x,y)</m>.
       </p>
+
       <tabular>
         <row>
           <cell></cell>
@@ -109,13 +111,17 @@
           <cell>67</cell>
         </row>
       </tabular>
+
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
         For each contour plot pictured below,
-        list the <m>x</m>- and <m>y</m>- coordinates and the function values at each local maximum and local minimum and identify which are which.
+        list the <m>x</m>- and <m>y</m>-
+        coordinates and the function values at each local maximum and local
+        minimum and identify which are which.
       </p>
 
       <p>
@@ -137,6 +143,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>

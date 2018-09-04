@@ -5,8 +5,8 @@
   <exercise workspace="20%">
     <statement>
       <p>
-        Fit a quadratic function <m>f(t) = a_0 + a_1 t + a_2 t^2</m> to the points <m>(1,2)</m>,
-        <m>(2,5)</m>,
+        Fit a quadratic function <m>f(t) = a_0 + a_1 t + a_2 t^2</m> to the
+        points <m>(1,2)</m>, <m>(2,5)</m>,
         <m>(5,4)</m>, and <m>(7,3)</m>.
       </p>
 
@@ -15,7 +15,8 @@
         <sidebyside>
           <task>
             <p>
-              Write a system of equations that corresponds to the desired model.
+              Write a system of equations that corresponds to the
+              desired model.
             </p>
           </task>
 
@@ -32,7 +33,8 @@
         <p>
           Write down the R commands to find the best values for <m>a_0</m>,
           <m>a_1</m>, and <m>a_2</m>.
-          Enter the values for these coefficients in the provided blanks.
+          Enter the values for these coefficients in the
+          provided blanks.
         </p>
 
         <m>a_0 =</m> <fillin characters="10"/> 
@@ -46,32 +48,38 @@
         <p>
           Give the R commands to find the residual vector
           <m>\vec{\mathbf{r}}</m> and its length <m>\norm{\vec{\mathbf{r}}}</m>.
-          Is the model a good fit?
+          Is the
+          model a good fit?
           Write the best-fit function in the blank.
         </p>
       </task>
-
     </statement>
   </exercise>
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
-          Give the R commands to make a scatter plot of the data and then add a plot of the model you calculated.
+          Give the R commands to make a scatter plot of the data and
+          then add a plot of the model you calculated.
           Is the model a good fit?
         </p>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}[xscale=0.55,yscale=0.55]
-            \draw [style={gray, thick}] (0,0) grid (12,7);
-            \draw [<->, style={black, very thick}] (0,7) -- (0,0) -- (12,0);
-            \node at (13,0){\(x\)};
-            \node at (0,8){\(y\)};\end{tikzpicture}]]>
-          </latex-image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.55,yscale=0.55]
+        \draw [style={gray, thick}] (0,0) grid (12,7);
+        \draw [<->, style={black, very thick}] (0,7) -- (0,0) -- (12,0);
+        \node at (13,0){\(x\)};
+        \node at (0,8){\(y\)};\end{tikzpicture}]]>
+</latex-image>
         </image>
+
       </statement>
     </exercise>
+
   </sidebyside>
 
   <pagebreak />
@@ -80,9 +88,9 @@
     <statement>
       <p>
         In this example we will make a model using data in a file.
-        In the RStudio console,
-        use the command below to import data on the temperature of a cup of coffee cooling over time:
-        <c>s = fetchData(<q>stan-data.csv</q>)</c>
+        In the RStudio
+        console, use the command below to import data on the temperature of a cup of coffee
+        cooling over time: <c>s = fetchData(<q>stan-data.csv</q>)</c>
       </p>
 
       <task workspace="10%">
@@ -104,18 +112,21 @@
 
       <task workspace="10%">
         <p>
-          Use the <c>project</c> command to find the coefficients in your equation.
+          Use the <c>project</c> command to find the coefficients in your
+          equation.
           Write your command below:
         </p>
 
         <p>
-          { R gives <fillin characters="10"/> for the <c>(intercept)</c> and <fillin characters="10"/> for <c>time</c>.}
+          { R gives <fillin characters="10"/> for the
+          <c>(intercept)</c> and <fillin characters="10"/> for <c>time</c>.}
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          What is the best-fit model? (Some adjustments will be required to the values you obtained from R.)
+          What is the best-fit model? (Some adjustments will be required
+          to the values you obtained from R.)
         </p>
       </task>
 
@@ -141,8 +152,8 @@
             At time <m>t = 260</m>, the temperature is <fillin characters="10"/>.
           </p>
         </task>
-      </task>
 
+      </task>
     </statement>
   </exercise>
 </worksheet>

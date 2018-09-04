@@ -6,87 +6,98 @@
     <statement>
       <p>
         Draw the surface <m>z = f(x,y)</m> for these four functions.
-        Include contours for levels <m>0</m>, <m>1/2</m>,
+        Include
+        contours for levels <m>0</m>, <m>1/2</m>,
         <m>1</m>, <m>3/2</m>, <m>2</m>.
-        Think about where the contours for levels <m>-1/2</m>, <m>-1</m>,
-        <m>-3/2</m>,
-        <m>-2</m> would go and include some of them if appropriate.
+        Think about where the
+        contours for levels <m>-1/2</m>, <m>-1</m>,
+        <m>-3/2</m>, <m>-2</m> would go and include some of
+        them if appropriate.
       </p>
-      <image>
-        <latex-image>
-          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
-          \begin{axis}[
-          title={\(f_1 = \sqrt{4 - x^2 - y^2}\)},
-          axis lines=middle,
-          xmin=-2, xmax=2,
-          ymin=-2, ymax=2,
-          xtick={-2, -1, 0, 1, 2},
-          minor x tick num=3,
-          ytick={-2, -1, 0, 1, 2},
-          minor y tick num=3,
-          grid=both,
-          unit vector ratio=1
-          ]
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
-      </image>
-      <image>
-        <latex-image>
-          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
-          \begin{axis}[
-          title={\(f_3 = 2 - \dfrac{1}{2}(x^2 + y^2)\)},
-          axis lines=middle,
-          xmin=-2, xmax=2,
-          ymin=-2, ymax=2,
-          xtick={-2, -1, 0, 1, 2},
-          minor x tick num=3,
-          ytick={-2, -1, 0, 1, 2},
-          minor y tick num=3,
-          grid=both,
-          unit vector ratio=1
-          ]
 
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
-      </image>
       <image>
-        <latex-image>
-          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
-          \begin{axis}[
-          title={\(f_2 = 2 - \sqrt{x^2+y^2}\)},
-          axis lines=middle,
-          xmin=-2, xmax=2,
-          ymin=-2, ymax=2,
-          xtick={-2, -1, 0, 1, 2},
-          minor x tick num=3,
-          ytick={-2, -1, 0, 1, 2},
-          minor y tick num=3,
-          grid=both,
-          unit vector ratio=1
-          ]
 
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
+      \begin{axis}[
+        title={\(f_1 = \sqrt{4 - x^2 - y^2}\)},
+        axis lines=middle,
+        xmin=-2, xmax=2,
+        ymin=-2, ymax=2,
+        xtick={-2, -1, 0, 1, 2},
+        minor x tick num=3,
+        ytick={-2, -1, 0, 1, 2},
+        minor y tick num=3,
+        grid=both,
+        unit vector ratio=1
+      ]
+      \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
       <image>
-        <latex-image>
-          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
-          \begin{axis}[
-          title={\(f_4 = 1 + e^{-x^2-y^2}\)},
-          axis lines=middle,
-          xmin=-2, xmax=2,
-          ymin=-2, ymax=2,
-          xtick={-2, -1, 0, 1, 2},
-          minor x tick num=3,
-          ytick={-2, -1, 0, 1, 2},
-          minor y tick num=3,
-          grid=both,
-          unit vector ratio=1
-          ]
 
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
+      \begin{axis}[
+        title={\(f_3 = 2 - \dfrac{1}{2}(x^2 + y^2)\)},
+        axis lines=middle,
+        xmin=-2, xmax=2,
+        ymin=-2, ymax=2,
+        xtick={-2, -1, 0, 1, 2},
+        minor x tick num=3,
+        ytick={-2, -1, 0, 1, 2},
+        minor y tick num=3,
+        grid=both,
+        unit vector ratio=1
+      ]
+
+      \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
+      <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
+      \begin{axis}[
+        title={\(f_2 = 2 - \sqrt{x^2+y^2}\)},
+        axis lines=middle,
+        xmin=-2, xmax=2,
+        ymin=-2, ymax=2,
+        xtick={-2, -1, 0, 1, 2},
+        minor x tick num=3,
+        ytick={-2, -1, 0, 1, 2},
+        minor y tick num=3,
+        grid=both,
+        unit vector ratio=1
+      ]
+
+      \end{axis}\end{tikzpicture}]]>
+</latex-image>
+      </image>
+
+      <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=1.2,yscale=1.2]
+      \begin{axis}[
+        title={\(f_4 = 1 + e^{-x^2-y^2}\)},
+        axis lines=middle,
+        xmin=-2, xmax=2,
+        ymin=-2, ymax=2,
+        xtick={-2, -1, 0, 1, 2},
+        minor x tick num=3,
+        ytick={-2, -1, 0, 1, 2},
+        minor y tick num=3,
+        grid=both,
+        unit vector ratio=1
+      ]
+
+      \end{axis}\end{tikzpicture}]]>
+</latex-image>
+      </image>
+
     </statement>
   </exercise>
 
@@ -100,6 +111,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -109,6 +121,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -116,12 +129,14 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="20%">
     <statement>
       <p>
         In CoCalc, use Sage to plot contour maps of the following functions.
         Explore the options for which contours you can include and coloring.
         Make notes about these commands in the space below.
+
         <ol type="a">
           <li>
             <p>

@@ -33,7 +33,6 @@
           <m>f(x,y) = y^{10}, \vec{u} = (0,-1), P = (1,-1)</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -47,6 +46,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -72,7 +72,6 @@
           How are the vectors related to the tangent plane to the graph of <m>f</m>?
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

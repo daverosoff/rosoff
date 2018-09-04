@@ -19,33 +19,38 @@
         <p>
           Plot the points from the data table on the grid.
         </p>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}[xscale=0.5,yscale=0.5]
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.5,yscale=0.5]
             \draw[style={gray, thick}] (0, 0) grid (15,15);\end{tikzpicture}]]>
-          </latex-image>
+</latex-image>
         </image>
+
       </task>
 
       <task workspace="10%">
         <p>
-          Write down a system of equations (5 equations) with unknown <m>k</m> that needs to be solved in this problem.
+          Write down a system of equations (5 equations) with unknown <m>k</m>
+          that needs to be solved in this problem.
         </p>
       </task>
 
       <task workspace="10%">
         <p>
           Write down the vector equation
-          <m>\vec{w} = k\vec{u}</m> that needs to be solved in this problem.
+          <m>\vec{w} = k\vec{u}</m>
+          that needs to be solved in this problem.
         </p>
       </task>
 
       <task workspace="20%">
         <p>
-          Use the method of vector projection (Activity 13) to find the optimal value
-          <m>\widehat{k}</m> and the vector <m>\widehat{k}\vec{u}</m>. (<em>Note.</em>
-          We call <m>\widehat{k}\vec{u}</m> the <em>projection</em>
-          of <m>\vec{w}</m> along <m>\vec{u}</m> for short.)
+          Use the method of vector projection (Activity 13) to find
+          the optimal value <m>\widehat{k}</m> and the vector <m>\widehat{k}\vec{u}</m>.
+          (<em>Note.</em> We call <m>\widehat{k}\vec{u}</m> the <em>projection</em> of
+          <m>\vec{w}</m> along <m>\vec{u}</m> for short.)
         </p>
       </task>
 
@@ -62,7 +67,6 @@
           Interpret this length in the context of the projection.
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -72,7 +76,8 @@
     <statement>
       <p>
         Suppose that we have the following table of data points.
-        We want to find the line <m>y = mt + b</m> that best fits the data. (The
+        We want to find the line <m>y = mt + b</m> that best fits the data.
+        (The
         points are the same as on the front side.)
         <me>
           \begin{array}{c|c|c|c|c|c}
@@ -86,18 +91,22 @@
         <p>
           Plot the points from the data table on the grid.
         </p>
+
         <image>
-          <latex-image>
-            <![CDATA[\begin{tikzpicture}[xscale=0.5,yscale=0.5]
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.5,yscale=0.5]
             \draw[style={gray, thick}] (0, 0) grid (15,15);\end{tikzpicture}]]>
-          </latex-image>
+</latex-image>
         </image>
+
       </task>
 
       <task>
         <p>
           Write down the vector equation
-          <m>\vec{s} = m\vec{u} + b\vec{v}</m> that needs to be solved in this problem.
+          <m>\vec{s} = m\vec{u} + b\vec{v}</m>
+          that needs to be solved in this problem.
         </p>
       </task>
 
@@ -131,7 +140,6 @@
           <m>\vec{r} = \vec{s} - \widehat{s}</m> and its length <m>\norm{\vec{r}}</m>.
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

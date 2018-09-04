@@ -35,7 +35,6 @@
           <m>t=0</m>, what are its assets worth one year later?
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -46,7 +45,8 @@
       <p>
         A patient is given the drug theophylline intervenously at a rate of <m>43.2</m> mg/hour to relieve acute asthma.
         The rate at which the drug leaves the patient's body is proportional to the quantity there,
-        with proportionality constant <m>0.082</m> where time, <m>t</m>,
+        with proportionality constant <m>0.082</m> where time,
+        <m>t</m>,
         is in hours.
         The patient's body contains none of the drug initially.
       </p>
@@ -69,7 +69,6 @@
           Solve the differential equation.
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

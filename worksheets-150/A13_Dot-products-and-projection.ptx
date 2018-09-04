@@ -5,8 +5,9 @@
   <exercise>
     <statement>
       <p>
-        Let <m>\vec{v_1} = (-4, 1)</m>, <m>\vec{v_2} = (2,2)</m>,
-        <m>\vec{v_3} = (1,2,3)</m>, <m>\vec{v_4} = (-2, 1, 0)</m>.
+        Let <m>\vec{v_1} = (-4, 1)</m>,
+        <m>\vec{v_2} = (2,2)</m>, <m>\vec{v_3} = (1,2,3)</m>,
+        <m>\vec{v_4} = (-2, 1, 0)</m>.
         Find the values of the following expressions:
       </p>
 
@@ -39,23 +40,35 @@
           Are any of these vectors perpendicular to each other?
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
-        The vectors <m>\vec{a} = (3, 9)</m> and <m>\vec{u} = (4,2)</m> are pictured below.
-        Derive the formula for projection on a line and use it to find the projection of <m>\vec{a}</m> on the line spanned by <m>\vec{u}</m>.
+        The vectors <m>\vec{a} = (3, 9)</m> and <m>\vec{u} = (4,2)</m> are
+        pictured below.
+        Derive the formula for projection on a line and use it
+        to find the projection of <m>\vec{a}</m> on the line spanned by <m>\vec{u}</m>.
         Also compute the length of the residual vector.
       </p>
 
       <p>
-        <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.90,yscale=0.90] \draw [style={gray,
-        thick}] (0,0) grid (8,10); \draw [\lt ->, style={black,
-        ultra thick}] (0,10) -- (0,0) -- (8,0); \draw [->, style={black,
-        very thick}] (0,0) -- (3,9) node[anchor=north west] {$\vec{a}$}; \draw [->, style={black,
-        very thick}] (0,0) -- (4,2) node[anchor=south east] {$\vec{u}$}; \node at (8.5,0){$x$}; \node at (0,10.5){$y$}; \end{tikzpicture}]]> </latex-image> </image>
+
+        <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.90,yscale=0.90]
+        \draw [style={gray, thick}] (0,0) grid (8,10);
+        \draw [\lt ->, style={black, ultra thick}] (0,10) -- (0,0) -- (8,0);
+        \draw [->, style={black, very thick}] (0,0) -- (3,9) node[anchor=north west] {$\vec{a}$};
+        \draw [->, style={black, very thick}] (0,0) -- (4,2) node[anchor=south east] {$\vec{u}$};
+        \node at (8.5,0){$x$};
+        \node at (0,10.5){$y$};
+    \end{tikzpicture}]]>
+</latex-image>
+        </image>
+
       </p>
     </statement>
   </exercise>
@@ -89,7 +102,8 @@
 
       <task workspace="20%">
         <p>
-          Compute <m>\widehat{m}\begin{bmatrix}2 \\ 5 \end{bmatrix}</m>.
+          Compute <m>\widehat{m}\begin{bmatrix}2 \\ 5
+          \end{bmatrix}</m>.
         </p>
       </task>
 
@@ -104,11 +118,11 @@
           Compute the length of the residual vector and explain what it means.
         </p>
       </task>
-
     </statement>
   </exercise>
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
@@ -137,9 +151,9 @@
             Compute the length of the residual vector.
           </p>
         </task>
-
       </statement>
     </exercise>
+
   </sidebyside>
 </worksheet>
 

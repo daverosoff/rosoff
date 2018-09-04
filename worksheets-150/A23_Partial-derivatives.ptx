@@ -10,6 +10,7 @@
   </p>
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
@@ -43,51 +44,53 @@
             <m>\dfrac{\partial g}{\partial b} =</m> <fillin characters="10"/>
           </p>
         </task>
-
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
           For the second partial derivatives,
-          the <m>\partial</m> operators are read right-to-left.
-          Make notes of which partial derivative to take first and which to take second.
+          the <m>\partial</m> operators
+          are read right-to-left.
+          Make notes of which partial derivative to take first
+          and which to take second.
         </p>
 
         <task>
           <p>
             <m>\dfrac{\partial^2 f}{(\partial x)^2}</m> First:
-            <fillin characters="10"/> Second:
-            <fillin characters="10"/>}
+            <fillin characters="10"/>
+            Second: <fillin characters="10"/>}
           </p>
         </task>
 
         <task>
           <p>
             <m>\dfrac{\partial^2 f}{\partial x \partial y}</m> First:
-            <fillin characters="10"/> Second:
-            <fillin characters="10"/>}
+            <fillin characters="10"/>
+            Second: <fillin characters="10"/>}
           </p>
         </task>
 
         <task>
           <p>
             <m>\dfrac{\partial^2 f}{\partial y \partial x}</m> First:
-            <fillin characters="10"/> Second:
-            <fillin characters="10"/>}
+            <fillin characters="10"/>
+            Second: <fillin characters="10"/>}
           </p>
         </task>
 
         <task>
           <p>
             <m>\dfrac{\partial^2 f}{(\partial y)^2}</m> First:
-            <fillin characters="10"/> Second:
-            <fillin characters="10"/>}
+            <fillin characters="10"/>
+            Second: <fillin characters="10"/>}
           </p>
         </task>
-
       </statement>
     </exercise>
+
     <exercise>
       <statement>
         <p>
@@ -117,9 +120,9 @@
             <m>\dfrac{\partial^2 f}{(\partial w)^2}</m>
           </p>
         </task>
-
       </statement>
     </exercise>
+
   </sidebyside>
 </worksheet>
 

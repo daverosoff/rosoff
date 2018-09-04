@@ -12,7 +12,8 @@
 
       <task xml:id="p_cube">
         <p>
-          A cube with sides of length 2, centered at <m>(0,0,0)</m>.
+          A cube with sides of length 2, centered at
+          <m>(0,0,0)</m>.
         </p>
       </task>
 
@@ -36,7 +37,6 @@
           First find the plane through the last three corners.
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

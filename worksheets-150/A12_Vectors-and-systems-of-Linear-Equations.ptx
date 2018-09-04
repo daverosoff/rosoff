@@ -9,15 +9,25 @@
       </p>
 
       <p>
-        <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.65,yscale=0.65] \draw [style={gray,
-        thick}] (0,0) grid (12,12); \draw [\lt ->, style={black,
-        very thick}] (0,6) -- (12,6); \draw [\lt ->, style={black,
-        very thick}] (6,0) -- (6,12); \end{tikzpicture}]]> </latex-image> </image>
+
+        <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.65,yscale=0.65]
+        \draw [style={gray, thick}] (0,0) grid (12,12);
+        \draw [\lt ->, style={black, very thick}] (0,6) -- (12,6);
+        \draw [\lt ->, style={black, very thick}] (6,0) -- (6,12);
+    \end{tikzpicture}]]>
+</latex-image>
+        </image>
+
       </p>
 
       <task workspace="10%">
         <p>
-          Sketch: <m>\vec{u} = \begin{bmatrix}1 \\ 2 \end{bmatrix}</m> and <m>\vec{v} = \begin{bmatrix}3 \\ 1 \end{bmatrix}</m>.
+          Sketch: <m>\vec{u} = \begin{bmatrix}1 \\ 2
+          \end{bmatrix}</m> and <m>\vec{v} = \begin{bmatrix}3 \\ 1
+          \end{bmatrix}</m>.
         </p>
       </task>
 
@@ -43,9 +53,9 @@
           Sketch the parallelogram associated to part (c).
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -53,17 +63,26 @@
       </p>
 
       <p>
-        <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.65,yscale=0.65] \draw [style={gray,
-        thick}] (0,0) grid (12,12); \draw [\lt ->, style={black,
-        very thick}] (0,6) -- (12,6); \draw [\lt ->, style={black,
-        very thick}] (6,0) -- (6,12); \end{tikzpicture}]]> </latex-image> </image>
+
+        <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.65,yscale=0.65]
+        \draw [style={gray, thick}] (0,0) grid (12,12);
+        \draw [\lt ->, style={black, very thick}] (0,6) -- (12,6);
+        \draw [\lt ->, style={black, very thick}] (6,0) -- (6,12);
+    \end{tikzpicture}]]>
+</latex-image>
+        </image>
+
       </p>
 
       <task>
         <p>
-          Sketch the vectors <m>\begin{bmatrix}2 \\ 2 \end{bmatrix}</m>,
-          <m>\begin{bmatrix}-1 \\ 3 \end{bmatrix}</m>,
-          and <m>\begin{bmatrix}5 \\ 1 \end{bmatrix}</m>.
+          Sketch the vectors <m>\begin{bmatrix}2 \\ 2
+          \end{bmatrix}</m>, <m>\begin{bmatrix}-1 \\ 3
+          \end{bmatrix}</m>, and <m>\begin{bmatrix}5 \\ 1
+          \end{bmatrix}</m>.
         </p>
       </task>
 
@@ -95,7 +114,6 @@
           Solve this system for <m>x</m> and <m>y</m> algebraically to check your answer for part (b).
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -108,17 +126,26 @@
       </p>
 
       <p>
-        <image> <latex-image> <![CDATA[\begin{tikzpicture}[xscale=0.65,yscale=0.65] \draw [style={gray,
-        thick}] (0,0) grid (12,12); \draw [\lt ->, style={black,
-        very thick}] (0,6) -- (12,6); \draw [\lt ->, style={black,
-        very thick}] (6,0) -- (6,12); \end{tikzpicture}]]> </latex-image> </image>
+
+        <image>
+
+<latex-image>
+          <![CDATA[\begin{tikzpicture}[xscale=0.65,yscale=0.65]
+        \draw [style={gray, thick}] (0,0) grid (12,12);
+        \draw [\lt ->, style={black, very thick}] (0,6) -- (12,6);
+        \draw [\lt ->, style={black, very thick}] (6,0) -- (6,12);
+    \end{tikzpicture}]]>
+</latex-image>
+        </image>
+
       </p>
 
       <task>
         <p>
-          Sketch the vectors <m>\begin{bmatrix}1 \\ 1 \end{bmatrix}</m>,
-          <m>\begin{bmatrix}3 \\ -3 \end{bmatrix}</m>,
-          and <m>\begin{bmatrix}0 \\ -6 \end{bmatrix}</m>.
+          Sketch the vectors <m>\begin{bmatrix}1 \\ 1
+          \end{bmatrix}</m>, <m>\begin{bmatrix}3 \\ -3
+          \end{bmatrix}</m>, and <m>\begin{bmatrix}0 \\ -6
+          \end{bmatrix}</m>.
         </p>
       </task>
 
@@ -145,11 +172,11 @@
           Solve the system you found in part (c) and check that it agrees with your answer for part (b).
         </p>
       </task>
-
     </statement>
   </exercise>
 
   <sidebyside>
+
     <exercise>
       <statement>
         <p>
@@ -177,9 +204,9 @@
             <mrow>-3y - 2x -7w \amp = 2</mrow>
           </md>
         </task>
-
       </statement>
     </exercise>
+
   </sidebyside>
 </worksheet>
 

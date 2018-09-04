@@ -44,13 +44,13 @@
           <m>x^2 + y^2 + 2z^2 = 7</m>, <m>P = (1, 2, 1)</m>
         </p>
       </task>
-
     </statement>
   </exercise>
 
   <pagebreak />
 
   <sidebyside>
+
     <exercise xml:id="q_linear">
       <statement>
         <p>
@@ -58,25 +58,29 @@
         </p>
       </statement>
     </exercise>
+
     <exercise xml:id="q_nonlinear">
       <statement>
         <p>
-          If <m>z = x^3/y^2</m> find <m>dz</m> from <m>dx</m> and <m>dy</m> at <m>x_0 = 1</m>,
-          <m>y_0 = 1</m>.
+          If <m>z = x^3/y^2</m> find <m>dz</m> from <m>dx</m> and <m>dy</m>
+          at <m>x_0 = 1</m>, <m>y_0 = 1</m>.
         </p>
       </statement>
     </exercise>
+
   </sidebyside>
 
   <exercise workspace="1.70%">
     <statement>
       <p>
         If <m>x</m> moves to <m>1.02</m> and <m>y</m> moves to <m>1.03</m>,
-        find <m>dz</m> and <m>\Delta z</m> for both functions from <xref ref="q_linear">problems</xref>
+        find <m>dz</m> and
+        <m>\Delta z</m> for both functions from <xref ref="q_linear">problems</xref>
         and <xref ref="q_nonlinear"></xref>.
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="0.30%">
     <statement>
       <p>
@@ -84,13 +88,16 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
         The gas equation for one mole of oxygen relates its pressure, <m>P</m>
-        (in atmospheres), its temperature,
-        <m>T</m> (in \si{K}), and its volume, <m>V</m> (in
-        cubic decimeters, <m>\si{dm^3}</m>):
+        (in atmospheres), its temperature, <m>T</m> (in
+        <quantity><unit base="kelvin"/></quantity>),
+        and its volume, <m>V</m> (in
+        cubic decimeters,
+        <quantity><unit prefix= "deci" base="meter" exp="3"/></quantity>):
         <me>
           T = 16.574 \frac{1}{V} - 0.54754 \frac{1}{V^2} - 0.3879 P + 12.187VP
         </me>.
@@ -99,17 +106,19 @@
       <task workspace="10%">
         <p>
           Find the temperature <m>T</m> and differential <m>dT</m> if the volume is
-          <m>\SI{32}{dm^3}</m> and the pressure is \SI{0.5}{atm}.
+          <quantity><mag>32</mag><unit prefix= "deci" base="meter" exp="3"/></quantity>
+          and the pressure is
+          <quantity><mag>0.5</mag><unit base="atmosphere"/></quantity>.
         </p>
       </task>
 
       <task workspace="10%">
         <p>
           What is the change in volume if the pressure increases by
-          <m>\SI{0.1}{atm}</m> and the temperature remains constant?
+          <quantity><mag>0.1</mag><unit base="atmosphere"/></quantity>
+          and the temperature remains constant?
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

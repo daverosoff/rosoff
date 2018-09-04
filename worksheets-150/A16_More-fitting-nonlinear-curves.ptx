@@ -5,6 +5,7 @@
   <p>
     \sisetup{group-separator={{,}}, group-minimum-digits={3}}
   </p>
+
   <exercise>
     <statement>
       <p>
@@ -33,26 +34,29 @@
 
       <task workspace="20%">
         <p>
-          Write the system of equations and the vector equation using your previous answer and the data table.
+          Write the system of equations and the vector equation using
+          your previous answer and the data table.
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          Use the <c>project</c> command to find the best-fit coefficients for your equation.
+          Use the <c>project</c> command to find the best-fit coefficients
+          for your equation.
         </p>
 
         <p>
-          { R gives <fillin characters="10"/> for the <c>(intercept)</c> and <fillin characters="10"/> for <c>log(w)</c>.}
+          { R gives <fillin characters="10"/> for the
+          <c>(intercept)</c> and <fillin characters="10"/> for <c>log(w)</c>.}
         </p>
       </task>
 
       <task workspace="10%">
         <p>
-          What is the best-fit model? (Some adjustments will be required to the values you obtained from R.)
+          What is the best-fit model? (Some adjustments will be required
+          to the values you obtained from R.)
         </p>
       </task>
-
     </statement>
   </exercise>
 
@@ -62,8 +66,9 @@
     <statement>
       <p>
         Fit the same data points <m>(1,2)</m>,
-        <m>(2,5)</m>, <m>(5,4)</m>,
-        and <m>(7,3)</m> to the model <m>g(t) = a + b \sin{\left( \frac{2\pi}{16} t \right)} + c \cos{\left( \frac{2\pi}{16} t \right)}</m>.
+        <m>(2,5)</m>, <m>(5,4)</m>, and
+        <m>(7,3)</m> to the model <m>g(t) = a + b \sin{\left( \frac{2\pi}{16} t \right)}
+        + c \cos{\left( \frac{2\pi}{16} t \right)}</m>.
       </p>
 
       <figure>
@@ -71,7 +76,8 @@
         <sidebyside>
           <task>
             <p>
-              Write a system of equations that corresponds to the desired model.
+              Write a system of equations that corresponds to the
+              desired model.
             </p>
           </task>
 
@@ -86,15 +92,17 @@
 
       <task workspace="10%">
         <p>
-          Write down the R commands to find the best values for <m>a</m>, <m>b</m>,
-          and <m>c</m>.
-          Write the best-fitting function <m>g(t)</m> in the provided blank.
+          Write down the R commands to find the best values for <m>a</m>,
+          <m>b</m>, and <m>c</m>.
+          Write the best-fitting function <m>g(t)</m> in the
+          provided blank.
         </p>
       </task>
 
       <task>
         <p>
-          Fill in the indicated values and compare your model to the original data.
+          Fill in the indicated values and compare your model to the
+          original data.
         </p>
 
         <sidebyside>
@@ -126,7 +134,6 @@
         </sidebyside>
 
       </task>
-
     </statement>
   </exercise>
 </worksheet>

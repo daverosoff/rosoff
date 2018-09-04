@@ -4,11 +4,12 @@
   <title>Math 150  Activity 05: Functions and graphs in RStudio</title>
   <exercise>
     <statement>
-
       <task workspace="10%">
         <p>
           Define a function <m>\mathit{Line} = mx + b</m>.
-          That is, your function is named \mathit{Line} and uses three variables <m>m</m>, <m>b</m>,
+          That is, your
+          function is named \mathit{Line} and uses three variables <m>m</m>,
+          <m>b</m>,
           and <m>x</m>.
           Record the R command you used below.
         </p>
@@ -29,18 +30,21 @@
 
       <task>
         <p>
-          Use \mathit{Line} with the same values for <m>m</m> and <m>b</m> to graph the line.
+          Use \mathit{Line} with the same values for <m>m</m> and <m>b</m> to
+          graph the line.
           Record the R command you used below.
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise xml:id="graphexp">
     <statement>
       <p>
-        Make up your own exponential function with at least two variables and calculate a value with it.
-        Graph it and record all of the R commands you used.
+        Make up your own exponential function with at
+        least two variables and calculate a value with it.
+        Graph it and record
+        all of the R commands you used.
       </p>
 
       <p>
@@ -56,10 +60,13 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
-        Use the R command \lstinline!housing = fetchData("Income-Housing.csv")! to open a data file. (The name of the file is <c>Income-Housing.csv</c>.)
+        Use the R command \lstinline!housing = fetchData("Income-Housing.csv")!
+        to open a data file.
+        (The name of the file is <c>Income-Housing.csv</c>.)
       </p>
 
       <p>
@@ -67,11 +74,14 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
-        Give the command to list the data in one of the variables and then list the data R gives.
-        DO NOT use the variables <c>Income</c> or <c>CrimeProblem</c>.
+        Give the command to list the data in one of the variables and
+        then list the data R gives.
+        DO NOT use the variables <c>Income</c> or
+        <c>CrimeProblem</c>.
       </p>
     </statement>
   </exercise>
@@ -82,23 +92,29 @@
     <statement>
       <p>
         Pick two variables and plot the scatterplot of the two.
-        DO NOT use the variables <c>Income</c> or <c>CrimeProblem</c>.
-        Record the R command you used below.
+        DO NOT
+        use the variables <c>Income</c> or <c>CrimeProblem</c>.
+        Record the R
+        command you used below.
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
         Make a scatterplot with your variables reversed.
-        Record the R command you used below.
+        Record the R
+        command you used below.
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
-        Try to fit a curve or a line to your scatterplot (eyeball
+        Try to fit a curve or a line to your scatterplot
+        (eyeball
         it<mdash />you don't have to be exact!).
         <em>Add</em> your curve or line to
         the scatterplot and make it a different color from the points on the
@@ -107,12 +123,14 @@
       </p>
     </statement>
   </exercise>
+
   <exercise xml:id="nicelabels">
     <statement>
       <p>
-        Make a plot with <q>nice</q>
-        labels like the one on page 23 of the R booklet.
-        Record the R commands you used below. (Depending on how you do things,
+        Make a plot with <q>nice</q> labels like the
+        one on page 23 of the R booklet.
+        Record the R commands you used below.
+        (Depending on how you do things,
         you might not need all of the blanks.)
       </p>
 

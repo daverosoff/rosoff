@@ -5,12 +5,13 @@
   <exercise workspace="0.60%">
     <statement>
       <p>
-        Find parametric equations for steady motion from
-        <m>P = (3, 1, -2)</m> at <m>t = 0</m> on a line to <m>Q = (0, 0, 0)</m> at <m>t = 3</m>.
+        Find parametric equations for steady motion from <m>P = (3, 1, -2)</m>
+        at <m>t = 0</m> on a line to <m>Q = (0, 0, 0)</m> at <m>t = 3</m>.
         What is the speed?
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="0.10%">
     <statement>
       <p>
@@ -27,6 +28,7 @@
       </p>
     </statement>
   </exercise>
+
   <exercise>
     <statement>
       <p>
@@ -57,9 +59,9 @@
           <m>t^3 \ii + t^6 \jj</m>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
       <p>
@@ -67,11 +69,13 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="1.50%">
     <statement>
       <p>
-        Find the velocity <m>\vv</m>, speed <m>\abs{\vv}</m>,
-        and tangent vector <m>\vec{T}</m> for these motions:
+        Find the velocity <m>\vv</m>,
+        speed <m>\abs{\vv}</m>, and tangent vector
+        <m>\vec{T}</m> for these motions:
       </p>
 
       <task>
@@ -91,7 +95,6 @@
           <m>\vec{R} = (t+1, 2t+1, 2t+2)</m>.
         </p>
       </task>
-
     </statement>
   </exercise>
 </worksheet>

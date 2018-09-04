@@ -8,10 +8,11 @@
         The following table shows values of a periodic function <m>f(x)</m>.
         The maximum value attained by this function is <m>5</m>.
       </p>
+
       <tabular>
         <row>
           <cell>\toprule
-          <m>x</m></cell>
+            <m>x</m></cell>
           <cell><m>0</m></cell>
           <cell><m>2</m></cell>
           <cell><m>4</m></cell>
@@ -22,7 +23,7 @@
         </row>
         <row>
           <cell>\midrule
-          <m>f(x)</m></cell>
+            <m>f(x)</m></cell>
           <cell><m>5</m></cell>
           <cell><m>0</m></cell>
           <cell><m>-5</m></cell>
@@ -53,21 +54,24 @@
           Find a formula for this periodic function.
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise xml:id="bird">
     <statement>
       <p>
-        Most breeding birds in the northeast US migrate elsewhere during the winter.
-        The number of bird species in an Ohio forest preserve oscillates between a high of <m>28</m> in June and a low of <m>10</m> in December.
-        Let <m>B(t)</m> be the number of bird species in the preserve as a function of <m>t</m>,
-        the number of months since June.
+        Most breeding birds in the northeast US migrate elsewhere
+        during the winter.
+        The number of bird species in an Ohio forest preserve
+        oscillates between a high of <m>28</m> in June and a low of <m>10</m> in December.
+        Let <m>B(t)</m> be the number of bird species in the preserve as a function
+        of <m>t</m>, the number of months since June.
       </p>
 
       <task xml:id="birdsampper">
         <p>
-          What are the amplitude and period of the function <m>B(t)</m>?
+          What are the amplitude and period of the
+          function <m>B(t)</m>?
         </p>
 
         <p>
@@ -84,56 +88,63 @@
           Find a formula for <m>B(t)</m>.
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise xml:id="fromgraphs">
     <statement>
       <p>
-        Find formulas for the functions whose graphs are pictured.
+        Find formulas for the functions
+        whose graphs are pictured.
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}\begin{axis}[
-          axis x line=middle,
-          axis y line=middle,
-          xlabel=\(x\),
-          ylabel=\(y\),
-          minor x tick num = 1,
-          minor y tick num = 1,
-          ymin = 0,
-          samples = 50,
-          grid = none,
-          width = 0.9\linewidth,
-          plot box ratio = 1,
-          enlargelimits=false
-          ]
-          \addplot[domain=0:8, black, ultra thick] {3+sin(180*x/4)};
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                    axis x line=middle,
+                    axis y line=middle,
+                    xlabel=\(x\),
+                    ylabel=\(y\),
+                    minor x tick num = 1,
+                    minor y tick num = 1,
+                    ymin = 0,
+                    samples = 50,
+                    grid = none,
+                    width = 0.9\linewidth,
+                    plot box ratio = 1,
+                    enlargelimits=false
+                    ]
+                \addplot[domain=0:8, black, ultra thick] {3+sin(180*x/4)};
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
       <p>
         ( <xref ref="fromgraphs"></xref>a)<fillin characters="10"/>
       </p>
+
       <image>
-        <latex-image>
+
+<latex-image>
           <![CDATA[\begin{tikzpicture}\begin{axis}[
-          axis x line=middle,
-          axis y line=middle,
-          xlabel=\(x\),
-          ylabel=\(y\),
-          minor x tick num = 1,
-          minor y tick num = 1,
-          samples = 50,
-          grid = none,
-          width = 0.9\linewidth,
-          plot box ratio = 1,
-          enlargelimits=false
-          ]
-          \addplot[domain=-9:18, black, ultra thick] {-sin(180*x/9)};
-          \end{axis}\end{tikzpicture}]]>
-        </latex-image>
+                    axis x line=middle,
+                    axis y line=middle,
+                    xlabel=\(x\),
+                    ylabel=\(y\),
+                    minor x tick num = 1,
+                    minor y tick num = 1,
+                    samples = 50,
+                    grid = none,
+                    width = 0.9\linewidth,
+                    plot box ratio = 1,
+                    enlargelimits=false
+                    ]
+                \addplot[domain=-9:18, black, ultra thick] {-sin(180*x/9)};
+            \end{axis}\end{tikzpicture}]]>
+</latex-image>
       </image>
+
       <p>
         ( <xref ref="fromgraphs"></xref>b)<fillin characters="10"/>
       </p>
@@ -144,7 +155,6 @@
 
   <exercise>
     <statement>
-
       <task workspace="10%">
         <p>
           In RStudio, define the function <m>y = mx + b</m>.
@@ -160,9 +170,9 @@
           Use <m>y</m> to calculate <m>y(3)</m>.
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise workspace="20%">
     <statement>
       <p>
@@ -175,18 +185,20 @@
 
       <p>
         Explain why the graph doesn't look like a parabola.
-        Change the command so that it produces the graph of a parabola.
+        Change the command
+        so that it produces the graph of a parabola.
         Record your command below.
       </p>
     </statement>
   </exercise>
+
   <exercise xml:id="makeexp">
     <statement>
       <p>
-        Make up your own exponential function,
-        name it, and define it in RStudio.
-        Calculate a value with it,
-        graph it, and record all of the R commands you used.
+        Make up your own exponential function, name it, and define it
+        in RStudio.
+        Calculate a value with it, graph it, and record all of the R
+        commands you used.
       </p>
 
       <p>
@@ -202,20 +214,22 @@
       </p>
     </statement>
   </exercise>
+
   <exercise workspace="10%">
     <statement>
-
       <task xml:id="periodic">
         <p>
-          Write down a periodic function of <m>t</m> that starts at the maximum value of <m>4</m>,
-          has a minimum value of <m>-2</m>,
-          and returns to the maximum value <m>4</m> for the first time at <m>t = 3</m>.
+          Write down a periodic function of <m>t</m> that
+          starts at the maximum value of <m>4</m>,
+          has a minimum value of <m>-2</m>, and
+          returns to the maximum value <m>4</m> for the first time at <m>t = 3</m>.
         </p>
       </task>
 
       <task xml:id="makeper">
         <p>
-          Define your periodic function in RStudio and graph it to make sure it has the properties stated in part<nbsp /><xref ref="periodic" />.
+          Define your periodic function in RStudio and graph it to
+          make sure it has the properties stated in part<nbsp /><xref ref="periodic" />.
           Record all of the R commands you used.
         </p>
 
@@ -227,9 +241,9 @@
           ( <xref ref="makeper"></xref>2) <fillin characters="10"/>
         </p>
       </task>
-
     </statement>
   </exercise>
+
   <exercise xml:id="graphbirds">
     <statement>
       <p>
