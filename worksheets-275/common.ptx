@@ -1,0 +1,18 @@
+<docinfo>
+  <macros>
+  </macros>
+  <latex-image-preamble>
+  \usepackage{tikz}
+  \usepackage{tkz-graph}
+  \usepackage{tkz-euclide}
+  \usetikzlibrary{patterns}
+  \usetikzlibrary{positioning}
+  \usetikzlibrary{matrix,arrows}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{shapes}
+  \usetikzlibrary{through,intersections,decorations,shadows,fadings}
+
+  \usepackage{pgfplots}
+
+  </latex-image-preamble>
+</docinfo>

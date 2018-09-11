@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+<xi:include href="./common.ptx"/>
+<article>
+<!-- <title>Math 275  Workshop 03</title> -->
+<worksheet xml:id="surfaces-level-curves">
+  <title>Math 275  Workshop 03: Surfaces and level curves</title>
+  <exercise>
+    <statement>
+      <p>
+        Draw the surface <m>z = f(x,y)</m> for these four functions.
+        Include
+        contours for levels <m>0</m>, <m>1/2</m>,
+        <m>1</m>, <m>3/2</m>, <m>2</m>.
+        Think about where the
+        contours for levels <m>-1/2</m>, <m>-1</m>,
+        <m>-3/2</m>, <m>-2</m> would go and include some of
+        them if appropriate.
+      </p>
+
+      <!-- <sidebyside width="45%" valign="bottom"> -->
+        <sage>
+          <input>
+            f_1(x,y) = 4 - x^2 - y^2
+            contour_plot(f_1(x,y), (x, -2, 2), (y, -2, 2), fill=False, contours=[0,1/2,1,3/2,2])
+          </input>
+        </sage>
+        <sage>
+          <input>
+            f_2(x,y) = 2 - x^2+y^2
+          </input>
+        </sage>
+
+          <sage>
+            <input type="text">
+              f_3(x,y) = 2 - 1/2*(x^2 + y^2)
+            </input>
+          </sage>
+          <sage>
+            <input type="text">
+              f_4(x,y) = 1 + e^(-x^2-y^2)
+            </input>
+          </sage>
+
+    </statement>
+  </exercise>
+
+  <!-- <pagebreak /> -->
+
+  <exercise workspace="5%">
+    <statement>
+      <p>
+        Where is the maximum value of each function attained?
+        How do you know?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="5%">
+    <statement>
+      <p>
+        Set <m>y=0</m> and compute the <m>x</m> derivative of functions <m>f_3</m> and <m>f_4</m> at <m>x =2</m>.
+        Which is steeper at <m>(2,0)</m>?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="5%">
+    <statement>
+      <p>
+        Repeat question 3, but use <m>y=1</m> and compute <m>x</m> derivatives at <m>x = 1</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Plot contour maps of the following functions.
+        Explore the options for which contours you can include and coloring.
+        Make notes about these commands to refer to later.
+      </p>
+
+      <sage>
+        <input>help(contour_plot)</input>
+      </sage>
+      <sage>
+        <input>
+          f(x,y) = x-y
+          contour_plot(x-y, (x, -2, 2), (y, -2, 2))
+        </input>
+      </sage>
+      <sage>
+        <input>f(x,y) = (x+y)^2</input>
+      </sage>
+      <sage>
+        <input>f(x,y) = xe^{-y}</input>
+      </sage>
+      <sage>
+        <input>f(x,y) = \sin{(x-y)}</input>
+      </sage>
+      <sage>
+        <input>f(x,y) = y-x^2</input>
+      </sage>
+      <sage>
+        <input>f(x,y) = y/x^2</input>
+      </sage>
+<!--         <ol type="a"> -->
+<!--           <li> -->
+<!--             <p> -->
+<!--             </p> -->
+<!--           </li> -->
+<!--           <li> -->
+<!--             <p> -->
+<!--             </p> -->
+<!--           </li> -->
+<!--           <li> -->
+<!--             <p> -->
+<!--             </p> -->
+<!--           </li> -->
+<!--           <li> -->
+<!--             <p> -->
+<!--             </p> -->
+<!--           </li> -->
+<!--           <li> -->
+<!--             <p> -->
+<!--             </p> -->
+<!--           </li> -->
+<!--           <li> -->
+<!--             <p> -->
+<!--             </p> -->
+<!--           </li> -->
+<!--         </ol> -->
+    </statement>
+  </exercise>
+</worksheet>
+</article>
+</mathbook>
